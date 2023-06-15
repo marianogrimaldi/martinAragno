@@ -1,0 +1,109 @@
+
+.footerColor{
+    background-image: linear-gradient(rgb(223, 22, 22),black, black, black, black, rgb(223, 22, 22));
+}
+.navFlexFooter{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Gruppo', cursive; 
+    position: relative;
+    list-style-type: none;
+    li{
+        color: white;
+    }
+    li:hover {
+        color: rgb(255, 0, 0);
+    }
+}
+
+.principalFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.martinAndMarian{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:2rem
+}
+
+.datosMartin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    p{
+        font-family: 'Gruppo', cursive;
+        font-size: 1.5rem;
+    }
+    
+   .nameLogo{
+    display: flex;
+    align-items:center;
+    
+    h2{
+        font-family: 'Gruppo', cursive; 
+        font-size: 3rem;
+    }
+    
+   } 
+  
+.logoMartin{
+    width: 10rem;
+    transition: 2s;
+    animation-name: girar;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes girar {
+
+    from{
+      transform: rotateY(0);
+    }to{
+      transform: rotateY(360deg);
+    }
+    
+   }
+.logoMartin:hover{
+    filter: drop-shadow(1px 1px 1px rgb(255, 255, 255));
+    }
+
+    p{
+        padding-right: 1rem;
+    }
+}
+
+.marian{
+    display: flex;
+    align-items: center;
+    padding-right: 1rem;
+    .logoMarian{
+    width: 3rem;
+}
+    p{
+        font-size: 0.8rem; 
+       }
+}
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Gruppo', cursive; 
+    gap: 1rem;
+}
+
+.redes{
+    display: flex;
+    gap: 1rem;
+    img{
+        width: 2rem;
+    }
+}

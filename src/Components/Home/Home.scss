@@ -1,0 +1,232 @@
+
+
+.imgPrincipal{
+    width: 25rem;
+    
+    
+    
+}
+
+.frase{
+    font-family: 'Great Vibes', cursive;
+    font-size: 4rem;
+    
+}
+
+.firma{
+    font-family: 'Great Vibes', cursive;
+    font-size: 2rem;
+    margin-bottom: 5rem;
+}
+
+.datos{
+    
+    display: flex;
+    flex-direction: column;
+    align-items:end;
+    
+    gap: 1rem;
+    
+
+    p{
+        font-family: 'Gruppo', cursive; 
+        transition: 1s;
+        text-shadow: 1px 1px 1px black;
+
+    }
+
+
+p:hover{
+    font-size: 1.5rem;
+    color: rgb(223, 22, 22);
+
+}
+
+    
+}
+
+.flexHome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.titleHistory{
+    padding-top: 1rem;
+    color: rgb(255, 255, 255);
+    font-family: 'Gruppo', cursive; 
+    text-align: center;
+    font-size: 3rem;
+    transition: 0.8s;
+    padding-bottom: 1rem;
+}
+
+.titleHistory:hover{
+    background-color: rgb(223, 22, 22);
+    text-shadow: 1px 1px 1px black;
+}
+
+.textHistory{
+    font-family: 'Great Vibes', cursive;
+    color: rgb(0, 0, 0);
+    
+    font-size: 1.8rem;
+    margin: 1rem 1rem;
+    position: relative;
+    margin-bottom: 3rem;
+    margin-right: 25rem;
+}
+
+.firma2{
+    font-family: 'Great Vibes', cursive;
+    font-size: 3rem;
+    text-align: center;
+    color:black;
+    position: relative;
+}
+
+.hashtag{
+    font-family: 'Gruppo', cursive;
+    text-align: center;
+    font-size: 2.5rem;
+    position: relative;
+    
+    background-image: linear-gradient(rgb(0, 0, 0), red, rgb(0, 0, 0));
+}
+
+.imgHistory{
+    max-width: 100%;
+    position: absolute;
+    opacity: .8;
+    
+}
+
+.tittleSponsor{
+    padding-top: 1rem;
+    color: rgb(255, 255, 255);
+    font-family: 'Gruppo', cursive; 
+    text-align: center;
+    font-size: 3rem;
+    transition: 0.8s;
+    padding-bottom: 1rem;
+    position: relative;
+    text-shadow: 1px 1px 1px black;
+}
+
+.tittleSponsor:hover{
+    background-color: rgb(223, 22, 22);
+}
+
+.title{
+    font-family: 'Gruppo', cursive; 
+    font-size: 4rem;
+    text-shadow: 1px 1px 1px black;
+   
+}
+ 
+.flexTitle{
+    display: flex;
+    justify-content: center;
+    align-content: center; 
+    transition: 0.8s;
+}
+.flexTitle:hover{
+    background-color: rgb(223, 22, 22);
+}
+.logoPrincipal{
+    width: 8rem;
+}
+
+.subTitle{
+    text-align: center;
+    font-family: 'Gruppo', cursive; 
+    padding-right: 1.5rem;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.imgSponsors{
+    max-width: 100%;
+    position: absolute;
+}
+
+.sponsorsGrid{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3,1fr);
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    
+    
+    .scott{
+        width: 8rem;
+    }
+ 
+    .cera{
+        width: 10rem;
+    }
+    .lasp{
+        width: 10rem;
+    }
+    .naka{
+        width: 8rem;
+    }
+    .casj{
+        width: 10rem;
+    }
+
+    img{
+        width: 10rem;
+        filter: gray; 
+                -webkit-filter: grayscale(100%); 
+                transition: 0.5s;
+
+    }
+    img:hover{
+        filter: gray; 
+                -webkit-filter: none
+    }
+
+    position: relative;
+}
+
+.sponsorsSecundarios{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2,1fr);
+ 
+    
+      .fit{
+        width:  4rem;
+    }
+    img{
+        width: 9rem;
+        
+             
+}
+position: relative;
+}
+
+.endHome{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+.logoFinal{
+    width: 15rem;
+}
+
+.flexEndFotos{
+    display: flex;
+    flex-direction: column;
+}

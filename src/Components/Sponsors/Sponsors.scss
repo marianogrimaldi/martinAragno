@@ -1,0 +1,14 @@
+
+
+
+.sponsors{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    img{
+        width: 5rem;
+        filter: drop-shadow(1px 1px 1px rgb(255, 255, 255));
+    }
+}
