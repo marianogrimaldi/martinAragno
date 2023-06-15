@@ -32,3 +32,33 @@
         width: 5rem;
     }
 }
+
+.titleCal{
+    font-family: 'Gruppo', cursive; 
+    margin-left: 2rem;
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+
+.pCal{
+    margin-bottom: 5rem;
+p{
+    font-family: 'Gruppo', cursive; 
+    font-size: 2rem;
+    margin-left: 2rem;
+    transition: 1s;
+}
+
+    p:hover{
+    margin-left: 3rem;
+    
+    color: goldenrod;
+}
+
+h3{
+    font-family: 'Gruppo', cursive; 
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+}
+
