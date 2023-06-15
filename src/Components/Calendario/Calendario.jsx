@@ -8,7 +8,8 @@ const Calendario = () => {
         <div className="animation">
                 <img src={imgCal} className="imgCal" alt="" />
                 <div className="flexCardCal">
-                    <h1>CALENDARIO 2023</h1>
+                    <h1>CALENDARIO</h1>
+                    <p className="year">2023</p>
                     <h2>MARTÍN ARAGNO</h2>
                     <p >multisport racing</p>
                     <img src={logo} className="logo" alt="" />
@@ -17,7 +18,10 @@ const Calendario = () => {
                     <Spon/>
                 </div>
                 <div>
-                    <h2 className="titleCal">CALENDARIO 2023</h2>
+                    <div className="calFlex" >
+                        <h2 className="titleCal">CALENDARIO 2023</h2>
+                        <p className="hash">#SÉTUMÁXIMO</p>
+                    </div>    
                     <div className="pCal">
                     <h3>JULIO</h3>
                     <p>9/7 Trail running 12km Valle fertil San Juan</p>
@@ -28,7 +32,7 @@ const Calendario = () => {
                     <p>19/9 MTB XCM 120km La Falda Campeonato Argentino</p>
                     <p>23/9 Half Termas tentativo -invitado-</p>
                     <h3>OCTUBRE</h3>
-                    <p>29/10: 70.3 Bs As</p>
+                    <p>29/10 70.3 Bs As</p>
                     <h3>NOVIEMBRE</h3>
                     <p>4/11 Trail Running King Paraguay</p>
                    </div>
