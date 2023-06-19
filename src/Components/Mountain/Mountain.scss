@@ -97,16 +97,15 @@ a{
 .imgGrid{
 
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     justify-items: center;
     gap:2rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
     img{
-        width: 13rem;
-        height: 11.5rem;
-      
+        width: 20rem;
+             
         transition: 1s;
         cursor: pointer;
     }

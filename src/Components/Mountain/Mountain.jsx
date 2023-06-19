@@ -17,7 +17,7 @@ const Mountain = () => {
         "/mont/7.jfif",
         "/mont/8.jfif",
         "/mont/9.jfif",
-        "/mont/10.jfif"
+        
        
     ]
 
@@ -34,10 +34,6 @@ const Mountain = () => {
             <Spon/>
         </div>
         <div>
-       
-           
-       
-       
         <div className="mountFlex">
             <h2 className="titleMount">CUMBRES DE MI VIDA </h2>
             <p className="hash">#SÉTUMÁXIMO</p>

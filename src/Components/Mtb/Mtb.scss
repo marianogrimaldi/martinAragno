@@ -32,3 +32,24 @@
         width: 5rem;
     }
 }
+
+.imgGridMtb{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: center;
+    gap:2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    img{
+        width: 20rem;
+        
+      
+        transition: 1s;
+        cursor: pointer;
+    }
+    img:hover{
+        filter: drop-shadow(1rem 1rem 1rem rgb(255, 0, 0));
+       
+    }
+}
