@@ -21,7 +21,8 @@ const Calendario = () => {
                     <div className="calFlex" >
                         <h2 className="titleCal">CALENDARIO 2023</h2>
                         <p className="hash">#SÉTUMÁXIMO</p>
-                    </div>    
+                    </div>
+                    <img src={logo} className="logoFondoCal" alt="" />    
                     <div className="pCal">
                     <h3>JULIO</h3>
                     <p>9/7 Trail running 12km Valle fertil San Juan</p>
