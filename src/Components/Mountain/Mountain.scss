@@ -33,3 +33,99 @@
         width: 5rem;
     }
 }
+
+.titleMount{
+    font-family: 'Gruppo', cursive; 
+    margin-left: 2rem;
+    font-size: 3rem;
+    text-shadow: 1px 1px 1px black;
+}
+
+.mountFlex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    transition: .8s;
+
+    .hash{
+        color:rgb(0, 0, 0);
+        margin-right: 10rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-family: 'Gruppo', cursive; 
+        font-size: 3rem;
+        font-weight: bolder;
+
+        }
+    
+}
+.mountFlex:hover{
+    background-color: red;
+}
+.pMount{
+    position: relative;
+    margin-bottom: 5rem;
+p{
+    font-family: 'Gruppo', cursive; 
+    font-size: 2rem;
+    margin-left: 2rem;
+    transition: 1s;
+}
+
+    p:hover{
+    margin-left: 3rem;
+    
+    color: goldenrod;
+}
+
+h3{
+    font-family: 'Gruppo', cursive; 
+    margin-top: 2rem;
+    margin-left: 1rem;
+    color: red;
+    
+}
+
+
+}
+
+a{
+   color: white;
+}
+
+.imgGrid{
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+    gap:2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    img{
+        width: 13rem;
+        height: 11.5rem;
+      
+        transition: 1s;
+        cursor: pointer;
+    }
+    img:hover{
+        filter: drop-shadow(1rem 1rem 1rem rgb(255, 0, 0));
+       
+    }
+}
+
+.logoFondo{
+    position: absolute;
+     width: 65rem;
+        opacity: .2;
+        
+     
+        left: 0;
+        right: 0;
+      
+        margin: auto;
+  
+
+}
