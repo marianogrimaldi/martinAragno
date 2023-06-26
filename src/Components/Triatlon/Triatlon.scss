@@ -32,3 +32,56 @@
         width: 5rem;
     }
 }
+
+.titleTri{
+    font-family: 'Gruppo', cursive; 
+    margin-left: 2rem;
+    font-size: 3rem;
+    text-shadow: 1px 1px 1px black;
+}
+
+.triFlex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    transition: .8s;
+
+    .hash{
+        color:rgb(0, 0, 0);
+        margin-right: 10rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-family: 'Gruppo', cursive; 
+        font-size: 3rem;
+        font-weight: bolder;
+
+        }
+    
+}
+.triFlex:hover{
+    background-color: red;
+}
+
+.pTri{
+    position: relative;
+    margin-bottom: 5rem;
+    p{
+        font-family: 'Gruppo', cursive; 
+        font-size: 2rem;
+        margin-left: 2rem;
+        transition: 1s;
+    }
+
+    p:hover{
+        margin-left: 3rem;
+        color: goldenrod;
+    }
+
+    h3{
+        font-family: 'Gruppo', cursive; 
+        margin-top: 2rem;
+        margin-left: 1rem;
+        color: red;
+    }
+}

@@ -1,12 +1,17 @@
 import "./Meraki.scss"
+import meraki from "../../assets/meraki.jpg"
+import Spon from "../Sponsors/Sponsors"
 
 
 const Meraki = () => {
     return(
         <div className="animation">
-            <h1 className="merakiTittle"> Meraki <br/>"hacer algo con amor y con placer"</h1>
+            <img src={meraki} className="merakiImg" alt="" />
+            <h1 className="merakiTitle">MERAKI</h1>
             <h2 className="subt">PRONTO...</h2>
+         <Spon/>   
         </div>
+        
     )
 }
 

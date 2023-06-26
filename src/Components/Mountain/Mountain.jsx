@@ -2,24 +2,12 @@ import "./Mountain.scss"
 import imgMont from "../../assets/mountain.jpg"
 import logo from "../../assets/logoRojo.png"
 import Spon from "../Sponsors/Sponsors";
-import { RViewer, RViewerTrigger } from "react-viewerjs";
+import ImgViewMount from "../ImgView/ImgViewMount";
 
 
 const Mountain = () => {
 
-    let imagenes = [
-        "/mont/1.jpg",
-        "/mont/2.jpg",
-        "/mont/3.jpg",
-        "/mont/4.jpg",
-        "/mont/5.jpg",
-        "/mont/6.jpg",
-        "/mont/7.jfif",
-        "/mont/8.jfif",
-        "/mont/9.jfif",
-        
-       
-    ]
+
 
     return(
         <div className="animation">
@@ -33,7 +21,7 @@ const Mountain = () => {
         <div>
             <Spon/>
         </div>
-        <div>
+        
         <div className="mountFlex">
             <h2 className="titleMount">CUMBRES DE MI VIDA </h2>
             <p className="hash">#SÉTUMÁXIMO</p>
@@ -60,22 +48,7 @@ const Mountain = () => {
             <h3>SALTA - ARGENTINA</h3>
             <a href="https://www.minube.com.ar/rincon/cerro-negro--a3674338"target="blank"><p>Cerro Negro altitud 5012 msnm </p></a>
         </div>
-        </div>
-        
-        <RViewer imageUrls={imagenes}>
-                <div className="imgGrid">
-                    {imagenes.map((imagen, index)=> {
-                        return (
-                            <RViewerTrigger index={index}>
-                                <div >
-                                     <img src={imagen} alt="" />
-                                </div>
-                               
-                            </RViewerTrigger>
-                        )
-                    }) }
-                </div>
-             </RViewer>
+        <ImgViewMount/>
 </div>
     )
 }

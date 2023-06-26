@@ -1,20 +1,30 @@
-.merakiTittle{
+.merakiTitle{
     text-align: center;
     font-size: 6rem;
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Gruppo', cursive; 
     margin-top: 2rem;
-    color: rgb(223, 22, 22);
-    transition: 3s;
+      
 }
 
-.merakiTittle:hover{
-    
-    filter: drop-shadow(2px 2px 2px rgb(255, 255, 255));
-}
 
 .subt{
     text-align: center;
     font-size: 3rem;
     font-family: 'Gruppo', cursive; 
-    
+    margin-bottom: 20rem;
+
+}
+
+.merakiImg{
+    position: absolute;
+   max-width: 100%;
+       opacity: .1;
+       left: 0;
+       right: 0;
+       margin: auto;
+       transition: 8s;
+}
+
+.merakiImg:hover{
+    opacity: 1;
 }

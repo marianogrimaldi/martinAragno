@@ -29,3 +29,16 @@
         filter: drop-shadow(1px 1px 1px rgb(255, 255, 255));
     }
 }
+
+.sponSecGrid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    img{
+        width: 8rem;
+        filter: drop-shadow(1px 1px 1px rgb(255, 255, 255));
+    }
+}
