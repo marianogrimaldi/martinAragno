@@ -21,6 +21,22 @@ li:hover {
     transform: rotateX(360deg);
 }
 
+@media screen and (max-width: 768px) {
+    .navFlex{
+        flex-direction: column;
+        gap: 0.5rem;
+      position: absolute;
+      
+      align-items:flex-end;
+      left: 0;
+      right: 0;
+      margin: auto;
+      margin-top: 5rem; 
+      z-index: 1;
+
+    }
+}
+
 .active {
     background-color:red;
     border-radius: 10px;
