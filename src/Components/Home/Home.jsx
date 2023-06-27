@@ -1,6 +1,7 @@
 import "./Home.scss"
 import imgHome from "../../assets/homePic.jpg"
 import imgHistory from "../../assets/imgHistory.jpg"
+import imgHistoryCel from "../../assets/imgHistoryCel.jpg"
 import logo from "../../assets/logoRojo.png"
 import imgSponsors from "../../assets/imgSponsors.jpg"
 import corteFoor from "../../assets/corteFooter.jpg"
@@ -54,6 +55,7 @@ const Home = () => {
             </div>
            
             <h1 className="titleHistory">ATLETA DE LA CUNA AL CIELO</h1>
+            <img src={imgHistoryCel} className="imgHistoryCel" alt="" />
             <img src={imgHistory} className="imgHistory" alt="" />
             <p className="textHistory">"Atleta de la cuna al cielo.
 Nacido y criado en san Jorge pcia. de Santa Fé. Con 5 años ya comnezaba a despuntar y vivir la pasión por los deportes. Después del hogar y la escuela, estaba el club, donde se pasaban muchas horas realizando diferentes actividades, desde futbol, básquet, vóley, atletismo, natación, etc.

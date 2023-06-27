@@ -66,6 +66,13 @@
     padding-bottom: 1rem;
 }
 
+.imgHistory{
+    max-width: 100%;
+    position: absolute;
+    opacity: .8;
+}
+
+
 .textHistory{
     font-family: 'Gruppo', cursive; 
     color: rgb(0, 0, 0);
@@ -239,10 +246,18 @@ position: relative;
     .titleHistory{
         font-size: 2rem;
     }
-  
+    
+    .imgHistory{
+        display: none;
+    }
+
     .textHistory{
-        font-size: 1rem;
-        margin-right: 5rem;
+        font-size: 1.2rem;
+        margin: 0;
+        color: white;
+        margin-left: .5rem;
+        margin-right: .5rem;
+        text-align: justify;
     }
 
     .tittleSponsor{
@@ -323,14 +338,18 @@ position: relative;
     position: relative;
 }
 
-
-
-.imgHistory{
+.imgHistoryCel{
     max-width: 100%;
     position: absolute;
-    opacity: .8;
-    
+    opacity: .3; 
 }
+
+@media screen and (min-width: 768px){
+    .imgHistoryCel{
+        display: none;
+    }
+}
+
 
 .tittleSponsor:hover{
     background-color: rgb(223, 22, 22);
