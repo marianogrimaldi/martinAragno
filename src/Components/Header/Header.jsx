@@ -14,7 +14,7 @@ const Header = () => {
                 <NavLink to="/mountain" ><li>MOUNTAIN SUMMIT</li></NavLink>
                 <NavLink to="/calendario" ><li>CALENDARIO 2023</li></NavLink>
                 <NavLink to="/sponsors" ><li>SPONSORS</li></NavLink>
-                <NavLink to="/meraki" ><li>PROYECTO MERAKI</li></NavLink>
+                <NavLink to="/meraki" ><li>MERAKI</li></NavLink>
                 <a href="#footer"><li>CONTACTO</li></a>  
             </ul>
            
