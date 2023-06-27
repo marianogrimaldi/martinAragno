@@ -136,6 +136,7 @@
       right: 10rem;
       margin: auto;
       opacity: .9;
+      display: none;
     }
     .frase{
         font-family: 'Great Vibes', cursive;
@@ -179,11 +180,11 @@
         left: 0;
         right: 0;
         margin: auto;
-        z-index: 1;
+        
     }
 
     .datos{
-        z-index: 1;
+       
         align-items: center;
         margin-top: 6rem;
         font-size: 1.5rem;
