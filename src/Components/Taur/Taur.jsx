@@ -1,7 +1,6 @@
 import "./Taur.scss"
 import imgTaur from "../../assets/trail.jpg"
 import logo from "../../assets/logoRojo.png"
-
 import Spon from "../Sponsors/Sponsors"
 import ImgViewTrail from "../ImgView/ImgViewTrail";
 

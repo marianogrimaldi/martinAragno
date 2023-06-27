@@ -84,6 +84,7 @@
         margin-left: 1rem;
         color: red;
     }
+
 }
 
 @media screen and (max-width: 768px){
@@ -109,13 +110,30 @@
         }
     }
 
+    .titleTri{
+        margin: 0;
+    }
+
     .triFlex{
         flex-direction: column;
         justify-content: center;
+
+        .hash{
+            margin: 0;
+        }
     }
 
     .titleTri{
         font-size: 2rem;
     }
 
+    .logoFondo{
+        display: none;
+    }
+
+    .pTri{
+        p{
+            font-size: 1rem;
+        }
+    }
 }
