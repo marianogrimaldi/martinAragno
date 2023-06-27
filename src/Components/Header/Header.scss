@@ -24,7 +24,7 @@ li:hover {
 @media screen and (max-width: 768px) {
     .navFlex{
         flex-direction: column;
-        gap: 0.7rem;
+        gap: 0.5rem;
       position: absolute;
       
       align-items:flex-end;
@@ -39,7 +39,7 @@ li:hover {
 
 .active {
     background-color:red;
-    border-radius: 10px;
+    border-radius: 1rem;
     padding-left: .5rem;
     padding-right: .5rem;
 }
