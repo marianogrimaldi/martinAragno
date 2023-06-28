@@ -83,6 +83,14 @@
     margin-right: 25rem;
 }
 
+.firma2{
+    font-family: 'Gruppo', cursive; 
+    font-size: 3rem;
+    text-align: center;
+    color:black;
+    position: relative;
+}
+
 .tittleSponsor{
     padding-top: 1rem;
     color: rgb(255, 255, 255);
@@ -260,6 +268,10 @@ position: relative;
         text-align: justify;
     }
 
+    .firma2{
+        color: white;
+        font-weight: bolder;
+    }
     .tittleSponsor{
         font-size: 2rem;
     }
@@ -330,18 +342,12 @@ position: relative;
     text-shadow: 1px 1px 1px black;
 }
 
-.firma2{
-    font-family: 'Gruppo', cursive; 
-    font-size: 3rem;
-    text-align: center;
-    color:black;
-    position: relative;
-}
+
 
 .imgHistoryCel{
     max-width: 100%;
     position: absolute;
-    opacity: .3; 
+    opacity: .5; 
 }
 
 @media screen and (min-width: 768px){

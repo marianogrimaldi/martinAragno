@@ -33,7 +33,7 @@ const SponPage = () => {
                     <img src={sp4} alt="" />
                     <img src={sp5} alt="" />
                 </div>
-                <img src={imgNat} alt="" />
+                <img src={imgNat} className="imgMartin" alt="" />
                 <div className="flexSponPage">
                     <img src={sp6} alt="" />
                     <img src={sp7} alt="" />
