@@ -52,7 +52,9 @@ li:hover {
     position: absolute;
     position: fixed;
     left: 21rem;
-    top:6rem
+    top:6rem;
+    z-index: 1;
+    
 }
 
 .nav__imput{
