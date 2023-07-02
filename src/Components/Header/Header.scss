@@ -47,3 +47,37 @@ li:hover {
     padding-right: .5rem;
 }
 
+.nav__img{
+    width: 2rem;
+    position: absolute;
+    position: fixed;
+    left: 25rem;
+    top:5rem
+}
+
+.nav__imput{
+    display: none;
+}
+
+.nav__label{
+    
+    display: none;
+}
+
+@media screen and (max-width: 768px){
+    .nav__label{
+        display: block;
+        cursor: pointer;
+    }
+    .navFlex{
+        position: fixed;
+       
+        clip-path: polygon(100% 0, 0 0, 0 0, 100% 0);
+        transition: clip-path .5s;
+
+    }
+
+    .nav__imput:checked + .navFlex{
+        clip-path:polygon(100% 0, 0 0, 0 98%, 100% 98%);
+    }
+}

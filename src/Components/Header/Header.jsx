@@ -7,8 +7,12 @@ const Header = () => {
     return(
 
         <div >
-            <ul className="navFlex">
-              
+            <ul >
+                <label htmlFor="menu" className="nav__label">
+                    <img src={menu} alt="" className="nav__img"/>
+                </label>
+                <input type="checkbox" id="menu" className="nav__imput"/>
+                <div className="navFlex">
                 <NavLink to="/" ><li >HOME</li></NavLink>
                 <NavLink to="/triatlon" ><li>TRIATHLON</li></NavLink> 
                 <NavLink to="/mtb" ><li>MOUNTAIN BIKE</li></NavLink>
@@ -17,7 +21,8 @@ const Header = () => {
                 <NavLink to="/calendario" ><li>CALENDARIO 2023</li></NavLink>
                 <NavLink to="/sponsors" ><li>SPONSORS</li></NavLink>
                 <NavLink to="/meraki" ><li>MERAKI</li></NavLink>
-                <a href="#footer"><li>CONTACTO</li></a>  
+                <a href="#footer"><li>CONTACTO</li></a>
+                </div> 
             </ul>
            
         </div>
