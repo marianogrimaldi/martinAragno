@@ -1,5 +1,6 @@
 .imgPrincipal{
     width: 25rem;
+    
 }
 
 .frase{
@@ -36,6 +37,7 @@
 }
  
 .flexTitle{
+    margin-top: 5rem;
     display: flex;
     justify-content: center;
     align-content: center; 
@@ -193,6 +195,8 @@ position: relative;
       right: 11rem;
       margin: auto;
       opacity: .9;
+      z-index: 1;
+      
       
     }
     .frase{
