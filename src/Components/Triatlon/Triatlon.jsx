@@ -3,7 +3,9 @@ import imgTri from "../../assets/tri.jpg"
 import logo from "../../assets/logoRojo.png"
 import Spon from "../Sponsors/Sponsors"
 import ImgViewTri from "../ImgView/ImgViewTri"
-
+import imgTrifondo from "../../assets/9.jpg"
+import imgTrifondo2 from "../../assets/imgTrifondo.jpg"
+import imgTrifondo3 from "../../assets/triNadando.jpg"
 
 const Triatlon = () => {
 
@@ -25,7 +27,10 @@ const Triatlon = () => {
                     <h2 className="titleTri">RESULTADOS DESTACADOS </h2>
                     <p className="hash">#SÉTUMÁXIMO</p>
                 </div> 
-                <img src={logo} className="logoFondo" alt="" />
+                <img src={imgTrifondo} className="logoFondo" alt="" />
+                <img src={imgTrifondo2} className="logoFondo2" alt="" />
+                <img src={imgTrifondo3} className="logoFondo3" alt="" />
+
                 <div className="pTri">
                 <h3>2017</h3>
                 <p>98° IM Texas -Campeonato Norteamericano, Circuito Mundial WTC-</p>

@@ -66,27 +66,37 @@
 .pTri{
     position: relative;
     margin-bottom: 5rem;
+    margin-left: 2rem;
     p{
         font-family: 'Gruppo', cursive; 
-        font-size: 2rem;
-        margin-left: 2rem;
-        transition: 1s;
-    }
-
-    p:hover{
-        margin-left: 3rem;
-        color: goldenrod;
+        font-size: 1.2rem;
+        text-shadow: 1px 1px 1px black;
     }
 
     h3{
         font-family: 'Gruppo', cursive; 
-        margin-top: 2rem;
-        margin-left: 1rem;
+        margin-top: 1rem;
+        font-size: 2rem;
         color: red;
+        text-shadow: 1px 1px 1px black;
     }
 
 }
 
+
+.logoFondo2{
+    position: absolute;
+    width: 100%;
+    opacity: .6;
+    margin-top: 55rem;
+}
+
+.logoFondo3{
+    position: absolute;
+    width: 100%;
+    opacity: .6;
+    margin-top: 80rem;
+}
 @media screen and (max-width: 768px){
 
     .imgTri{

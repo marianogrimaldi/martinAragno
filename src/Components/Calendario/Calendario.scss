@@ -58,25 +58,24 @@
 .pCal{
     margin-bottom: 5rem;
     position: relative;
+    margin-left: 2rem;
+    margin-bottom: 20rem;
 p{
     font-family: 'Gruppo', cursive; 
-    font-size: 2rem;
-    margin-left: 2rem;
+    font-size: 1.2rem;
+    
     transition: 1s;
 }
 
-    p:hover{
-    margin-left: 3rem;
-    
-    color: goldenrod;
-}
+ 
 
 h3{
     font-family: 'Gruppo', cursive; 
-    margin-top: 2rem;
-    margin-left: 1rem;
-    color: red;
+    margin-top: 1rem;
     
+    font-size: 2rem;
+    color: red;
+    text-shadow: 1px 1px 1px black;
 }
 }
 
@@ -105,10 +104,9 @@ h3{
     .logoFondoCal{
         position: absolute;
          width: 50rem;
-            opacity: .2;
-            
-            left: 0;
-            right: 0;
-            margin: auto;
+          
+           
+            width: 100%;
+            opacity: .6;
       
     }

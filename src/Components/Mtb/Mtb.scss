@@ -55,6 +55,56 @@
     }
 }
 
+.titleMtb{
+    font-family: 'Gruppo', cursive; 
+    margin-left: 2rem;
+    font-size: 3rem;
+    text-shadow: 1px 1px 1px black;
+}
+
+.mtbFlex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    transition: .8s;
+
+    .hash{
+        color:rgb(0, 0, 0);
+        margin-right: 10rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-family: 'Gruppo', cursive; 
+        font-size: 3rem;
+        font-weight: bolder;
+
+        }
+    
+}
+.mtbFlex:hover{
+    background-color: red;
+}
+
+.pMtb{
+    position: relative;
+    margin-bottom: 35rem;
+    margin-right: 2rem;
+    text-align: right;
+    p{
+        font-family: 'Gruppo', cursive; 
+        font-size: 1.2rem;
+        text-shadow: 1px 1px 1px black;
+    }
+
+    h3{
+        font-family: 'Gruppo', cursive; 
+        margin-top: 1rem;
+        color: red;
+        font-size: 2rem;
+        text-shadow: 1px 1px 1px black;
+    }
+}
+
 @media screen and (max-width: 768px){
     .imgMtb{
         margin: auto;

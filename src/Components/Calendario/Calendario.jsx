@@ -2,6 +2,7 @@ import "./Calendario.scss"
 import imgCal from "../../assets/calendario.jpg"
 import logo from "../../assets/logoRojo.png"
 import Spon from "../Sponsors/Sponsors"
+import corriendo from "../../assets/corriendo.jpg"
 
 const Calendario = () => {
     return(
@@ -22,7 +23,7 @@ const Calendario = () => {
                         <h2 className="titleCal">CALENDARIO 2023</h2>
                         <p className="hash">#SÉTUMÁXIMO</p>
                     </div>
-                    <img src={logo} className="logoFondoCal" alt="" />    
+                    <img src={corriendo} className="logoFondoCal" alt="" />    
                     <div className="pCal">
                     <h3>JULIO</h3>
                     <p>9/7 Trail running 12km Valle fertil San Juan</p>

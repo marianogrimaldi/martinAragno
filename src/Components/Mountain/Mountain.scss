@@ -2,6 +2,7 @@
     max-width: 100%;
     position: absolute;
     opacity: .5;
+    margin-top: 5rem;
 
 }
 
@@ -11,7 +12,7 @@
     align-items: end;
     flex-direction: column;
     margin-right: 5rem;
-    margin-bottom: 20rem;
+    margin-bottom: 25rem;
     text-shadow: 1px 1px 1px rgb(255, 255, 255);
 
     h1{
@@ -65,24 +66,23 @@
 }
 .pMount{
     position: relative;
-    margin-bottom: 5rem;
+    margin-bottom: 8rem;
+    margin-right: 2rem;
     p{
         font-family: 'Gruppo', cursive; 
-        font-size: 2rem;
-        margin-left: 2rem;
-        transition: 1s;
-    }
-
-    p:hover{
-        margin-left: 3rem;
-        color: goldenrod;
+        font-size: 1.2rem;
+       
+        text-align: right;
+        text-shadow: 1px 1px 1px black;
     }
 
     h3{
         font-family: 'Gruppo', cursive; 
-        margin-top: 2rem;
-        margin-left: 1rem;
+        margin-top: 1rem;
+        text-align: right;
         color: red;
+        font-size: 2rem;
+        text-shadow: 1px 1px 1px black;
     }
 }
 
@@ -92,11 +92,10 @@ a{
 
 .logoFondo{
     position: absolute;
-     width: 65rem;
-        opacity: .2;
-        left: 0;
-        right: 0;
-        margin: auto;
+    width: 100%;
+    opacity: .6;
+    filter: gray; 
+                -webkit-filter: grayscale(100%);  
 }
 
 @media screen and (max-width: 768px){
