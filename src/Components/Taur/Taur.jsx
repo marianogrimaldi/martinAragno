@@ -20,6 +20,10 @@ const Taur = () => {
         <div>
             <Spon/>
         </div>
+        <div className="ultraFlex">
+                    <h2 className="titleUltra">RESULTADOS DESTACADOS </h2>
+                    <p className="hash">#SÉTUMÁXIMO</p>
+                </div> 
         <ImgViewTrail/>
 </div>
     )

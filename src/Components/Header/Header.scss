@@ -25,6 +25,13 @@ li:hover {
     transform: rotateX(360deg);
 }
 
+.active {
+    background-color:red;
+    border-radius: 1rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
 @media screen and (max-width: 768px) {
     .navFlex{
         flex-direction: column;
@@ -35,24 +42,27 @@ li:hover {
         position: fixed;
         margin-top: 6rem; 
         z-index: 1;
-
+        
+        li{
+            margin-right: 3rem;
+           
+        }
     }
+    .active{
+        background-color: transparent;
+    }
+
 }
 
-.active {
-    background-color:red;
-    border-radius: 1rem;
-    padding-left: .5rem;
-    padding-right: .5rem;
-}
+
 
 .nav__img{
     width: 2rem;
     position: absolute;
     position: fixed;
-    left: 21rem;
-    top:6rem;
-    z-index: 1;
+    left: 25rem;
+    top:1.5rem;
+    z-index: 3;
     
 }
 
