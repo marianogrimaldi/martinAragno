@@ -3,7 +3,7 @@ import imgMont from "../../assets/mountain.jpg"
 import logo from "../../assets/logoRojo.png"
 import Spon from "../Sponsors/Sponsors";
 import ImgViewMount from "../ImgView/ImgViewMount";
-import fondoMount from "../../assets/imgagenFondo.jpeg";
+
 
 
 const Mountain = () => {
@@ -27,7 +27,7 @@ const Mountain = () => {
             <h2 className="titleMount">CUMBRES DE MI VIDA </h2>
             <p className="hash">#SÉTUMÁXIMO</p>
         </div> 
-        <img src={fondoMount} className="logoFondo" alt="" />
+        
         <div className="pMount">
             <h3>ESPAÑA</h3>
             <a href="https://es.wikipedia.org/wiki/Monte_Perdido" target="blank"><p>Cerro Monte Perdido altitud 3355 msnm - Pirineos Aragonés</p></a>
