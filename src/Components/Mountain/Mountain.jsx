@@ -3,7 +3,7 @@ import imgMont from "../../assets/mountain.jpg"
 import logo from "../../assets/logoRojo.png"
 import Spon from "../Sponsors/Sponsors";
 import ImgViewMount from "../ImgView/ImgViewMount";
-import fondoMount from "../../assets/imgFondoMontaña.jpeg"
+import fondoMount from "../../assets/imgFondoMount.jpeg"
 
 
 const Mountain = () => {
