@@ -1,7 +1,7 @@
 .imgTri{
     max-width: 100%;
     position: absolute;
-    opacity: .5;
+    opacity: .8;
 
 }
 
@@ -11,8 +11,8 @@
     align-items: end;
     flex-direction: column;
     margin-right: 5rem;
-    margin-bottom: 23rem;
-    text-shadow: 1px 1px 1px rgb(255, 255, 255);
+    margin-bottom: 26rem;
+    text-shadow: 1px 1px 1px black;
 
     h1{
         margin-top: 5rem;
@@ -22,14 +22,25 @@
   }
     h2{
         font-family: 'Gruppo', cursive;
+        margin-right: 5rem;
     }
 
     p{
         font-family: 'Gruppo', cursive;
+        margin-right: 5rem;
     }
 
+    
+}
+
+.flexLogoCard{
+    display: flex;
+    justify-content: end;
     .logo{
-        width: 5rem;
+        margin-right: 5rem;
+        width: 4rem;
+        position: absolute;
+        top:0;
     }
 }
 
@@ -66,7 +77,8 @@
 .pTri{
     position: relative;
     margin-bottom: 5rem;
-    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: right;
     p{
         font-family: 'Gruppo', cursive; 
         font-size: 1.2rem;
@@ -87,14 +99,14 @@
 .logoFondo2{
     position: absolute;
     width: 100%;
-    opacity: .6;
-    margin-top: 55rem;
+    opacity: .4;
+    margin-top: 61rem;
 }
 
 .logoFondo3{
     position: absolute;
     width: 100%;
-    opacity: .6;
+    opacity: .4;
     margin-top: 80rem;
 }
 @media screen and (max-width: 768px){
@@ -103,17 +115,13 @@
         margin: auto;
         top: 8rem;
         opacity: .8;
-        
     }
     
     .flexCardTri{
-        
-        
         margin-right: 0;
         margin-bottom: 23rem;
         
         h1{
-           
             font-size: 3rem;
             margin: auto;
         }
@@ -139,13 +147,23 @@
         font-size: 1.8rem;
     }
 
-    .logoFondo{
-        display: none;
-    }
-
     .pTri{
+        text-align: center;
+        margin-right: 0;
+        margin-bottom: 2rem;
         p{
             font-size: 1rem;
         }
     }
+    .logoFondo{
+        display: none;
+    }
+    .logoFondo2{
+        display: none;
+    }
+    .logoFondo3{
+        display: none;
+    }
+  
+
 }

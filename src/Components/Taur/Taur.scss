@@ -1,9 +1,10 @@
 .imgTaur{
     max-width: 100%;
     position: absolute;
-    opacity: .5;
+    opacity: .8;
     margin-top: 5rem;
 }
+
 
 .flexCardTriTaur{
     display: flex;
@@ -11,28 +12,40 @@
     align-items: end;
     flex-direction: column;
     margin-right: 5rem;
-    margin-bottom: 16rem;
-    text-shadow: 1px 1px 1px rgb(255, 255, 255);
-
+    margin-bottom: 19.5rem;
+    text-shadow: 1px 1px 1px black;
+    
     h1{
         margin-top: 5rem;
         font-family: 'Gruppo', cursive; 
-    
+        
     font-size: 6rem;
   }
     h2{
         font-family: 'Gruppo', cursive;
+        margin-right: 5rem;
+        
     }
 
     p{
         font-family: 'Gruppo', cursive;
+        margin-right: 5rem;
+        
     }
-
+   
+}
+.flexLogoCard{
+    display: flex;
+    justify-content: end;
     .logo{
-        width: 5rem;
+        margin-top: 14rem;
+        margin-right: 5rem;
+        width: 4rem;
+       position: absolute;
+       
     }
 }
-
+ 
 .imgGridTrail{
 
     display: flex;
@@ -88,6 +101,68 @@
 .ultraFlex:hover{
     background-color: red;
 }
+
+.titleTrial{
+    font-family: 'Gruppo', cursive; 
+    margin-left: 2rem;
+    font-size: 3rem;
+    text-shadow: 1px 1px 1px black;
+}
+
+.trialFlex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    transition: .8s;
+
+    .hash{
+        color:rgb(0, 0, 0);
+        margin-right: 10rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-family: 'Gruppo', cursive; 
+        font-size: 3rem;
+        font-weight: bolder;
+
+        }
+    
+}
+.trialFlex:hover{
+    background-color: red;
+}
+
+.ptrial{
+    position: relative;
+    margin-bottom: 16rem;
+    margin-left: 2rem;
+    
+    
+    p{
+        font-family: 'Gruppo', cursive; 
+        font-size: 1.2rem;
+        text-shadow: 1px 1px 1px black;
+
+    }
+
+    h3{
+        font-family: 'Gruppo', cursive; 
+        margin-top: 1rem;
+        font-size: 2rem;
+        color: red;
+        text-shadow: 1px 1px 1px black;
+    }
+
+}
+
+.imgJump{
+    position: absolute;
+    width: 100%;
+    opacity: .4;
+    filter: gray; 
+    -webkit-filter: grayscale(100%);  
+    
+}
 @media screen and (max-width: 768px){
     .imgTaur{
         margin: auto;
@@ -107,5 +182,30 @@
         h2, p, img  {
             display: none;
         }
+    }
+
+    .trialFlex{
+        flex-direction: column;
+        justify-content: center;
+
+        .titleTrial{
+            font-size: 1.8rem;
+        }
+
+        .hash{
+            margin: 0;
+        }
+    }
+
+    .ptrial{
+        text-align: center;
+        margin-left: 0;
+        margin-bottom: 2rem;
+        p{
+            font-size: 1rem;
+        }
+    }
+    .imgJump{
+        display: none;
     }
 }

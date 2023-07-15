@@ -16,6 +16,8 @@ const Mtb = () => {
                     <h1>M T B</h1>
                     <h2>MARTÍN ARAGNO</h2>
                     <p >multisport racing</p>
+                </div>
+                <div className="flexLogoCard">
                     <img src={logo} className="logo" alt="" />
                 </div>
                 <div>

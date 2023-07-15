@@ -13,7 +13,9 @@ const Calendario = () => {
                     <p className="year">2023</p>
                     <h2>MARTÍN ARAGNO</h2>
                     <p >multisport racing</p>
-                    <img src={logo} className="logo" alt="" />
+                </div>
+                <div className="flexLogoCard">
+                    <img src={logo} className="logoCal" alt="" />
                 </div>
                 <div>
                     <Spon/>

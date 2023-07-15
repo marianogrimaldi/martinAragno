@@ -1,7 +1,7 @@
 .imgMtb{
     max-width: 100%;
     position: absolute;
-    opacity: .5;
+    opacity: .8;
 
 }
 
@@ -11,9 +11,8 @@
     align-items: end;
     flex-direction: column;
     margin-right: 5rem;
-    margin-bottom: 23rem;
-    text-shadow: 1px 1px 1px rgb(255, 255, 255);
-
+    margin-bottom: 26rem;
+    text-shadow: 1px 1px 1px black;
     h1{
         margin-top: 5rem;
         font-family: 'Gruppo', cursive; 
@@ -22,14 +21,26 @@
 
     h2{
         font-family: 'Gruppo', cursive;
+        margin-right: 5rem;
     }
 
     p{
         font-family: 'Gruppo', cursive;
+        margin-right: 5rem;
     }
 
+
+}
+
+.flexLogoCard{
+    display: flex;
+    justify-content: end;
     .logo{
-        width: 5rem;
+        margin-top: 14rem;
+        margin-right: 5rem;
+        width: 4rem;
+       position: absolute;
+       
     }
 }
 
@@ -123,6 +134,28 @@
 
         h2, p, img  {
             display: none;
+        }
+    }
+
+    .mtbFlex{
+        flex-direction: column;
+        justify-content: center;
+
+        .titleMtb{
+            font-size: 1.8rem;
+        }
+
+        .hash{
+            margin: 0;
+        }
+    }
+
+    .pMtb{
+        text-align: center;
+        margin-right: 0;
+        margin-bottom: 2rem;
+        p{
+            font-size: 1rem;
         }
     }
 }
