@@ -48,11 +48,12 @@
 
 @media screen and (max-width: 992px){
     .flexCardTri{
-        margin-top: 3rem;
+        margin-top: 7rem;
+        margin-bottom: 15rem;
         h1{
            
             font-family: 'Gruppo', cursive; 
-            font-size: 2rem;
+            font-size: 3rem;
             margin-right: 5rem;
         }
         h2{
@@ -113,12 +114,41 @@
         font-family: 'Gruppo', cursive; 
         font-size: 3rem;
         font-weight: bolder;
-
         }
-    
 }
 .triFlex:hover{
     background-color: red;
+}
+
+@media screen and (max-width: 992px){
+    .titleTri{
+        margin: 0;
+        font-size: 2rem;
+    }
+
+    .triFlex{
+        flex-direction: column;
+        justify-content: center;
+
+        .hash{
+            margin: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 768px){
+    .titleTri{
+        margin: 0;
+    }
+
+    .triFlex{
+        flex-direction: column;
+        justify-content: center;
+
+        .hash{
+            margin: 0;
+        }
+    }
 }
 
 .pTri{
@@ -160,24 +190,6 @@
 //MEDIAQ PARA CELULAR VERTICAL
 @media screen and (max-width: 768px){
 
-  
-
-    .titleTri{
-        margin: 0;
-    }
-
-    .triFlex{
-        flex-direction: column;
-        justify-content: center;
-
-        .hash{
-            margin: 0;
-        }
-    }
-
-    .titleTri{
-        font-size: 1.5rem;
-    }
 
     .pTri{
         text-align: center;
