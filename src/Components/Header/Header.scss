@@ -25,6 +25,17 @@ li:hover {
     transform: rotateX(360deg);
 }
 
+@media screen and (max-width: 992px){
+    .navFlex{
+        padding: 1rem;
+        gap:.5rem;
+        li{
+            font-weight:normal;
+            font-size: .7rem;
+        }
+    }
+}
+
 .active {
     background-color: rgb(223, 22, 22);
     border-radius: 1rem;
@@ -100,5 +111,5 @@ li:hover {
     }
 }
 
-//MEDIAQ PARA CELULAR HORIZONTAL
+
 

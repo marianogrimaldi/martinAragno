@@ -8,7 +8,7 @@
 @media screen and (max-width: 992px){
     .imgTri{
         margin: auto;
-        top: 8rem;
+        top: 2rem;
         opacity: .8;
     }
 }
@@ -20,7 +20,6 @@
         opacity: .8;
     }
 }
-
 
 .flexCardTri{
     display: flex;
@@ -71,7 +70,7 @@
     .flexCardTri{
         margin-right: 0;
         margin-bottom: 23rem;
-        
+        margin-top: 2rem;
         h1{
             font-size: 3rem;
             margin: auto;
@@ -139,6 +138,7 @@
 @media screen and (max-width: 768px){
     .titleTri{
         margin: 0;
+        font-size: 1.5rem;
     }
 
     .triFlex{
