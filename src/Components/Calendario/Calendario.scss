@@ -141,4 +141,36 @@ h3{
                 display: none;
             }
         }
-    }
+        .calFlex{
+            flex-direction: column;
+            justify-content: center;
+    
+            .hash{
+                margin: 0;
+            }
+        }
+        .titleCal{
+            font-size: 1.5rem;
+            margin-left: 0;
+        }
+        .logoFondoCal{
+            display: none;
+        }
+        .pCal{
+            margin-bottom: 2rem;
+            margin-left: 0;
+    
+            h3{
+                text-align: center;
+                
+            }
+    
+            p{
+                text-align: center;
+                
+                font-size: 1rem;
+            }
+            
+        }
+        }
+    
