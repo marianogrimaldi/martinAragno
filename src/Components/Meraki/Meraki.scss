@@ -28,3 +28,9 @@
 .merakiImg:hover{
     opacity: 1;
 }
+
+@media screen and (max-width: 768px){
+    .subt{
+        margin-bottom: 2rem;
+    }
+}
