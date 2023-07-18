@@ -131,7 +131,10 @@
 }
 
 @media screen and (max-width: 992px){
-
+         .titleTrial{
+            margin: 0;
+        font-size: 2rem;
+        }
     .trialFlex{
         flex-direction: column;
         justify-content: center;
@@ -140,10 +143,7 @@
             margin: 0;
         }
     }
-        .titleMtb{
-            margin: 0;
-        font-size: 2rem;
-        }
+       
 }
 
 @media screen and (max-width: 768px){
@@ -179,7 +179,7 @@
 
     .ptrial{
         
-        left: 2rem;
+        margin-left: 2rem;
         margin-bottom: 5rem;
         p{
             font-size: 1rem;
