@@ -6,6 +6,18 @@
     transition: 0.8s;
 }
 
+@media screen and (max-width: 992px){
+    .sponsTittle{
+        margin-top: 3rem;
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .sponsTittle{
+        font-size: 3rem;
+    }
+}
 .sponsTittle:hover{
     background-color: rgb(223, 22, 22);
 }
@@ -15,8 +27,6 @@
     justify-content: center;
     margin-top: 2rem;
     justify-content: space-evenly;
-
-     
 }
 
 .flexSponPage{
@@ -44,10 +54,7 @@
 }
 
 @media screen and (max-width: 768px){
-    .sponsTittle{
-        font-size: 3rem;
-    }
-
+  
     .imgMartin{
         width: 10rem;
         height: 18rem;

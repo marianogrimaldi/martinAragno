@@ -74,6 +74,19 @@
     
 }
 
+@media screen and (max-width: 992px){
+    .imgHistory{
+       opacity: .3;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .imgHistory{
+        display: none;
+    }
+}
+
+
 
 .textHistory{
     font-family: 'Gruppo', cursive; 
@@ -85,6 +98,21 @@
     margin-right: 25rem;
 }
 
+@media screen and (max-width: 992px){
+    .textHistory{
+        font-size: 1.2rem;
+        margin: 0;
+        color: rgb(255, 255, 255);
+        font-weight: bolder;
+        margin-left: .5rem;
+        margin-right: .5rem;
+        text-align: justify;
+        
+    }
+}
+
+
+
 .firma2{
     font-family: 'Gruppo', cursive; 
     font-size: 3rem;
@@ -92,6 +120,14 @@
     color:black;
     position: relative;
 }
+
+@media screen and (max-width: 992px){
+    .firma2{
+        color: white;
+        font-weight: bolder;
+    }
+}
+
 
 .tittleSponsor{
     padding-top: 1rem;
@@ -145,24 +181,103 @@
     position: relative;
 }
 
+@media screen and (max-width: 992px){
+    .sponsorsGrid{
+
+       margin-top: 2rem;
+       margin-bottom: 3rem;
+           .scott{
+                width: 4rem;
+            }
+
+           .cera{
+               width: 4rem;
+           }
+           .lasp{
+               width: 4rem;
+           }
+           .naka{
+               width: 4rem;
+           }
+           .casj{
+               width: 4rem;
+           }
+
+           img{
+               width: 6rem;
+           }
+   }
+}
+
+@media screen and (max-width: 768px){
+     .sponsorsGrid{
+
+        margin-top: 0;
+        margin-bottom: 0;
+            .scott{
+                 width: 4rem;
+             }
+ 
+            .cera{
+                width: 4rem;
+            }
+            .lasp{
+                width: 4rem;
+            }
+            .naka{
+                width: 4rem;
+            }
+            .casj{
+                width: 4rem;
+            }
+
+            img{
+                width: 4rem;
+            }
+    }
+}
+
 .sponsorsSecundarios{
     display: grid;
     align-items: center;
     justify-items: center;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(2,1fr);
- 
-    
+
       .fit{
         width:  4rem;
-    }
+        }
+        img{
+            width: 9rem;
+            filter: drop-shadow(1px 1px 1px rgb(255, 255, 255));       
+        }
+        position: relative;
+}
+
+@media screen and (max-width: 992px){
+    .sponsorsSecundarios{
     img{
-        width: 9rem;
-        filter: drop-shadow(1px 1px 1px rgb(255, 255, 255));
-             
+        width: 6rem;
+    }
+    .fit{
+        width:  3rem;
+    
+    }
 }
-position: relative;
 }
+
+@media screen and (max-width: 768px){
+        .sponsorsSecundarios{
+        img{
+            width: 5rem;
+        }
+        .fit{
+            width:  2rem;
+        
+        }
+    }
+}
+
 
 .endHome{
     display: flex;
@@ -174,9 +289,45 @@ position: relative;
     margin-bottom: 2rem;
 }
 
+@media screen and (max-width: 992px){
+        .endHome{
+        flex-direction: column;
+        margin-right: 0;
+        margin-bottom: 0;
+            img{
+                max-width: 100%;
+            }
+        }
+}
+
+@media screen and (max-width: 768px){
+    .endHome{
+    flex-direction: column;
+    margin-right: 0;
+    margin-bottom: 0;
+        img{
+            max-width: 100%;
+        }
+    }
+}
+
+
 .logoFinal{
     width: 15rem;
 }
+
+@media screen and (max-width: 992px){
+    .logoFinal{
+    display: none;
+    }
+}
+
+@media screen and (max-width: 768px){
+        .logoFinal{
+        display: none;
+    }
+}
+
 
 .hashtag{
     font-family: 'Gruppo', cursive;
@@ -185,6 +336,14 @@ position: relative;
     position: relative;
     background-image: linear-gradient(rgb(0, 0, 0), red, rgb(0, 0, 0));
 }
+
+@media screen and (max-width: 992px){
+    .hashtag{
+        display: none;
+    }
+}
+
+
 
 @media screen and (max-width: 768px) {
     .imgPrincipal {
@@ -195,8 +354,6 @@ position: relative;
       right: 0;
       margin: auto;
       opacity: .9;
-      
-      
       
     }
     .frase{
@@ -240,17 +397,13 @@ position: relative;
 
     .subTitle{
         position: absolute;
-        
         top:3rem;
         left: 0;
         right: 0;
         margin: auto;
-        
-        
     }
 
     .datos{
-       
         align-items: center;
         margin-top: 6rem;
         font-size: 1rem;
@@ -265,79 +418,14 @@ position: relative;
         font-size: 2rem;
     }
     
-    .imgHistory{
-        display: none;
-    }
+  
 
-    .textHistory{
-        font-size: 1.2rem;
-        margin: 0;
-        color: white;
-        margin-left: .5rem;
-        margin-right: .5rem;
-        text-align: justify;
-    }
 
-    .firma2{
-        color: white;
-        font-weight: bolder;
-    }
     .tittleSponsor{
         font-size: 2rem;
     }
     
-    .sponsorsGrid{
-
-        margin-top: 0;
-        margin-bottom: 0;
-            .scott{
-                 width: 4rem;
-             }
  
-            .cera{
-                width: 4rem;
-            }
-            .lasp{
-                width: 4rem;
-            }
-            .naka{
-                width: 4rem;
-            }
-            .casj{
-                width: 4rem;
-            }
-
-            img{
-                width: 4rem;
-            }
-    }
-   
-    .sponsorsSecundarios{
-        img{
-            width: 5rem;
-        }
-        .fit{
-            width:  2rem;
-        
-    }
-    }
-
-    .endHome{
-        flex-direction: column;
-        margin-right: 0;
-        margin-bottom: 0;
-        img{
-            max-width: 100%;
-        }
-    }
-    .logoFinal{
-        display: none;
-    }
-
-    .hashtag{
-        font-size: 3rem;
-        border-radius: 1.5rem;
-    }
   }
     
 .flexHome{
@@ -352,8 +440,6 @@ position: relative;
     text-shadow: 1px 1px 1px black;
 }
 
-
-
 .imgHistoryCel{
     max-width: 100%;
     position: absolute;
@@ -366,7 +452,6 @@ position: relative;
     }
 }
 
-
 .tittleSponsor:hover{
     background-color: rgb(223, 22, 22);
 }
@@ -375,12 +460,6 @@ position: relative;
     max-width: 100%;
     position: absolute;
 }
-
-
-
-
-
-
 
 .flexEndFotos{
     display: flex;
