@@ -10,7 +10,7 @@ const Calendario = () => {
                 <img src={imgCal} className="imgCal" alt="" />
                 <div className="flexCardCal">
                     <h1>CALENDARIO</h1>
-                    <p className="year">2023</p>
+                  
                     <h2>MARTÍN ARAGNO</h2>
                     <p >multisport racing</p>
                 </div>
