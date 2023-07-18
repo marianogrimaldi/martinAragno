@@ -29,18 +29,12 @@ li:hover {
     .navFlex{
         padding: 1rem;
         gap:.5rem;
+        justify-content: center;
         li{
             font-weight:normal;
             font-size: .7rem;
         }
     }
-}
-
-.active {
-    background-color: rgb(223, 22, 22);
-    border-radius: 1rem;
-    padding-left: .5rem;
-    padding-right: .5rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -59,6 +53,18 @@ li:hover {
            
         }
     }
+}
+
+
+.active {
+    background-color: rgb(223, 22, 22);
+    border-radius: 1rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+@media screen and (max-width: 768px) {
+   
     .active{
         background-color: transparent;
     }
