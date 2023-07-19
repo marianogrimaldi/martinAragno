@@ -15,6 +15,8 @@ const ImgViewTri = () => {
         "/tri/8.jfif",
         "/tri/9.jfif",
         "/tri/10.jpg",
+        "/tri/9.jfif",
+        "/tri/10.jpg",
     ]
 
     return (
