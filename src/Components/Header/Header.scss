@@ -1,6 +1,7 @@
 
 .navFlex{
     display: flex;
+    margin-left: 2rem;
     list-style-type: none;
     z-index: 1;
     gap:1.5rem;
@@ -9,6 +10,7 @@
     width: 100%;
     top: 0;
     background-color: black;
+   
 
     li{
         font-family: 'Gruppo', cursive; 
@@ -29,11 +31,11 @@ li:hover {
     .navFlex{
         padding: 1rem;
         gap:.5rem;
-        
-        justify-content: center;
+        margin-left: 1rem;
+      
         li{
             font-weight:normal;
-            font-size: .8rem;
+            font-size: .7rem;
         }
     }
 }
