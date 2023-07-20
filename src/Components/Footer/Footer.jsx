@@ -14,11 +14,12 @@ const Footer = () => {
                 <ul className="navFlexFooter">
                 <Link to="/"><li>HOME</li></Link>
                 <Link to="/triatlon"><li>TRIATLON</li></Link> 
-                <Link to="/mtb"><li>MTB</li></Link>
+                <Link to="/mtb"><li>MOUNTAIN BIKE</li></Link>
                 <Link to="/taur"><li>TRIAL RUNNING</li></Link>
-                <Link to="/mountain"><li>MOUNTAIN</li></Link>
-                <Link to="/meraki"><li>MERAKI</li></Link>
+                <Link to="/mountain"><li>MOUNTAIN SUMMIT</li></Link>
+                <Link to="/calendario" ><li>CALENDARIO</li></Link>
                 <Link to="/sponsors"><li>SPONSORS</li></Link>  
+                <Link to="/meraki"><li>MERAKI</li></Link>
                 </ul>
             </div>
             <div className="martinAndMarian">
