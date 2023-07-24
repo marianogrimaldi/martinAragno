@@ -1,6 +1,7 @@
 .sponsTittle{
     text-align: center;
     font-size: 5rem;
+    margin-top: 6rem;
     font-family: 'Gruppo', cursive; 
     text-shadow: 1px 1px 1px rgb(0, 0, 0);
     transition: 0.8s;
@@ -8,7 +9,7 @@
 
 @media screen and (max-width: 992px){
     .sponsTittle{
-        margin-top: 3rem;
+        margin-top: 3.5rem;
         font-size: 4rem;
     }
 }

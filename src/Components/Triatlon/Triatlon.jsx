@@ -14,14 +14,14 @@ const Triatlon = () => {
     return(
         <div className="animation">
                 <img src={imgTri} className="imgTri" alt="" />
-                <div className="flexCardTri">
-                    <h1>TRIATHLON</h1>
-                    <h2>MARTÍN ARAGNO</h2>
-                    <p >multisport racing</p>
-                </div>
-                 <div className="flexLogoCard">
-                    <img src={logo} className="logo" alt="" />
-                </div>
+                    <div className="flexCardTri">
+                        <h1>TRIATHLON</h1>
+                        <h2>MARTÍN ARAGNO</h2>
+                        <p >multisport racing</p>
+                    </div>
+                    <div className="flexLogoCard">
+                        <img src={logo} className="logo" alt="" />
+                    </div>
                 <div>
                     <Spon/>
                 </div>

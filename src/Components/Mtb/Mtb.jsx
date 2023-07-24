@@ -47,12 +47,6 @@ const Mtb = () => {
                     <p>Desafio al Valle del Río Pinto 75km La Cumbre Córdoba T 4h16</p>
                     <h3>2007</h3>
                     <p>Desafio al Valle del Río Pinto 75km La Cumbre Córdoba T 3h:58</p>
-                    
-                    
-                    
-                    
-                    
-                   
                 </div>
                 <ImgViewMtb/>
         </div>

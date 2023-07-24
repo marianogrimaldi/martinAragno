@@ -1,18 +1,19 @@
 
 .navFlex{
     display: flex;
-    margin-left: 2rem;
+   
     list-style-type: none;
     z-index: 1;
     gap:1.5rem;
     padding: 2rem;
+    border-radius: 1rem;
     position: fixed;
-    width: 100%;
-    top: 0;
+    top:0;
     background-color: black;
-   
+    margin-left: 2rem;
 
     li{
+        
         font-family: 'Gruppo', cursive; 
         font-size: 1rem;
         transition: 0.5s;
@@ -20,6 +21,7 @@
         color: rgb(255, 255, 255);
         background-color: black;
         border-radius: 1rem;
+       
     }
 } 
 
