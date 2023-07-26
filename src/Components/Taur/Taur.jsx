@@ -4,10 +4,12 @@ import logo from "../../assets/logoRojo.png"
 import Spon from "../Sponsors/Sponsors"
 import ImgViewTrail from "../ImgView/ImgViewTrail";
 import imgJump from "../../assets/imgJump.jpg"
+import { useTranslation } from "react-i18next"
+
 
 const Taur = () => {
 
-
+    const { t } = useTranslation()
 
     return(
         <div className="animation">
@@ -27,8 +29,8 @@ const Taur = () => {
             <Spon/>
         </div>
         <div className="trialFlex">
-                    <h2 className="titleTrial">RESULTADOS DESTACADOS </h2>
-                    <p className="hash">#SÉTUMÁXIMO</p>
+                    <h2 className="titleTrial">{t("Generales.resultados")}</h2>
+                    <p className="hash">{t("Generales.hash")}</p>
                 </div> 
                 <img src={imgJump} className="imgJump" alt="" />
                 <div className="ptrial">

@@ -4,11 +4,11 @@ import logo from "../../assets/logoRojo.png"
 import Spon from "../Sponsors/Sponsors";
 import ImgViewMount from "../ImgView/ImgViewMount";
 import imgfondo from "../../assets/imagenFondo.jpeg"
-
+import { useTranslation } from "react-i18next"
 
 const Mountain = () => {
 
-
+    const { t } = useTranslation()
 
     return(
         <div className="animation">
@@ -26,8 +26,8 @@ const Mountain = () => {
         </div>
         
         <div className="mountFlex">
-            <h2 className="titleMount">CUMBRES DE MI VIDA </h2>
-            <p className="hash">#SÉTUMÁXIMO</p>
+            <h2 className="titleMount">{t("Mountain.cumbres")} </h2>
+            <p className="hash">{t("Generales.hash")}</p>
         </div> 
         <img src={imgfondo} className="logoFondo" alt="" />
         <div className="pMount">

@@ -4,10 +4,11 @@ import logo from "../../assets/logoRojo.png"
 import Spon from "../Sponsors/Sponsors"
 import ImgViewMtb from "../ImgView/ImgViewMtb"
 import imgFondo from "../../assets/4.jpg"
+import { useTranslation } from "react-i18next"
 
 const Mtb = () => {
 
-  
+    const { t } = useTranslation()
 
     return(
         <div className="animation">
@@ -24,8 +25,8 @@ const Mtb = () => {
                     <Spon/>
                 </div>
                 <div className="mtbFlex">
-                    <h2 className="titleMtb">RESULTADOS DESTACADOS </h2>
-                     <p className="hash">#SÉTUMÁXIMO</p>
+                    <h2 className="titleMtb">{t("Generales.resultados")}</h2>
+                     <p className="hash">{t("Generales.hash")}</p>
                 </div>
                 <img src={imgFondo} className="logoFondo" alt="" />
                 <div className="pMtb"> 

@@ -3,13 +3,17 @@ import imgCal from "../../assets/calendario.jpg"
 import logo from "../../assets/logoRojo.png"
 import Spon from "../Sponsors/Sponsors"
 import corriendo from "../../assets/corriendo.jpg"
+import { useTranslation } from "react-i18next"
 
 const Calendario = () => {
+
+    const { t } = useTranslation()
+
     return(
         <div className="animation">
                 <img src={imgCal} className="imgCal" alt="" />
                 <div className="flexCardCal">
-                    <h1>CALENDARIO</h1>
+                    <h1>{t("Calendario.titulo")}</h1>
                   
                     <h2>MARTÍN ARAGNO</h2>
                     <p >multisport racing</p>

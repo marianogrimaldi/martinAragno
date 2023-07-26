@@ -11,6 +11,7 @@
 .animation{
   animation-name: mianimacion;
   animation-duration: 2s;
+  margin-top: 8rem;
 }
 @keyframes mianimacion {
   0% {

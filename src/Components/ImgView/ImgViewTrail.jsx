@@ -1,8 +1,9 @@
 import "./ImgViewGlobal.scss"
 import { RViewer, RViewerTrigger } from "react-viewerjs";
+import { useTranslation } from "react-i18next"
 
 const ImgViewTrail = () => {
-
+    const { t } = useTranslation()
     let imagenes = [
         "/trail/10.jfif",
         "/trail/1.jfif",
@@ -20,7 +21,7 @@ const ImgViewTrail = () => {
 
     return (
         <div>
-             <h1 className="galeryTitle">GALERIA</h1>
+             <h1 className="galeryTitle">{t("Generales.galeria")}</h1>
             <RViewer imageUrls={imagenes}>
                 <div className="imgGrid">
                     {imagenes.map((imagen, index)=> {

@@ -6,13 +6,15 @@ import ImgViewTri from "../ImgView/ImgViewTri"
 import imgTrifondo from "../../assets/9.jpg"
 import imgTrifondo2 from "../../assets/imgTrifondo.jpg"
 import imgTrifondo3 from "../../assets/triNadando.jpg"
+import { useTranslation } from "react-i18next"
 
 const Triatlon = () => {
 
-  
+    const { t } = useTranslation()
 
     return(
         <div className="animation">
+                
                 <img src={imgTri} className="imgTri" alt="" />
                     <div className="flexCardTri">
                         <h1>TRIATHLON</h1>
@@ -26,8 +28,8 @@ const Triatlon = () => {
                     <Spon/>
                 </div>
                 <div className="triFlex">
-                    <h2 className="titleTri">RESULTADOS DESTACADOS </h2>
-                    <p className="hash">#SÉTUMÁXIMO</p>
+                    <h2 className="titleTri">{t("Generales.resultados")} </h2>
+                    <p className="hash">{t("Generales.hash")}</p>
                 </div> 
                 <img src={imgTrifondo} className="logoFondo" alt="" />
                 <img src={imgTrifondo2} className="logoFondo2" alt="" />

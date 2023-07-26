@@ -2,7 +2,7 @@ import Triatlon from "../Triatlon/Triatlon"
 import "./Header.scss"
 import { NavLink } from "react-router-dom"
 import menu from "../../assets/menu.png"
-
+import Traductor from "../TraductorSelect/Traductor"
 const Header = () => {
     return(
 
@@ -24,7 +24,7 @@ const Header = () => {
                     <a href="#footer"><li>CONTACTO</li></a>
                 </div> 
             </ul>
-           
+           <Traductor/>
         </div>
 
     )

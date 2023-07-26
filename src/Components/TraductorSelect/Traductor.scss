@@ -1,0 +1,19 @@
+.flags{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    cursor: pointer;
+    top:6rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+   padding-right: 1rem;
+    background-color: black;
+
+    img{
+        width: 2rem;
+        filter: drop-shadow(1px 1px 1px rgb(255, 255, 255));
+       
+    }
+    
+}
