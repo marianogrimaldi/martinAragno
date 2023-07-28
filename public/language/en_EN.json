@@ -1,5 +1,9 @@
 {
   "translation": {
+    "Header":{
+      "calendario": "CALENDAR",
+      "contacto": "CONTACT"
+  },
     "Home": {
       "frase": "\"Passion is the big difference...\"",
       "datos1": "Birth",
@@ -24,6 +28,28 @@
     },
     "Mountain": {
       "cumbres": "SUMMITS OF MY LIFE"
-  }
+    },
+    "Calendario": {
+      "titulo": "CALENDAR",
+      "enero": "JANUARY",
+      "febrero": "FEBRUARY",
+      "marzo": "MARCH",
+      "abril": "APRIL",
+      "mayo": "MAY",
+      "junio": "JUNE",
+      "julio": "JULY",
+      "agosto": "AUGUST",
+      "septiembre": "SEPTEMBER",
+      "octubre": "OCTOBER",
+      "noviembre": "NOVEMBER",
+      "diciembre": "DECEMBER"
+    },
+    "Sponsors": {
+      "titulo": "SPONSORS"
+  },
+  "Footer": {
+    "calendario": "CALENDAR",
+      "contacto": "CONTACT"
+}
   }
 }

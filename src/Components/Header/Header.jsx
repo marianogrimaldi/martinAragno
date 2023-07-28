@@ -3,7 +3,13 @@ import "./Header.scss"
 import { NavLink } from "react-router-dom"
 import menu from "../../assets/menu.png"
 import Traductor from "../TraductorSelect/Traductor"
+import { useTranslation } from "react-i18next"
+
+
 const Header = () => {
+
+    const { t } = useTranslation()
+
     return(
 
         <div >
@@ -18,10 +24,10 @@ const Header = () => {
                     <NavLink to="/mtb" ><li>MOUNTAIN BIKE</li></NavLink>
                     <NavLink to="/taur" ><li>TRIAL RUNNING</li></NavLink>
                     <NavLink to="/mountain" ><li>MOUNTAIN SUMMIT</li></NavLink>
-                    <NavLink to="/calendario" ><li>CALENDARIO</li></NavLink>
+                    <NavLink to="/calendario" ><li>{t("Header.calendario")}</li></NavLink>
                     <NavLink to="/sponsors" ><li>SPONSORS</li></NavLink>
                     <NavLink to="/meraki" ><li>MERAKI</li></NavLink>
-                    <a href="#footer"><li>CONTACTO</li></a>
+                    <a href="#footer"><li>{t("Header.contacto")}</li></a>
                 </div> 
             </ul>
            <Traductor/>

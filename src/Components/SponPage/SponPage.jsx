@@ -20,11 +20,15 @@ import sp17 from "../../assets/sponsors/xpert.webp"
 import sp18 from "../../assets/sponsors/running.png"
 import sp19 from "../../assets/sponsors/indusP.png"
 import sp20 from "../../assets/sponsors/cabritos.png"
+import { useTranslation } from "react-i18next"
 
 const SponPage = () => {
+
+    const { t } = useTranslation()
+
     return (
         <div className="animation">
-            <h1 className="sponsTittle">SPONSORS</h1>
+            <h1 className="sponsTittle">{t("Sponsors.titulo")}</h1>
             <div className="imgNat">
                 <div className="flexSponPage">
                     <img src={sp1} alt="" />

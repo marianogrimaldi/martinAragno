@@ -1,7 +1,7 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 import es from "./public/Language/es_AR.json";
-import en from "./public/Language/en_EN.json";
+import en from "./public/language/en_EN.json";
 import ger from "./public/language/germ_ALE.json";
 import port from "./public/language/por_POR.json";
 import fr from "./public/language/fr_FRA.json";

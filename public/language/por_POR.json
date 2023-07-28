@@ -1,5 +1,9 @@
 {
     "translation": {
+        "Header":{
+            "calendario": "CALENDÁRIO",
+            "contacto": "CONTATO"
+        },
         "Home": {
             "frase": "\"Paixão é a grande diferença...\"",
             "datos1": "Aniversário",
@@ -24,6 +28,28 @@
         },
         "Mountain": {
             "cumbres": "CUMPRIMENTOS DA MINHA VIDA"
+        },
+        "Calendario": {
+            "titulo":"CALENDÁRIO",
+            "enero": "JANEIRO",
+            "febrero": "FEVEREIRO",
+            "marzo": "MARCHAR",
+            "abril": "ABRIL",
+            "mayo": "PODERIA",
+            "junio": "JUNHO",
+            "julio": "JULHO",
+            "agosto": "AGOSTO",
+            "septiembre": "SETEMBRO",
+            "octubre": "OUTUBRO",
+            "noviembre": "NOVEMBRO",
+            "diciembre": "DEZEMBRO"
+        },
+        "Sponsors": {
+            "titulo": "PATROCINADORES"
+        },
+        "Footer": {
+            "calendario": "CALENDÁRIO",
+            "contacto": "CONTATO"
         }
     }
 }

@@ -1,5 +1,9 @@
 {
     "translation": {
+        "Header":{
+            "calendario": "CALENDARIO",
+            "contacto": "CONTACTO"
+        },
         "Home": {
             "frase": "\"La pasión es la gran diferencia...\"",
             "datos1": "Nacimiento",
@@ -26,7 +30,26 @@
             "cumbres": "CUMBRES DE MI VIDA"
         },
         "Calendario": {
-            "titulo":"CALENDARIO"
+            "titulo":"CALENDARIO",
+            "enero": "ENERO",
+            "febrero": "FEBRERO",
+            "marzo": "MARZO",
+            "abril": "ABRIL",
+            "mayo": "MAYO",
+            "junio": "JUNIO",
+            "julio": "JULIO",
+            "agosto": "AGOSTO",
+            "septiembre": "SEPTIEMBRE",
+            "octubre": "OCTUBRE",
+            "noviembre": "NOVIEMBRE",
+            "diciembre": "DICIEMBRE"
+        },
+        "Sponsors": {
+            "titulo": "SPONSORS"
+        },
+        "Footer": {
+            "calendario": "CALENDARIO",
+            "contacto": "CONTACTO"
         }
     }
 }

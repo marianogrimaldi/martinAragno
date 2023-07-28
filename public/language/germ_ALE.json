@@ -1,5 +1,9 @@
 {
     "translation": {
+        "Header":{
+            "calendario": "KALENDER",
+            "contacto": "KONTAKT"
+        },
         "Home": {
             "frase": "\"Leidenschaft ist der große Unterschied...\"",
             "datos1": "Geburt",
@@ -24,6 +28,28 @@
         },
         "Mountain": {
             "cumbres": "GIPFEL MEINES LEBENS"
+        },
+        "Calendario": {
+            "titulo":"KALENDER",
+            "enero": "JANUAR",
+            "febrero": "FEBRUAR",
+            "marzo": "MARSCH",
+            "abril": "APRIL",
+            "mayo": "DÜRFEN",
+            "junio": "JUNI",
+            "julio": "JULI",
+            "agosto": "AUGUST",
+            "septiembre": "SEPTEMBER",
+            "octubre": "OKTOBER",
+            "noviembre": "NOVEMBER",
+            "diciembre": "DEZEMBER"
+        },
+        "Sponsors": {
+            "titulo": "SPONSOREN"
+        },
+        "Footer": {
+            "calendario": "KALENDER",
+            "contacto": "KONTAKT"
         }
     }
 }

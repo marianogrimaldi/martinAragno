@@ -1,5 +1,9 @@
 {
     "translation": {
+        "Header":{
+            "calendario": "CALENDRIER",
+            "contacto": "CONTACT"
+        },
         "Home": {
             "frase": "\"La passion est la grande différence...\"",
             "datos1": "Naissance",
@@ -24,6 +28,28 @@
         },
         "Mountain": {
             "cumbres": "SOMMES DE MA VIE"
+        },
+        "Calendario": {
+            "titulo":"CALENDRIER",
+            "enero": "JANVIER",
+            "febrero": "FÉVRIER",
+            "marzo": "MARS",
+            "abril": "AVRIL",
+            "mayo": "PEUT",
+            "junio": "JUIN",
+            "julio": "JUILLET",
+            "agosto": "AOÛT",
+            "septiembre": "SEPTEMBRE",
+            "octubre": "OCTOBRE",
+            "noviembre": "NOVEMBRE",
+            "diciembre": "DÉCEMBRE"
+        },
+        "Sponsors": {
+            "titulo": "COMMANDITAIRES"
+        },
+        "Footer": {
+            "calendario": "CALENDRIER",
+            "contacto": "CONTACT"
         }
     }
 }

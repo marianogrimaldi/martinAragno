@@ -29,8 +29,8 @@ import { useTranslation } from "react-i18next"
 
 
 const Home = () => {
-    const { t } = useTranslation()
 
+    const { t } = useTranslation()
 
     return (
         <div className="animation">

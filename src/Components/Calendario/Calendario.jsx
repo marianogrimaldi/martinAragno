@@ -26,22 +26,22 @@ const Calendario = () => {
                 </div>
                 <div>
                     <div className="calFlex" >
-                        <h2 className="titleCal">CALENDARIO 2023</h2>
+                        <h2 className="titleCal">{t("Calendario.titulo")} 2023</h2>
                         <p className="hash">#SÉTUMÁXIMO</p>
                     </div>
                     <img src={corriendo} className="logoFondoCal" alt="" />    
                     <div className="pCal">
-                    <h3>JULIO</h3>
+                    <h3>{t("Calendario.julio")}</h3>
                     <p>9/7 Trail running 12km Valle fertil San Juan</p>
-                    <h3>AGOSTO</h3>
+                    <h3>{t("Calendario.agosto")}</h3>
                     <p>27/08 21km Media de Bs As</p>
-                    <h3>SEPTIEMBRE</h3>
+                    <h3>{t("Calendario.septiembre")}</h3>
                     <p>3/9 Trail Running King Paraguay</p>
                     <p>19/9 MTB XCM 120km La Falda Campeonato Argentino</p>
                     <p>23/9 Half Termas tentativo -invitado-</p>
-                    <h3>OCTUBRE</h3>
+                    <h3>{t("Calendario.octubre")}</h3>
                     <p>29/10 70.3 Bs As</p>
-                    <h3>NOVIEMBRE</h3>
+                    <h3>{t("Calendario.noviembre")}</h3>
                     <p>4/11 Trail Running King Paraguay</p>
                    </div>
                 </div>
