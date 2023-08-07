@@ -80,7 +80,7 @@
         margin-right: 5rem;
         width: 4rem;
         position: absolute;
-        top:0;
+        top:8rem;
     }
 }
 
@@ -97,7 +97,7 @@
     align-items: center;
     margin-top: 2rem;
     transition: .8s;
-
+    background-color: red;
     .hash{
         color:rgb(0, 0, 0);
         margin-right: 10rem;
@@ -108,9 +108,7 @@
         font-weight: bolder;
         }
 }
-.triFlex:hover{
-    background-color: red;
-}
+
 
 @media screen and (max-width: 992px){
     .titleTri{

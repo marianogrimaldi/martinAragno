@@ -19,7 +19,7 @@ const Calendario = () => {
                     <p >multisport racing</p>
                 </div>
                 <div className="flexLogoCard">
-                    <img src={logo} className="logoCal" alt="" />
+                    <img src={logo} className="logo" alt="" />
                 </div>
                 <div>
                     <Spon/>

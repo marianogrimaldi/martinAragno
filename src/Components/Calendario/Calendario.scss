@@ -84,8 +84,8 @@
 .flexLogoCard{
     display: flex;
     justify-content: end;
-    .logoCal{
-        top:14rem;
+    .logo{
+        
         margin-right: 5rem;
         width: 4rem;
        position: absolute;
@@ -155,7 +155,7 @@
     align-items: center;
     margin-top: 2rem;
     transition: .8s;
-
+    background-color: red;
     .hash{
         color:rgb(0, 0, 0);
         margin-right: 10rem;
@@ -167,9 +167,7 @@
 
         }
     }
-.calFlex:hover{
-    background-color: red;
-}
+
 
 @media screen and (max-width: 992px){
     .calFlex{

@@ -1,95 +1,98 @@
-.imgPrincipal{
+.imgPrincipal {
     width: 25rem;
-    
 }
 
-.frase{
+
+.frase {
     font-family: 'Great Vibes', cursive;
-    font-size: 4rem; 
+    font-size: 4rem;
 }
 
-.firma{
+.firma {
     font-family: 'Great Vibes', cursive;
     font-size: 2rem;
     margin-bottom: 5rem;
 }
 
-.datos{
+.datos {
     display: flex;
     flex-direction: column;
-    align-items:end;
+    align-items: end;
     gap: 1rem;
-    
-    p{
-        font-family: 'Gruppo', cursive; 
+
+    p {
+        font-family: 'Gruppo', cursive;
         font-size: 1.5rem;
         text-shadow: 1px 1px 1px black;
     }
 
 
- 
+
 }
-.title{
-    font-family: 'Gruppo', cursive; 
+
+.title {
+    font-family: 'Gruppo', cursive;
     font-size: 4rem;
     text-shadow: 1px 1px 1px black;
-   
+
 }
- 
-.flexTitle{
+
+.flexTitle {
     margin-top: 5rem;
     display: flex;
     justify-content: center;
-    align-content: center; 
+    align-content: center;
     transition: 0.8s;
 }
-.flexTitle:hover{
+
+.flexTitle:hover {
     background-color: rgb(223, 22, 22);
 }
-.logoPrincipal{
+
+.logoPrincipal {
     width: 8rem;
 }
 
-.subTitle{
+.subTitle {
     text-align: center;
-    font-family: 'Gruppo', cursive; 
+    font-family: 'Gruppo', cursive;
     padding-right: 1.5rem;
     font-size: 1.5rem;
     margin-bottom: 2rem;
 }
 
-.titleHistory{
+.titleHistory {
     padding-top: 1rem;
     color: rgb(255, 255, 255);
-    font-family: 'Gruppo', cursive; 
+    font-family: 'Gruppo', cursive;
     text-align: center;
     font-size: 3rem;
     transition: 0.8s;
     padding-bottom: 1rem;
 }
 
-.imgHistory{
+.imgHistory {
     max-width: 100%;
     position: absolute;
-    
+
 }
 
-@media screen and (max-width: 992px){
-    .imgHistory{
-       opacity: .3;
+@media screen and (max-width: 992px) {
+    .imgHistory {
+        opacity: .3;
     }
 }
 
-@media screen and (max-width: 768px){
-    .imgHistory{
+@media screen and (max-width: 768px) {
+    .imgHistory {
         display: none;
     }
 }
 
 
 
-.textHistory{
-    font-family: 'Gruppo', cursive; 
+.textHistory {
+    font-family: 'Gruppo', cursive;
     color: rgb(0, 0, 0);
     font-size: 1.5rem;
     margin: 1rem 1rem;
@@ -98,8 +101,8 @@
     margin-right: 25rem;
 }
 
-@media screen and (max-width: 992px){
-    .textHistory{
+@media screen and (max-width: 992px) {
+    .textHistory {
         font-size: 1.2rem;
         margin: 0;
         color: rgb(255, 255, 255);
@@ -107,32 +110,32 @@
         margin-left: .5rem;
         margin-right: .5rem;
         text-align: justify;
-        
+
     }
 }
 
 
 
-.firma2{
-    font-family: 'Gruppo', cursive; 
+.firma2 {
+    font-family: 'Gruppo', cursive;
     font-size: 3rem;
     text-align: center;
-    color:black;
+    color: black;
     position: relative;
 }
 
-@media screen and (max-width: 992px){
-    .firma2{
+@media screen and (max-width: 992px) {
+    .firma2 {
         color: white;
         font-weight: bolder;
     }
 }
 
 
-.tittleSponsor{
+.tittleSponsor {
     padding-top: 1rem;
     color: rgb(255, 255, 255);
-    font-family: 'Gruppo', cursive; 
+    font-family: 'Gruppo', cursive;
     text-align: center;
     font-size: 3rem;
     transition: 0.8s;
@@ -141,145 +144,161 @@
     text-shadow: 1px 1px 1px black;
 }
 
-.sponsorsGrid{
+.sponsorsGrid {
     display: grid;
     align-items: center;
     justify-items: center;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(3,1fr);
+    grid-template-rows: repeat(3, 1fr);
     margin-top: 3rem;
     margin-bottom: 3rem;
-    
-    .scott{
+
+    .scott {
         width: 8rem;
     }
- 
-    .cera{
-        width: 10rem;
-    }
-    .lasp{
-        width: 10rem;
-    }
-    .naka{
-        width: 8rem;
-    }
-    .casj{
+
+    .cera {
         width: 10rem;
     }
 
-    img{
+    .lasp {
         width: 10rem;
-        filter: gray; 
-                -webkit-filter: grayscale(100%); 
-                transition: 0.5s;
     }
-    img:hover{
-        filter: gray; 
-                -webkit-filter: none
+
+    .naka {
+        width: 8rem;
+    }
+
+    .casj {
+        width: 10rem;
+    }
+
+    img {
+        width: 10rem;
+        filter: gray;
+        -webkit-filter: grayscale(100%);
+        transition: 0.5s;
+    }
+
+    img:hover {
+        filter: gray;
+        -webkit-filter: none
     }
 
     position: relative;
 }
 
-@media screen and (max-width: 992px){
-    .sponsorsGrid{
+@media screen and (max-width: 992px) {
+    .sponsorsGrid {
 
-       margin-top: 2rem;
-       margin-bottom: 3rem;
-           .scott{
-                width: 4rem;
-            }
+        margin-top: 2rem;
+        margin-bottom: 3rem;
 
-           .cera{
-               width: 4rem;
-           }
-           .lasp{
-               width: 4rem;
-           }
-           .naka{
-               width: 4rem;
-           }
-           .casj{
-               width: 4rem;
-           }
+        .scott {
+            width: 4rem;
+        }
 
-           img{
-               width: 6rem;
-           }
-   }
-}
+        .cera {
+            width: 4rem;
+        }
 
-@media screen and (max-width: 768px){
-     .sponsorsGrid{
+        .lasp {
+            width: 4rem;
+        }
 
-        margin-top: 0;
-        margin-bottom: 0;
-            .scott{
-                 width: 4rem;
-             }
- 
-            .cera{
-                width: 4rem;
-            }
-            .lasp{
-                width: 4rem;
-            }
-            .naka{
-                width: 4rem;
-            }
-            .casj{
-                width: 4rem;
-            }
+        .naka {
+            width: 4rem;
+        }
 
-            img{
-                width: 4rem;
-            }
+        .casj {
+            width: 4rem;
+        }
+
+        img {
+            width: 6rem;
+        }
     }
 }
 
-.sponsorsSecundarios{
+@media screen and (max-width: 768px) {
+    .sponsorsGrid {
+
+        margin-top: 0;
+        margin-bottom: 0;
+
+        .scott {
+            width: 4rem;
+        }
+
+        .cera {
+            width: 4rem;
+        }
+
+        .lasp {
+            width: 4rem;
+        }
+
+        .naka {
+            width: 4rem;
+        }
+
+        .casj {
+            width: 4rem;
+        }
+
+        img {
+            width: 4rem;
+        }
+    }
+}
+
+.sponsorsSecundarios {
     display: grid;
     align-items: center;
     justify-items: center;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(2,1fr);
+    grid-template-rows: repeat(2, 1fr);
 
-      .fit{
-        width:  4rem;
-        }
-        img{
-            width: 9rem;
-            filter: drop-shadow(1px 1px 1px rgb(255, 255, 255));       
-        }
-        position: relative;
-}
-
-@media screen and (max-width: 992px){
-    .sponsorsSecundarios{
-    img{
-        width: 6rem;
+    .fit {
+        width: 4rem;
     }
-    .fit{
-        width:  3rem;
-    
+
+    img {
+        width: 9rem;
+        filter: drop-shadow(1px 1px 1px rgb(255, 255, 255));
     }
-}
+
+    position: relative;
 }
 
-@media screen and (max-width: 768px){
-        .sponsorsSecundarios{
-        img{
+@media screen and (max-width: 992px) {
+    .sponsorsSecundarios {
+        img {
+            width: 6rem;
+        }
+
+        .fit {
+            width: 3rem;
+
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sponsorsSecundarios {
+        img {
             width: 5rem;
         }
-        .fit{
-            width:  2rem;
-        
+
+        .fit {
+            width: 2rem;
+
         }
     }
 }
 
 
-.endHome{
+.endHome {
     display: flex;
     justify-content: center;
     justify-content: space-between;
@@ -289,47 +308,49 @@
     margin-bottom: 2rem;
 }
 
-@media screen and (max-width: 992px){
-        .endHome{
+@media screen and (max-width: 992px) {
+    .endHome {
         flex-direction: column;
         margin-right: 0;
         margin-bottom: 0;
-            img{
-                max-width: 100%;
-            }
+
+        img {
+            max-width: 100%;
         }
+    }
 }
 
-@media screen and (max-width: 768px){
-    .endHome{
-    flex-direction: column;
-    margin-right: 0;
-    margin-bottom: 0;
-        img{
+@media screen and (max-width: 768px) {
+    .endHome {
+        flex-direction: column;
+        margin-right: 0;
+        margin-bottom: 0;
+
+        img {
             max-width: 100%;
         }
     }
 }
 
 
-.logoFinal{
+.logoFinal {
     width: 15rem;
 }
 
-@media screen and (max-width: 992px){
-    .logoFinal{
-    display: none;
+@media screen and (max-width: 992px) {
+    .logoFinal {
+        display: none;
     }
 }
 
-@media screen and (max-width: 768px){
-        .logoFinal{
+@media screen and (max-width: 768px) {
+    .logoFinal {
         display: none;
     }
 }
 
 
-.hashtag{
+.hashtag {
     font-family: 'Gruppo', cursive;
     text-align: center;
     font-size: 2.5rem;
@@ -337,8 +358,8 @@
     background-image: linear-gradient(rgb(0, 0, 0), red, rgb(0, 0, 0));
 }
 
-@media screen and (max-width: 992px){
-    .hashtag{
+@media screen and (max-width: 992px) {
+    .hashtag {
         display: none;
     }
 }
@@ -347,23 +368,24 @@
 
 @media screen and (max-width: 768px) {
     .imgPrincipal {
-      width: 12rem;
-      position: absolute;
-      top: 5rem;
-      left: 0;
-      right: 0;
-      margin: auto;
-      opacity: .9;
-      
+        width: 12rem;
+        position: absolute;
+        top: 8rem;
+        left: 0;
+        right: 0;
+        margin: auto;
+        opacity: .9;
+
     }
-    .frase{
+
+    .frase {
         font-family: 'Great Vibes', cursive;
         font-size: 2rem;
         position: relative;
         margin-top: 24rem;
     }
 
-    .firma{
+    .firma {
         font-family: 'Great Vibes', cursive;
         font-size: 1.5rem;
         margin-bottom: 5rem;
@@ -373,95 +395,95 @@
         margin: auto;
     }
 
-    .flexTitle{
-        
+    .flexTitle {
+
         justify-content: center;
         align-items: center;
-        position:absolute;
+        position: absolute;
         z-index: 2;
         left: 0;
         right: 0;
-        margin: auto;  
+        margin: auto;
         position: fixed;
         background-color: black;
     }
 
-   
-    .title{
+
+    .title {
         font-size: 2rem;
     }
 
-    .logoPrincipal{
-        width:3rem ;
+    .logoPrincipal {
+        width: 3rem;
     }
 
-    .subTitle{
+    .subTitle {
         position: absolute;
-        top:3rem;
+        top: 3rem;
         left: 0;
         right: 0;
         margin: auto;
     }
 
-    .datos{
+    .datos {
         align-items: center;
         margin-top: 6rem;
         font-size: 1rem;
 
-         p{
+        p {
             padding: 0;
             margin: 0;
-         }
+        }
     }
 
-    .titleHistory{
+    .titleHistory {
         font-size: 2rem;
     }
-    
-  
 
 
-    .tittleSponsor{
+
+
+    .tittleSponsor {
         font-size: 2rem;
     }
-    
- 
-  }
-    
-.flexHome{
+
+
+}
+
+.flexHome {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
-.titleHistory:hover{
+.titleHistory:hover {
     background-color: rgb(223, 22, 22);
     text-shadow: 1px 1px 1px black;
 }
 
-.imgHistoryCel{
+.imgHistoryCel {
     max-width: 100%;
     position: absolute;
-    opacity: .5; 
+    opacity: .5;
 }
 
-@media screen and (min-width: 768px){
-    .imgHistoryCel{
+@media screen and (min-width: 768px) {
+    .imgHistoryCel {
         display: none;
     }
 }
 
-.tittleSponsor:hover{
+.tittleSponsor:hover {
     background-color: rgb(223, 22, 22);
 }
 
-.imgSponsors{
+.imgSponsors {
     max-width: 100%;
     position: absolute;
 }
 
-.flexEndFotos{
+.flexEndFotos {
     display: flex;
     flex-direction: column;
 }

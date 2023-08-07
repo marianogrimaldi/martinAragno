@@ -100,7 +100,7 @@
     align-items: center;
     margin-top: 2rem;
     transition: .8s;
-
+    background-color: red;
     .hash{
         color:rgb(0, 0, 0);
         margin-right: 10rem;
@@ -112,9 +112,6 @@
         }
 }
 
-.mountFlex:hover{
-    background-color: red;
-}
 
 @media screen and (max-width: 992px){
     .mountFlex{

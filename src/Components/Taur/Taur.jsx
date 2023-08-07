@@ -16,7 +16,7 @@ const Taur = () => {
         <img src={imgTaur} className="imgTaur" alt="" />
            
                 <div className="flexCardTriTaur">
-                    <h1>TRIAL & RUNNING</h1>
+                    <h1>TRIAL RUNNING</h1>
                     <h2>MARTÍN ARAGNO</h2>
                     <p >multisport racing</p> 
                 </div>
