@@ -13,6 +13,13 @@
   animation-duration: 2s;
   margin-top: 8rem;
 }
+
+@media screen and (max-width: 992px){
+  .animation{
+    margin-top: 0rem;
+  }
+}
+
 @keyframes mianimacion {
   0% {
     opacity: 0;
