@@ -8,21 +8,28 @@
     position: absolute;
     left: 0;
     right: 0;
-   padding-right: 1rem;
+    padding-right: 1rem;
    
     
 
     img{
         width: 2rem;
+        height: 1.5rem;
         filter: drop-shadow(1px 1px 1px rgb(255, 255, 255));
         z-index: 1;
+        transition: .5s;
+    }
+
+    img:hover{
+        width: 2.5rem;
     }
     
 }
 
+
 @media screen and (max-width: 992px){
     .flags{
-        top:3rem;
+        top:1rem;
     }
 }
 

@@ -19,14 +19,14 @@ const Traductor = () =>{
     return (
         
         <div className="flags">
-         
+            
+
             <img onClick={()=>{cambiar("es")}} src={España}  alt="" />
             <img onClick={()=>{cambiar("en")}} src={Inglaterra}  alt="" />
             <img onClick={()=>{cambiar("ger")}} src={Alemania}  alt="" />
             <img onClick={()=>{cambiar("fr")}} src={Francia}  alt="" />
             <img onClick={()=>{cambiar("port")}} src={Portugal}  alt="" />
             
-           
         </div>
         
     )
