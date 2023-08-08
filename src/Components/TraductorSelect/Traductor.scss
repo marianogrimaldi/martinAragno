@@ -21,7 +21,10 @@
     }
 
     img:hover{
+        filter: drop-shadow(2px 2px 2px rgb(255, 255, 255));
         width: 2.5rem;
+        height: 2rem;
+        border-radius: 1rem;
     }
     
 }
