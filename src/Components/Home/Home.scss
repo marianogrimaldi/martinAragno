@@ -6,6 +6,15 @@
 .frase {
     font-family: 'Great Vibes', cursive;
     font-size: 4rem;
+    width: 50rem;
+}
+
+@media screen and (max-width: 992px){
+    .frase{
+        width: 35rem;
+        text-align: center;
+        top:1.5rem;
+    }
 }
 
 .firma {

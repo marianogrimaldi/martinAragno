@@ -100,8 +100,7 @@ const Home = () => {
             <div className="endHome">
                 <img src={corteFoor} alt="" />
                 <div className="flexEndFotos">
-                    <img src={logo} className="logoFinal" alt="" />
-                    <p className="hashtag">{t("Generales.hash")}</p>
+                    
                 </div>
             </div>
         </div>
