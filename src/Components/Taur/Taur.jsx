@@ -5,7 +5,7 @@ import Spon from "../Sponsors/Sponsors"
 import ImgViewTrail from "../ImgView/ImgViewTrail";
 import imgJump from "../../assets/imgJump.jpg"
 import { useTranslation } from "react-i18next"
-
+import Menu from "../Header/Menu";
 
 const Taur = () => {
 
@@ -13,6 +13,7 @@ const Taur = () => {
 
     return(
         <div className="animation">
+        <Menu/>
         <img src={imgTaur} className="imgTaur" alt="" />
            
                 <div className="flexCardTriTaur">

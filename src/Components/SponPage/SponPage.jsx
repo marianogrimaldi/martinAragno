@@ -21,6 +21,7 @@ import sp18 from "../../assets/sponsors/running.png"
 import sp19 from "../../assets/sponsors/indusP.png"
 import sp20 from "../../assets/sponsors/cabritos.png"
 import { useTranslation } from "react-i18next"
+import Menu from "../Header/Menu"
 
 const SponPage = () => {
 
@@ -28,6 +29,7 @@ const SponPage = () => {
 
     return (
         <div className="animation">
+            <Menu/>
             <h1 className="sponsTittle">{t("Sponsors.titulo")}</h1>
             <div className="imgNat">
                 <div className="flexSponPage">

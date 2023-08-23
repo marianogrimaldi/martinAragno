@@ -26,7 +26,7 @@ import sp18 from "../../assets/sponsors/running.png"
 import sp19 from "../../assets/sponsors/indusP.png"
 import sp20 from "../../assets/sponsors/cabritos.png"
 import { useTranslation } from "react-i18next"
-
+import Menu from "../Header/Menu"
 
 const Home = () => {
 
@@ -34,7 +34,8 @@ const Home = () => {
 
     return (
         <div className="animation">
-           
+
+            <Menu/>
             <div className="flexTitle">
                 <h2 className="title">MARTÍN</h2>
                 <img src={logo} className="logoPrincipal" alt="" />

@@ -47,6 +47,9 @@
         "Sponsors": {
             "titulo": "PATROCINADORES"
         },
+        "Meraki":{
+            "pronto": "BREVE"
+          },
         "Footer": {
             "calendario": "CALENDÁRIO",
             "contacto": "CONTATO"

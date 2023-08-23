@@ -7,6 +7,7 @@ import imgTrifondo from "../../assets/9.jpg"
 import imgTrifondo2 from "../../assets/imgTrifondo.jpg"
 import imgTrifondo3 from "../../assets/triNadando.jpg"
 import { useTranslation } from "react-i18next"
+import Menu from "../Header/Menu"
 
 const Triatlon = () => {
 
@@ -14,7 +15,7 @@ const Triatlon = () => {
 
     return(
         <div className="animation">
-                
+                <Menu/>
                 <img src={imgTri} className="imgTri" alt="" />
                     <div className="flexCardTri">
                         <h1>TRIATHLON</h1>

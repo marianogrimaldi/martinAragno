@@ -4,6 +4,8 @@ import logo from "../../assets/logoRojo.png"
 import Spon from "../Sponsors/Sponsors"
 import corriendo from "../../assets/corriendo.jpg"
 import { useTranslation } from "react-i18next"
+import Menu from "../Header/Menu"
+
 
 const Calendario = () => {
 
@@ -11,6 +13,7 @@ const Calendario = () => {
 
     return(
         <div className="animation">
+            <Menu/>
                 <img src={imgCal} className="imgCal" alt="" />
                 <div className="flexCardCal">
                     <h1>{t("Calendario.titulo")}</h1>

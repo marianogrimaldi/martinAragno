@@ -5,6 +5,7 @@ import Spon from "../Sponsors/Sponsors"
 import ImgViewMtb from "../ImgView/ImgViewMtb"
 import imgFondo from "../../assets/4.jpg"
 import { useTranslation } from "react-i18next"
+import Menu from "../Header/Menu"
 
 const Mtb = () => {
 
@@ -12,6 +13,7 @@ const Mtb = () => {
 
     return(
         <div className="animation">
+                <Menu/>
                 <img src={imgMtb} className="imgMtb" alt="" />
                 <div className="flexCardMtb">
                     <h1>M T B</h1>

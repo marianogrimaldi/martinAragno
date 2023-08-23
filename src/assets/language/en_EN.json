@@ -46,10 +46,13 @@
     },
     "Sponsors": {
       "titulo": "SPONSORS"
-  },
-  "Footer": {
-    "calendario": "CALENDAR",
-      "contacto": "CONTACT"
-}
+    },
+    "Meraki":{
+      "pronto": "SOON"
+    },
+    "Footer": {
+      "calendario": "CALENDAR",
+        "contacto": "CONTACT"
+    }
   }
 }
