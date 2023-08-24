@@ -38,6 +38,11 @@
 
 @media screen and (max-width: 768px){
     .flags{
-        top:6rem;
+        top:1rem;
+
+        img{
+            width: 1.5rem;
+        height: 1rem;
+        }
     }
 }
