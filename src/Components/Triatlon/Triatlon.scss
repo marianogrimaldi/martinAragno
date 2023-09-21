@@ -61,7 +61,7 @@
 @media screen and (max-width: 768px){
     .flexCardTri{
         margin-right: 0;
-        margin-bottom: 18rem;
+        margin-bottom: 10rem;
         margin-top: 1rem;
        
         h1{
@@ -69,12 +69,11 @@
             margin: auto;
             margin-top:1.5rem ;
             
-            
-            
         }
-        h2, p, img  {
-            display: none;
+        h2{
+            margin-top: 5rem;
         }
+      
     }
 }
 .flexLogoCard{
@@ -98,7 +97,7 @@
 
 @media screen and (max-width: 768px){
     .logo{
-        display: none;
+       
     }
 }
 

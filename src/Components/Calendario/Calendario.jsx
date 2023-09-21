@@ -1,7 +1,7 @@
 import "./Calendario.scss"
 import imgCal from "../../assets/calendario.jpg"
 import logo from "../../assets/logoRojo.png"
-import Spon from "../Sponsors/Sponsors"
+
 import corriendo from "../../assets/corriendo.jpg"
 import { useTranslation } from "react-i18next"
 import Menu from "../Header/Menu"
@@ -24,9 +24,7 @@ const Calendario = () => {
                 <div className="flexLogoCard">
                     <img src={logo} className="logo" alt="" />
                 </div>
-                <div>
-                    <Spon/>
-                </div>
+              
                 <div>
                     <div className="calFlex" >
                         <h2 className="titleCal">{t("Calendario.titulo")} 2023</h2>
