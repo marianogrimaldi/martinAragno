@@ -99,10 +99,10 @@ const Home = () => {
                 <img src={sp20} alt="" />
             </div>
             <div className="endHome">
-                <img src={corteFoor} alt="" />
-                <div className="flexEndFotos">
+                <img src={corteFoor} className="martinImgBike" alt="" />
+                
                     
-                </div>
+               
             </div>
         </div>
     )

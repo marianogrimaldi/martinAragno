@@ -30,7 +30,7 @@ const Calendario = () => {
                 <div>
                     <div className="calFlex" >
                         <h2 className="titleCal">{t("Calendario.titulo")} 2023</h2>
-                        <p className="hash">#SÉTUMÁXIMO</p>
+                        <p className="hash">{t("Generales.hash")}</p>
                     </div>
                     <img src={corriendo} className="logoFondoCal" alt="" />    
                     <div className="pCal">

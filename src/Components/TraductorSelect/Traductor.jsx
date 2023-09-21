@@ -6,9 +6,8 @@ import Inglaterra from "../../assets/ing.png"
 import Portugal from "../../assets/port.png"
 import Alemania from "../../assets/ale.png"
 import Francia from "../../assets/fra.png"
-
-
 import "./Traductor.scss"
+
 
 const Traductor = () =>{
     const { t, i18n } = useTranslation();

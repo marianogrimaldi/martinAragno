@@ -328,6 +328,10 @@
     margin-top: 2rem;
     margin-right: 2rem;
     margin-bottom: 2rem;
+
+    img{
+        max-width: 100%;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -336,10 +340,13 @@
         margin-right: 0;
         margin-bottom: 0;
 
-        img {
-            max-width: 100%;
-        }
+       
     }
+}
+
+.martinImgBike{
+    width: 100%;
+    
 }
 
 @media screen and (max-width: 768px) {

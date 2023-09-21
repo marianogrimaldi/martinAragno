@@ -15,8 +15,9 @@ const ImgViewTrail = () => {
         "/trail/3.jfif",
         "/trail/4.jfif",
         "/trail/5.jfif",
-        "/trail/4.jfif",
-        "/trail/5.jfif",
+        "/trail/11.jpeg",
+        "/trail/12.jpeg",
+      
     ]
 
     return (

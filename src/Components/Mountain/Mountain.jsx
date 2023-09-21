@@ -1,7 +1,7 @@
 import "./Mountain.scss"
 import imgMont from "../../assets/mountain.jpg"
 import logo from "../../assets/logoRojo.png"
-import Spon from "../Sponsors/Sponsors";
+
 import ImgViewMount from "../ImgView/ImgViewMount";
 import imgfondo from "../../assets/imagenFondo.jpeg"
 import { useTranslation } from "react-i18next"
@@ -23,9 +23,7 @@ const Mountain = () => {
         <div className="flexLogoCard">
             <img src={logo} className="logo" alt="" />
         </div>
-        <div>
-            <Spon/>
-        </div>
+      
         
         <div className="mountFlex">
             <h2 className="titleMount">{t("Mountain.cumbres")} </h2>
@@ -38,7 +36,7 @@ const Mountain = () => {
             <a href="https://es.wikipedia.org/wiki/Puig_Campana"target="blank"><p>Cerro Puig Campana altitud 1406 msnm - Alicante</p></a>
             <h3>CHILE</h3>
             <a href="https://es.wikipedia.org/wiki/Volc%C3%A1n_L%C3%A1scar"target="blank"><p>Volcan Lascar altitud 5592 msnm (activo) - Atacama</p></a>
-            <h3>CORODBA - ARGENINA</h3>
+            <h3>CORDOBA - ARGENINA</h3>
             <a href="https://www.cordobaturismo.gov.ar/experiencia/cerro-el-mojon/"target="blank"><p>Cerro El Mojon x 2 altitud 1290 msnm </p></a>
             <a href="https://www.turismolafalda.gob.ar/circuitoTuristicoDetalle/CerroLaBanderita"target="blank"><p>Cerro La Banderita x 10 altitud 1450 msnm </p></a>
             <a href="https://www.cordobaturismo.gov.ar/experiencia/cerro-pan-de-azucar-un-clasico-de-las-sierras-chicas/"target="blank"><p>Cerro Pan de Azucar x 2 altitud 1260 msnm </p></a>

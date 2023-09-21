@@ -19,7 +19,7 @@ const Footer = () => {
                 <Link to="/"><li>HOME</li></Link>
                 <Link to="/triatlon"><li>TRIATLON</li></Link> 
                 <Link to="/mtb"><li>MOUNTAIN BIKE</li></Link>
-                <Link to="/taur"><li>TRIAL RUNNING</li></Link>
+                <Link to="/taur"><li>TRIAL & RUNNING</li></Link>
                 <Link to="/mountain"><li>MOUNTAIN SUMMIT</li></Link>
                 <Link to="/calendario" ><li>{t("Footer.calendario")}</li></Link>
                 <Link to="/sponsors"><li>SPONSORS</li></Link>  

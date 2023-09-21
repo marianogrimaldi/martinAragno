@@ -15,8 +15,9 @@ const ImgViewMtb = () => {
         "/mtb/7.jfif",
         "/mtb/8.jfif",
         "/mtb/3.jfif",
-        "/mtb/8.jfif",
-        "/mtb/3.jfif",
+        "/mtb/11.jpg",
+        "/mtb/12.jpg",
+     
        
     ]
     return (

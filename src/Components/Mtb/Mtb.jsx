@@ -1,7 +1,7 @@
 import "./Mtb.scss"
-import imgMtb from "../../assets/mtb.jpg"
+import imgMtb from "../../assets/imgFondoMtb.png"
 import logo from "../../assets/logoRojo.png"
-import Spon from "../Sponsors/Sponsors"
+
 import ImgViewMtb from "../ImgView/ImgViewMtb"
 import imgFondo from "../../assets/4.jpg"
 import { useTranslation } from "react-i18next"
@@ -23,9 +23,6 @@ const Mtb = () => {
                 <div className="flexLogoCard">
                     <img src={logo} className="logo" alt="" />
                 </div>
-                <div>
-                    <Spon/>
-                </div>
                 <div className="mtbFlex">
                     <h2 className="titleMtb">{t("Generales.resultados")}</h2>
                      <p className="hash">{t("Generales.hash")}</p>
@@ -33,23 +30,24 @@ const Mtb = () => {
                 <img src={imgFondo} className="logoFondo" alt="" />
                 <div className="pMtb"> 
                     <h3>2022</h3>
-                    <p>Finisher Vuelta a las Altas Cumbres 120km Mina Clavero Córdoba</p>
+                    <p>Finisher Vuelta Altas Cumbres 120km (Mina Clavero - Córdoba, Argentina)</p>
                     <h3>2021</h3>
-                    <p>Desafio al Valle del Río Pinto 85km La Cumbre Córdoba.... T 3h:47</p>
+                    <p>Desafio Valle del Río Pinto 85km (La Cumbre - Córdoba, Argentina) </p>
+                    <p className="pb">P. B. T 3h:47'</p>
                     <h3>2020</h3>
-                    <p>Finisher Vuelta a las Altas Cumbres 120km Mina Clavero Córdoba</p> 
+                    <p>Finisher Vuelta Altas Cumbres 120km (Mina Clavero - Córdoba, Argentina)</p> 
                     <h3>2019</h3>
-                    <p>Desafio Ushuaia Extremo... 2° puesto (2 etapas)</p>
+                    <p>2° Desafio Ushuaia Extremo 2 etapas (Ushuaia, Argentina)</p>
                     <h3>2011</h3>
-                    <p>Tour de la Patagonia 200km (3 etapas) San Martín de los Andes Argentina.... 29° puesto</p>
+                    <p>29 °Tour de la Patagonia 200km 3 etapas (San Martín de los Andes - Neuquen, Argentina)</p>
                     <h3>2010</h3>
-                    <p>Desafio al Valle del Río Pinto 82km La Cumbre Córdoba.... T 4h 09</p>
+                    <p>Finisher Desafio Valle del Río Pinto 82km (La Cumbre - Córdoba, Argentina)</p>
                     <h3>2009</h3>
-                    <p>2500 Extremo Tafi del Valle Tucumán Argentina.... 15° puesto</p>                   
+                    <p>15° 2500 Extremo (Tafi del Valle - Tucumán, Argentina)</p>                   
                     <h3>2008</h3>
-                    <p>Desafio al Valle del Río Pinto 75km La Cumbre Córdoba T 4h16</p>
+                    <p>Finisher Desafio Valle del Río Pinto 75km (La Cumbre - Córdoba, Argentina)</p>
                     <h3>2007</h3>
-                    <p>Desafio al Valle del Río Pinto 75km La Cumbre Córdoba T 3h:58</p>
+                    <p>Finisher Desafio al Valle del Río Pinto 75km (La Cumbre - Córdoba, Argentina)</p>
                 </div>
                 <ImgViewMtb/>
         </div>

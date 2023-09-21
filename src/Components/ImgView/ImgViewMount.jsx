@@ -15,8 +15,9 @@ const ImgViewMount = () => {
         "/mont/8.jfif",
         "/mont/9.jfif",
         "/mont/10.jpg",
-        "/mont/9.jfif",
-        "/mont/10.jpg",
+        "/mont/11.jpeg",
+        "/mont/12.jpeg",
+       
     ]
     return (
         <div>
