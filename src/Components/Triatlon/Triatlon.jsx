@@ -1,7 +1,8 @@
 import "./Triatlon.scss"
 import imgTri from "../../assets/tri.jpg"
 import logo from "../../assets/logoRojo.png"
-
+import medallaOro from "../../assets/medalla1.png"
+import medallaPlata from "../../assets/medalla2.png"
 import ImgViewTri from "../ImgView/ImgViewTri"
 import imgTrifondo from "../../assets/9.jpg"
 import imgTrifondo2 from "../../assets/imgTrifondo.jpg"
@@ -47,10 +48,15 @@ const Triatlon = () => {
                 <p>5° Half IM - Valparaiso 70.3 (Chile)</p>
                 <h3>2014</h3>
                 <p>Finisher IM Mallorca - Circuito Mundial WTC (España)</p>
-                <p>2° Half IM - Antofagasta 70.3 (Chile)</p>
+                <div className="flexMedaltri">
+                    <img src={medallaPlata} className="medalla" alt="" />
+                    <p>2° Half IM - Antofagasta 70.3 (Chile)</p>
+                </div>
                 <p>52° IM Texas - Circuito Mundial WTC (Usa)</p>
-                <p>1° Half IM - Tafi del Valle (Tucumán, Argentina)</p>
-                
+                <div className="flexMedaltri">
+                    <img src={medallaOro} className="medalla" alt="" />
+                    <p>1° Half IM - Tafi del Valle (Tucumán, Argentina)</p>
+                </div>
                 <h3>2011</h3>
                 <p>57° IM Cozumel - Circuito Mundial WTC (Mexico)</p>
                 <p>6° Duatlon - Alturas de Punilla (Códoba, Argentina)</p>
@@ -79,9 +85,15 @@ const Triatlon = () => {
                 <p>Finisher IM Florianopilos - Circuito Mundial WTC (Brasil)</p>
                 <p>26° Half IM Villa Gesel  (Bs As,Argentina)</p>
                 <p>20° Half IM Chajari - Campeonato Argentino (Entre Ríos, Argentina)</p>
-                <p>2° Half IM - Conquistadores del Sur (Concepicón, Tucuman) </p>
+                <div className="flexMedaltri">
+                    <img src={medallaPlata} className="medalla" alt="" />
+                    <p>2° Half IM - Conquistadores del Sur (Concepicón, Tucuman) </p>
+                </div>
                 <h3>2004</h3>
-                <p>1° Triathlon Sprint (Villa Constitucion Argentina)</p>
+                <div className="flexMedaltri">
+                    <img src={medallaOro} className="medalla" alt="" />
+                    <p>1° Triathlon Sprint (Villa Constitucion Argentina)</p>
+                </div>
                 <p>21° Half IM Villa Gesell (Bs As, Argentina)</p>
                 <p>10° Half IM Chajari - Campeonato Argentino (Entre Ríos, Argentina) </p>
                 <h3>2003</h3>
@@ -90,8 +102,14 @@ const Triatlon = () => {
                 <p>41° Half IM Mar del Plata (Bs As, Argentina) </p>
                 <h3>2002 - 2001</h3>
                 <p>4° Campeonato Entrerriano Sprint (Entre Ríos, Argentina) </p>
-                <p>1° Duathlon Short Felicia - Campeonato Santafesino (Santa Fe, Argentina)</p>
-                <p>1° Duathlon Short Progreso - Campeonato Santafesino (Santa Fe, Argentina)</p>
+                <div className="flexMedaltri">
+                    <img src={medallaOro} className="medalla" alt="" />
+                    <p>1° Duathlon Short Felicia - Campeonato Santafesino (Santa Fe, Argentina)</p>
+                    </div>
+                <div className="flexMedaltri">
+                    <img src={medallaOro} className="medalla" alt="" />
+                    <p>1° Duathlon Short Progreso - Campeonato Santafesino (Santa Fe, Argentina)</p>
+                </div>
                 </div>
                 <ImgViewTri/>
         </div>

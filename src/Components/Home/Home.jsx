@@ -35,7 +35,7 @@ const Home = () => {
     return (
         <div className="animation">
 
-            <Menu/>
+            <Menu />
             <div className="flexTitle">
                 <h2 className="title">MARTÍN</h2>
                 <img src={logo} className="logoPrincipal" alt="" />
@@ -74,35 +74,33 @@ const Home = () => {
 
                 <img src={sp3} alt="" />
                 <img src={sp4} className="scott" alt="" />
-                <img src={sp7} className="lasp" alt="" />
                 <img src={sp9} className="casj" alt="" />
-                <div></div>
                 <img src={sp5} alt="" />
+                <div></div>
                 <img src={sp6} alt="" />
                 <img src={sp15} alt="" />
-                <img src={sp12} alt="" />
-                <div></div>
-                <div></div>
                 <img src={sp11} alt="" />
                 <img src={sp10} className="cera" alt="" />
+                
+                
             </div>
             <div className="sponsorsSecundarios">
                 <img src={sp1} alt="" />
                 <img src={sp8} alt="" />
-                <img src={sp13} alt="" />
-                <img src={sp14} alt="" />
-                <img src={sp2} className="naka" alt="" />
                 <img src={sp16} className="fit" alt="" />
-                <img src={sp17} alt="" />
+                <img src={sp14} alt="" />
+                <img src={sp13} alt="" />
+                <div></div>
                 <img src={sp18} alt="" />
                 <img src={sp19} alt="" />
                 <img src={sp20} alt="" />
+                <div></div>
             </div>
             <div className="endHome">
                 <img src={corteFoor} className="martinImgBike" alt="" />
-                
-                    
-               
+
+
+
             </div>
         </div>
     )

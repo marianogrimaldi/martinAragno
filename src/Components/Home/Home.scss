@@ -172,7 +172,7 @@
     justify-items: center;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    margin-top: 3rem;
+    margin-top: 5rem;
     margin-bottom: 3rem;
 
     .scott {
@@ -326,8 +326,7 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 2rem;
-    margin-right: 2rem;
-    margin-bottom: 2rem;
+    
 
     img{
         max-width: 100%;
@@ -516,3 +515,4 @@
     display: flex;
     flex-direction: column;
 }
+

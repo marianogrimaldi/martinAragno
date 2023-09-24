@@ -65,7 +65,7 @@
    
     .flexCardCal{
         margin-right: 0;
-        margin-bottom: 12rem;
+        margin-bottom: 8rem;
         margin-top: 2rem;
         
         h1{
@@ -75,8 +75,12 @@
             
         }
 
-        h2, p, img  {
-            display: none;
+        h2{
+            margin-top: 5rem;
+            margin-right: 3rem;
+        }
+        p{
+            margin-right: 3rem;
         }
     }
 }

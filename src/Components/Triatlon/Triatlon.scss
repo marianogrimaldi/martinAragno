@@ -48,7 +48,7 @@
 @media screen and (max-width: 992px){
     .flexCardTri{
         margin-top: 7rem;
-        margin-bottom: 12rem;
+        margin-bottom: 20rem;
         h1{
             
             font-family: 'Gruppo', cursive; 
@@ -188,7 +188,7 @@
         .pTri{
             text-align: right;
             margin-right: 2rem;
-            margin-bottom: 2rem;
+            margin-bottom: 5rem;
             p{
                 font-size: 1rem;
             }
@@ -244,3 +244,12 @@
 }
 
 
+
+.flexMedaltri{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: .5rem;
+   
+}

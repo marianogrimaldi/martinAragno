@@ -32,10 +32,10 @@ const Mountain = () => {
         <img src={imgfondo} className="logoFondo" alt="" />
         <div className="pMount">
             <h3>ESPAÑA</h3>
-            <a href="https://es.wikipedia.org/wiki/Monte_Perdido" target="blank"><p>Cerro Monte Perdido altitud 3355 msnm - Pirineos Aragonés</p></a>
-            <a href="https://es.wikipedia.org/wiki/Puig_Campana"target="blank"><p>Cerro Puig Campana altitud 1406 msnm - Alicante</p></a>
+            <a href="https://es.wikipedia.org/wiki/Monte_Perdido" target="blank"><p>Pirineos Aragonés - Cerro Monte Perdido altitud 3355 msnm</p></a>
+            <a href="https://es.wikipedia.org/wiki/Puig_Campana"target="blank"><p>Alicante - Cerro Puig Campana altitud 1406 msnm</p></a>
             <h3>CHILE</h3>
-            <a href="https://es.wikipedia.org/wiki/Volc%C3%A1n_L%C3%A1scar"target="blank"><p>Volcan Lascar altitud 5592 msnm (activo) - Atacama</p></a>
+            <a href="https://es.wikipedia.org/wiki/Volc%C3%A1n_L%C3%A1scar"target="blank"><p>Atacama - Volcan Lascar (activo) altitud 5592 msnm</p></a>
             <h3>CORDOBA - ARGENINA</h3>
             <a href="https://www.cordobaturismo.gov.ar/experiencia/cerro-el-mojon/"target="blank"><p>Cerro El Mojon x 2 altitud 1290 msnm </p></a>
             <a href="https://www.turismolafalda.gob.ar/circuitoTuristicoDetalle/CerroLaBanderita"target="blank"><p>Cerro La Banderita x 10 altitud 1450 msnm </p></a>
