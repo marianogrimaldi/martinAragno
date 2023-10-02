@@ -6,22 +6,22 @@ import logo from "../../assets/logoRojo.png"
 import imgSponsors from "../../assets/imgSponsors.jpg"
 import corteFoor from "../../assets/corteFooter.jpg"
 import sp1 from "../../assets/sponsors/1.png"
-import sp2 from "../../assets/sponsors/naka.png"
+
 import sp3 from "../../assets/sponsors/7.jpg"
 import sp4 from "../../assets/sponsors/10.png"
 import sp5 from "../../assets/sponsors/4.png"
 import sp6 from "../../assets/sponsors/11.png"
-import sp7 from "../../assets/sponsors/8.webp"
+
 import sp8 from "../../assets/sponsors/9.png"
 import sp9 from "../../assets/sponsors/7.png"
 import sp10 from "../../assets/sponsors/5.jpg"
 import sp11 from "../../assets/sponsors/226ers.png"
-import sp12 from "../../assets/sponsors/gu.png"
+
 import sp13 from "../../assets/sponsors/quality.png"
 import sp14 from "../../assets/sponsors/foot.png"
 import sp15 from "../../assets/sponsors/xterra.png"
 import sp16 from "../../assets/sponsors/modofit.png"
-import sp17 from "../../assets/sponsors/xpert.webp"
+
 import sp18 from "../../assets/sponsors/running.png"
 import sp19 from "../../assets/sponsors/indusP.png"
 import sp20 from "../../assets/sponsors/cabritos.png"
@@ -71,7 +71,6 @@ const Home = () => {
             <img src={imgSponsors} className="imgSponsors" alt="" />
             <div className="sponsorsGrid">
                 <div ></div>
-
                 <img src={sp3} alt="" />
                 <img src={sp4} className="scott" alt="" />
                 <img src={sp9} className="casj" alt="" />
@@ -81,8 +80,6 @@ const Home = () => {
                 <img src={sp15} alt="" />
                 <img src={sp11} alt="" />
                 <img src={sp10} className="cera" alt="" />
-                
-                
             </div>
             <div className="sponsorsSecundarios">
                 <img src={sp1} alt="" />
@@ -98,9 +95,6 @@ const Home = () => {
             </div>
             <div className="endHome">
                 <img src={corteFoor} className="martinImgBike" alt="" />
-
-
-
             </div>
         </div>
     )
