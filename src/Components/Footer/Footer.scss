@@ -15,13 +15,13 @@
     }
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 599px){
     .navFlexFooter{
         display: none;
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 479px){
     .navFlexFooter{
         display: none;
     }
@@ -36,7 +36,7 @@
     margin-right: 1rem;
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 599px){
     .principalFooter{
     flex-direction: column;
     }
@@ -99,7 +99,7 @@
     }
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 599px){
     .datosMartin{
     margin-top: 1rem;
         .logoMartin{
@@ -116,7 +116,7 @@
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 479px){
     .datosMartin{
     margin-top: 1rem;
         .logoMartin{
@@ -145,7 +145,7 @@
        }
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 599px){
     .marian{
         z-index: 1;
         position: absolute;
@@ -153,7 +153,7 @@
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 479px){
     .marian{
         z-index: 1;
         position: absolute;
@@ -168,7 +168,7 @@
     gap: 1rem;
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 599px){
     
     .contacto{
         margin-top: 1rem;
@@ -178,7 +178,7 @@
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 479px){
     
     .contacto{
         margin-top: 1rem;
@@ -195,14 +195,14 @@
     }
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 599px){
     
     .redes{
         margin-bottom: 5rem;
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 479px){
     
     .redes{
         margin-bottom: 5rem;

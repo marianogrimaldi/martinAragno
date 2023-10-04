@@ -29,7 +29,7 @@ li:hover {
     transform: rotateX(360deg);
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 599px){
     .navFlex{
         padding: 1rem;
         gap:.5rem;
@@ -42,7 +42,7 @@ li:hover {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 479px) {
     .navFlex{
         flex-direction: column;
         gap: 0.5rem;
@@ -69,7 +69,7 @@ li:hover {
     padding-right: .5rem;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 479px) {
    
     .active{
         background-color: transparent;
@@ -95,7 +95,7 @@ li:hover {
     display: none;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 479px){
     .nav__label{
         display: block;
         cursor: pointer;
