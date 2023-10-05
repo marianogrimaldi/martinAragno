@@ -1,7 +1,6 @@
 
 .navFlex{
     display: flex;
-  
     list-style-type: none;
     z-index: 1;
     gap:1.5rem;
@@ -33,11 +32,12 @@ li:hover {
     .navFlex{
         flex-direction: column;
         gap: 0.5rem;
+        margin-left: 1rem;
         position: absolute;
         align-items:first baseline;
         width:25rem;
         position: fixed;
-        margin-top: -2rem; 
+        margin-top: -4rem; 
         z-index: 1;
         
         li{
