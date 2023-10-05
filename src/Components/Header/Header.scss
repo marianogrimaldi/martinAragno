@@ -31,13 +31,20 @@ li:hover {
 
 @media screen and (max-width: 768px){
     .navFlex{
-        padding: 1rem;
-        gap:.5rem;
-        margin-left: 2rem;
-      
+        flex-direction: column;
+        gap: 0.5rem;
+        position: absolute;
+        align-items:first baseline;
+        width:25rem;
+        position: fixed;
+        margin-top: 3.5rem; 
+        z-index: 1;
+        
         li{
-            font-weight:normal;
-            font-size: .5rem;
+            margin-right: 3rem;
+            font-size: 1.2rem;
+            padding-left: .5rem;
+            padding-right: .5rem;
         }
     }
 }
