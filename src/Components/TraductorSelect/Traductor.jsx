@@ -1,5 +1,5 @@
 
-import React,{useEffect} from "react";
+import React,{useState} from "react";
 import { useTranslation } from 'react-i18next';
 import España from "../../assets/esp.png"
 import Inglaterra from "../../assets/ing.png"
@@ -14,17 +14,19 @@ const Traductor = () =>{
     const cambiar = (lan)=>{
         localStorage.setItem("lang",lan);
         i18n.changeLanguage(lan);
+        setLanguage (language)
     }
+    const [language, setLanguage] = useState ("es") 
     return (
         
         <div className="flags">
             
 
-            <img onClick={()=>{cambiar("es")}} src={España}  alt="" />
-            <img onClick={()=>{cambiar("en")}} src={Inglaterra}  alt="" />
-            <img onClick={()=>{cambiar("ger")}} src={Alemania}  alt="" />
-            <img onClick={()=>{cambiar("fr")}} src={Francia}  alt="" />
-            <img onClick={()=>{cambiar("port")}} src={Portugal}  alt="" />
+            <img onClick={()=>{cambiar("es")}} className={language === "es" ? "flagSelected":""} src={España}  alt="" />
+            <img onClick={()=>{cambiar("en")}} className={language === "en" ? "flagSelected":""} src={Inglaterra}  alt="" />
+            <img onClick={()=>{cambiar("ger")}} className={language === "ger" ? "flagSelected":""} src={Alemania}  alt="" />
+            <img onClick={()=>{cambiar("fr")}} className={language === "fr" ? "flagSelected":""} src={Francia}  alt="" />
+            <img onClick={()=>{cambiar("port")}} className={language === "port" ? "flagSelected":""} src={Portugal}  alt="" />
             
         </div>
         
