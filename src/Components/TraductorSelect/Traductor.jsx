@@ -14,7 +14,7 @@ const Traductor = () =>{
     const cambiar = (lan)=>{
         localStorage.setItem("lang",lan);
         i18n.changeLanguage(lan);
-        setLanguage (language)
+        setLanguage (lan)
     }
     const [language, setLanguage] = useState ("es") 
     return (
