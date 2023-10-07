@@ -20,8 +20,8 @@
     }
 
     img:hover{
-        width: 8rem;
-        height: 21rem;
+        
+        scale: 1.2;
         opacity: 1;
         filter: contrast(120%);
        
@@ -44,13 +44,12 @@
         margin-top: 2rem;
         margin-bottom: 2rem;
         img{
-            width: 2rem;
+            width: 1.8rem;
             height: 8rem;
         }
 
         img:hover{
-            width: 4rem;
-            height: 10rem;
+            scale: 1.2;
          
            
             

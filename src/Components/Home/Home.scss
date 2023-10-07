@@ -44,6 +44,14 @@
 
 }
 
+@media screen and (max-width: 479px){
+    .datos{
+        p{
+            font-size: 1rem;
+        }
+    }
+}
+
 .title {
     font-family: 'Gruppo', cursive;
     font-size: 4rem;
@@ -143,6 +151,11 @@
     }
 }
 
+@media screen and (max-width: 479px){
+    .textHistory{
+        font-size: 1rem;
+    }
+}
 
 
 .firma2 {
