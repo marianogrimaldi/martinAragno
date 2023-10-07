@@ -5,7 +5,7 @@
    
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 599px){
     .imgMont{
         margin: auto;
         top: 0;
@@ -45,7 +45,7 @@
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 599px){
     .flexCardMount{
         margin-top: 7rem;
         margin-bottom: 18rem;
@@ -79,17 +79,6 @@
     }
 }
 
-.flexLogoCard{
-    display: flex;
-    justify-content: end;
-    .logo{
-        margin-top: 14rem;
-        margin-right: 5rem;
-        width: 4rem;
-       position: absolute;
-       
-    }
-}
 
 .titleMount{
     font-family: 'Gruppo', cursive; 
@@ -117,7 +106,7 @@
 }
 
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 599px){
     .mountFlex{
         flex-direction: column;
         justify-content: center;
@@ -165,7 +154,7 @@
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 599px){
    
     .pMount{
         margin-bottom: 2rem;

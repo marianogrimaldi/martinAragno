@@ -100,8 +100,10 @@
 
 @media screen and (max-width: 479px){
     .flexLogoCard{
+        justify-content: center;
         .logo{
             top:0rem;
+           
         }
     }
 }
