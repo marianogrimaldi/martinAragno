@@ -78,41 +78,6 @@
     }
 }
 
-
-.flexLogoCard{
-    display: flex;
- 
-    .logo{
-        margin-top: 14rem;
-        margin-right: 5rem;
-        width: 4rem;
-        position: absolute;
-       
-    }
-}
-
-@media screen and (max-width: 768px){
-    .flexLogoCard{
-        .logo{
-            top:3rem;
-            margin-top: 15rem;
-            margin-right: 15rem;
-        }
-    }
-}
-
-@media screen and (max-width: 479px){
-    .flexLogoCard{
-        margin-right: 5rem;
-        .logo{
-            top:0rem;
-           
-        }
-    }
-}
-
-
-
 .titleMtb{
     font-family: 'Gruppo', cursive; 
     margin-left: 2rem;
@@ -120,6 +85,16 @@
     text-shadow: 1px 1px 1px black;
 }
 
+.flexLogoCardMtb{
+    display: flex;
+    justify-content: end;
+    .logo{
+        margin-right: 5rem;
+        width: 4rem;
+        position: absolute;
+        margin-top: -37.5rem;
+    }
+}
 
 .mtbFlex{
     display: flex;

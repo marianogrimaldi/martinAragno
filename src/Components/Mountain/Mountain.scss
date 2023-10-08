@@ -79,6 +79,17 @@
     }
 }
 
+.flexLogoCardMount{
+    display: flex;
+    justify-content: end;
+    .logo{
+        margin-right: 5rem;
+        width: 4rem;
+        position: absolute;
+        margin-top: -32rem;
+    }
+}
+
 
 .titleMount{
     font-family: 'Gruppo', cursive; 

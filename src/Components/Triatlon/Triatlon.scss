@@ -79,19 +79,19 @@
       
     }
 }
-.flexLogoCardtri{
+.flexLogoCardTri{
     display: flex;
     justify-content: end;
     .logo{
         margin-right: 5rem;
         width: 4rem;
         position: absolute;
-        top:8rem;
+        margin-top: -35rem;
     }
 }
 
 @media screen and (max-width: 768px){
-    .flexLogoCardtri{
+    .flexLogoCardTri{
         
         .logo{
             margin-right: 10rem;
@@ -101,11 +101,11 @@
 }
 
 @media screen and (max-width: 479px){
-    .flexLogoCardtri{
-        justify-content: center;
+    .flexLogoCardTri{
+        
         .logo{
-            top:0rem;
-           
+            margin-top: 5rem;
+            margin-right: 5rem;
         }
     }
 }

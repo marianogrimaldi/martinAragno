@@ -20,7 +20,7 @@ const Mountain = () => {
             <h2 >MARTÍN ARAGNO</h2>
             <p >multisport racing</p>
         </div>
-        <div className="flexLogoCard">
+        <div className="flexLogoCardMount">
             <img src={logo} className="logo" alt="" />
         </div>
       
