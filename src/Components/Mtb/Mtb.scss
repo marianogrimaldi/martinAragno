@@ -46,7 +46,7 @@
 
 @media screen and (max-width: 768px){
     .flexCardMtb{
-    margin-top: 7rem;
+    margin-top: 5rem;
     margin-bottom: 22rem;
     
     h1{
@@ -86,8 +86,18 @@
         margin-top: 14rem;
         margin-right: 5rem;
         width: 4rem;
-       position: absolute;
+        position: absolute;
        
+    }
+}
+
+@media screen and (max-width: 768px){
+    .flexLogoCard{
+        .logo{
+            top:3rem;
+            margin-top: 15rem;
+        margin-right: 15rem;
+        }
     }
 }
 
