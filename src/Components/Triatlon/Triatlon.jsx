@@ -23,7 +23,7 @@ const Triatlon = () => {
                         <h2>MARTÍN ARAGNO</h2>
                         <p >multisport racing</p>
                     </div>
-                    <div className="flexLogoCard">
+                    <div className="flexLogoCardtri">
                         <img src={logo} className="logo" alt="" />
                     </div>
                 

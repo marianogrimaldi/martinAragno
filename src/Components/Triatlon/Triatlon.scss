@@ -79,9 +79,9 @@
       
     }
 }
-.flexLogoCard{
+.flexLogoCardtri{
     display: flex;
-    
+    justify-content: end;
     .logo{
         margin-right: 5rem;
         width: 4rem;
@@ -91,17 +91,17 @@
 }
 
 @media screen and (max-width: 768px){
-    .flexLogoCard{
+    .flexLogoCardtri{
         
         .logo{
-            top:3rem;
-            margin-right: 15rem;
+            margin-right: 10rem;
+            margin-top: 10rem;
         }
     }
 }
 
 @media screen and (max-width: 479px){
-    .flexLogoCard{
+    .flexLogoCardtri{
         justify-content: center;
         .logo{
             top:0rem;
