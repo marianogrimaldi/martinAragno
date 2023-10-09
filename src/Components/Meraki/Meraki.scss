@@ -1,36 +1,41 @@
-.merakiTitle{
+.merakiTitle {
     text-align: center;
     font-size: 6rem;
-    font-family: 'Gruppo', cursive; 
+    font-family: 'Gruppo', cursive;
     margin-top: 5rem;
-      
+}
+
+@media screen and (max-width: 479px) {
+    .merakiTitle {
+        margin-bottom: 4rem;
+    }
 }
 
 
-.subt{
+.subt {
     text-align: center;
     font-size: 3rem;
-    font-family: 'Gruppo', cursive; 
+    font-family: 'Gruppo', cursive;
     margin-bottom: 20rem;
 
 }
 
-.merakiImg{
+.merakiImg {
     position: absolute;
-   max-width: 100%;
-       opacity: .1;
-       left: 0;
-       right: 0;
-       margin: auto;
-       transition: 8s;
+    max-width: 100%;
+    opacity: .1;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transition: 8s;
 }
 
-.merakiImg:hover{
+.merakiImg:hover {
     opacity: 1;
 }
 
-@media screen and (max-width: 479px){
-    .subt{
-        margin-bottom: 2rem;
+@media screen and (max-width: 479px) {
+    .subt {
+        margin-bottom: 5rem;
     }
 }
