@@ -96,13 +96,12 @@
     }
 }
 
-@media screen and (max-width: 479px){
+@media screen and (max-width: 768px){
     .flexLogoCardMtb{
         
         .logo{
-            margin-top: -8rem;
-            margin-right: 10rem;
-        }
+            display: none;
+         }
     }
 }
 

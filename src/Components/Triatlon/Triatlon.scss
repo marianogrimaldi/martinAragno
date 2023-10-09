@@ -62,12 +62,11 @@
     .flexCardTri{
         margin-right: 0rem;
         margin-top: 1rem;
-        margin-bottom: 7rem;
+        margin-bottom: 9rem;
         h1{
             font-size: 2.5rem;
             margin: auto;
             margin-top:2rem ;
-            
         }
         h2{
             margin-top: 1rem;
@@ -76,7 +75,6 @@
         p{
             margin-right: 3rem;
         }
-      
     }
 }
 .flexLogoCardTri{
@@ -94,8 +92,7 @@
     .flexLogoCardTri{
         
         .logo{
-            margin-right: 10rem;
-            margin-top: 10rem;
+           display: none;
         }
     }
 }
@@ -104,8 +101,8 @@
     .flexLogoCardTri{
         
         .logo{
-            margin-top: -6rem;
-           right: -5rem;
+            top: 0rem;
+            right: -5rem;
         }
     }
 }

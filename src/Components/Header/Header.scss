@@ -125,5 +125,19 @@ li:hover {
     }
 }
 
+.logoCont{
+    display: flex;
+    justify-content: end;
+}
 
+.logoHeader{
+    width: 2.5rem;
+    margin-right: .5rem;
+    margin-top: .5rem;
+}
 
+@media screen and (min-width: 768px){
+    .logoHeader{
+        display: none;
+    }
+}

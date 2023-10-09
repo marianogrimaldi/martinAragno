@@ -17,13 +17,14 @@ const Triatlon = () => {
     return(
         <div className="animation">
                 <Menu/>
+                    
                 <img src={imgTri} className="imgTri" alt="" />
                     <div className="flexCardTri">
                         <h1>TRIATHLON</h1>
                         <h2>MARTÍN ARAGNO</h2>
                         <p >multisport racing</p>
                     </div>
-                    <div className="flexLogoCardTri">
+                   <div className="flexLogoCardTri">
                         <img src={logo} className="logo" alt="" />
                     </div>
                 

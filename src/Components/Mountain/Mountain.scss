@@ -90,13 +90,11 @@
     }
 }
 
-@media screen and (max-width: 479px){
+@media screen and (max-width: 768px){
     .flexLogoCardMount{
-        
         .logo{
-            margin-top: -7rem;
-            margin-right: 10rem;
-        }
+            display: none;
+         }
     }
 }
 

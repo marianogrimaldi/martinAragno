@@ -1,7 +1,7 @@
 import Triatlon from "../Triatlon/Triatlon"
 import "./Header.scss"
 import { NavLink } from "react-router-dom"
-
+import logo from "../../assets/logoRojo.png"
 import Traductor from "../TraductorSelect/Traductor"
 import { useTranslation } from "react-i18next"
 
@@ -25,6 +25,10 @@ const Header = () => {
                     <a href="#footer"><li>{t("Header.contacto")}</li></a>
                 </div>
             <Traductor />
+            <div className="logoCont">
+                <img src={logo} className="logoHeader" alt="" />    
+            </div>
+            
         </div>
 
     )
