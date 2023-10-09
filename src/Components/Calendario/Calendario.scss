@@ -96,6 +96,16 @@
     }
 }
 
+@media screen and (max-width: 479px){
+    .flexLogoCardCal{
+        
+        .logo{
+            margin-top: -5rem;
+            margin-right: 10rem;
+        }
+    }
+}
+
 .titleCal{
     font-family: 'Gruppo', cursive; 
     margin-left: 2rem;

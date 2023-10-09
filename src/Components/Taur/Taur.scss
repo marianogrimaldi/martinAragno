@@ -93,6 +93,15 @@
     }
 }
 
+@media screen and (max-width: 479px){
+    .flexLogoCardTaur{
+        
+        .logo{
+            margin-top: -4rem;
+            margin-right: 10rem;
+        }
+    }
+}
 
 .titleUltra{
     font-family: 'Gruppo', cursive; 

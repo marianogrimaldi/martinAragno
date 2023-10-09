@@ -96,6 +96,16 @@
     }
 }
 
+@media screen and (max-width: 479px){
+    .flexLogoCardMtb{
+        
+        .logo{
+            margin-top: -8rem;
+            margin-right: 10rem;
+        }
+    }
+}
+
 .mtbFlex{
     display: flex;
     justify-content: space-between;
