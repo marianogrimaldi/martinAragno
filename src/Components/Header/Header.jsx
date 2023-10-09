@@ -26,7 +26,7 @@ const Header = () => {
                 </div>
             <Traductor />
             <div className="logoCont">
-                <img src={logo} className="logoHeader" alt="" />    
+            <img src={logo} className="logoHeader" alt="" />
             </div>
             
         </div>

@@ -134,6 +134,8 @@ li:hover {
     width: 2.5rem;
     margin-right: .5rem;
     margin-top: .5rem;
+    position: fixed;
+    z-index: 1;
 }
 
 @media screen and (min-width: 768px){
