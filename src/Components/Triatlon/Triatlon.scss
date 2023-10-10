@@ -47,8 +47,9 @@
 
 @media screen and (max-width: 768px){
     .flexCardTri{
-        margin-top: 4rem;
+        margin-top: 3rem;
         margin-bottom: 12rem;
+        margin-right: 2rem;
         h1{
             
             font-family: 'Gruppo', cursive; 
@@ -235,7 +236,10 @@
 
 }
 
-
+.flexMedalFlag{
+    display: flex;
+    gap: 1rem
+}
 
 .flexMedaltri{
     display: flex;
@@ -251,3 +255,8 @@
         flex-direction: column-reverse;
     }
 }
+
+.flafWidth{
+    width: 2rem;
+}
+

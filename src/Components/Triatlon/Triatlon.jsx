@@ -1,6 +1,7 @@
 import "./Triatlon.scss"
 import imgTri from "../../assets/tri.jpg"
 import logo from "../../assets/logoRojo.png"
+import flagArg from "../../assets/flagArg.png"
 import medallaOro from "../../assets/medalla1.png"
 import medallaPlata from "../../assets/medalla2.png"
 import ImgViewTri from "../ImgView/ImgViewTri"
@@ -55,8 +56,12 @@ const Triatlon = () => {
                 </div>
                 <p>52° IM Texas - Circuito Mundial WTC (Usa)</p>
                 <div className="flexMedaltri">
-                    <img src={medallaOro} className="medalla" alt="" />
+                    <div className="flexMedalFlag">
+                        <img src={medallaOro} className="medalla" alt="" /> 
+                        <img src={flagArg} className="flafWidth" alt="" />
+                    </div>
                     <p>1° Half IM - Tafi del Valle (Tucumán, Argentina)</p>
+                   
                 </div>
                 <h3>2011</h3>
                 <p>57° IM Cozumel - Circuito Mundial WTC (Mexico)</p>
