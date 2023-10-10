@@ -44,6 +44,7 @@ const Home = () => {
             <h3 className="subTitle">multisport racing</h3>
             <div className="flexHome">
                 <img src={imgHome} className="imgPrincipal" alt="" />
+                
                 <div className="datos">
                     <h1 className="frase">{t("Home.frase")}</h1>
                     <h2 className="firma">Martín Aragno</h2>
