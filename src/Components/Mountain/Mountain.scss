@@ -167,9 +167,9 @@
         font-family: 'Gruppo', cursive; 
         margin-top: 1rem;
         text-align: right;
-        color: rgb(223, 22, 22);
+        color: rgb(255, 255, 255);
         font-size: 2rem;
-        text-shadow: 1px 1px 1px black;
+        text-shadow: 1px 1px 1px rgb(255, 255, 255);
     }
 }
 
@@ -223,4 +223,23 @@ a{
     }
 
     
+}
+
+.flexFlagMount{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    align-content: center;
+    gap: 1rem;
+}
+
+@media screen and (max-width: 479px){
+    .flexFlagMount{
+        justify-content: center;
+    }
+}
+
+.flagMount{
+    margin-top: 1rem;
+    width: 2rem;
 }
