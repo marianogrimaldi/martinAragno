@@ -4,6 +4,8 @@ import logo from "../../assets/logoRojo.png"
 import flagArg from "../../assets/flagArg.png"
 import ImgViewMtb from "../ImgView/ImgViewMtb"
 import imgFondo from "../../assets/4.jpg"
+import medallaPlata from "../../assets/medalla2.png"
+
 import { useTranslation } from "react-i18next"
 import Menu from "../Header/Menu"
 
@@ -29,6 +31,13 @@ const Mtb = () => {
                 </div>
                 <img src={imgFondo} className="logoFondo" alt="" />
                 <div className="pMtb"> 
+                    <h3>2023</h3>
+                        <div className="flexMedalMtb">
+                            <div className="flexMedalFlag">
+                                <img src={flagArg} className="flafWidth" alt="" />
+                            </div>
+                        <p>16° Campeonato Nacional (La Falda - Córdoba, Argentina)</p>
+                    </div>
                     <h3>2022</h3>
                         <div className="flexMedalMtb">
                             <div className="flexMedalFlag">
@@ -54,6 +63,7 @@ const Mtb = () => {
                     <h3>2019</h3>
                     <div className="flexMedalMtb">
                             <div className="flexMedalFlag">
+                                <img src={medallaPlata} className="medalla" alt="" />
                                 <img src={flagArg} className="flafWidth" alt="" />
                             </div>
                     <p>2° Desafio Ushuaia Extremo 2 etapas (Ushuaia, Argentina)</p>

@@ -15,8 +15,8 @@ import sp6 from "../../assets/sponsors/11.png"
 import sp8 from "../../assets/sponsors/9.png"
 import sp9 from "../../assets/sponsors/7.png"
 import sp10 from "../../assets/sponsors/5.jpg"
-import sp11 from "../../assets/sponsors/226ers.png"
-
+import sp11 from "../../assets/sponsors/zipp.png"
+import sp12 from "../../assets/sponsors/rock.png"
 import sp13 from "../../assets/sponsors/quality.png"
 import sp14 from "../../assets/sponsors/foot.png"
 import sp15 from "../../assets/sponsors/xterra.png"
@@ -80,7 +80,9 @@ const Home = () => {
                 <img src={sp6} alt="" />
                 <img src={sp15} alt="" />
                 <img src={sp11} alt="" />
-                <img src={sp10} className="cera" alt="" />
+                <img src={sp12} alt="" />
+              
+               
             </div>
             <div className="sponsorsSecundarios">
                 <img src={sp1} alt="" />

@@ -20,7 +20,7 @@ const Menu = () => {
                     <NavLink to="/" ><li >HOME</li></NavLink>
                     <NavLink to="/triatlon" ><li>TRIATHLON</li></NavLink>
                     <NavLink to="/mtb" ><li>MOUNTAIN BIKE</li></NavLink>
-                    <NavLink to="/taur" ><li>TRIAL & RUNNING</li></NavLink>
+                    <NavLink to="/taur" ><li>TRAiL & RUNNING</li></NavLink>
                     <NavLink to="/mountain" ><li>MOUNTAIN SUMMIT</li></NavLink>
                     <NavLink to="/calendario" ><li>{t("Header.calendario")}</li></NavLink>
                     <NavLink to="/sponsors" ><li>SPONSORS</li></NavLink>

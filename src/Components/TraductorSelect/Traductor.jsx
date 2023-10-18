@@ -21,7 +21,6 @@ const Traductor = () =>{
         
         <div className="flags">
             
-
             <img onClick={()=>{cambiar("es")}} className={language === "es" ? "flagSelected":""} src={España}  alt="" />
             <img onClick={()=>{cambiar("en")}} className={language === "en" ? "flagSelected":""} src={Inglaterra}  alt="" />
             <img onClick={()=>{cambiar("ger")}} className={language === "ger" ? "flagSelected":""} src={Alemania}  alt="" />

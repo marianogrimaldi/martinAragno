@@ -2,7 +2,7 @@
     width: 25rem;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 992px){
     .imgPrincipal{
         width: 15rem;
     }
@@ -17,7 +17,7 @@
     
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 992px){
     .frase{
       width: 50rem;
     }
@@ -121,7 +121,7 @@
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
     .imgHistory {
         opacity: .3;
     }
@@ -145,7 +145,7 @@
     margin-right: 25rem;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
     .textHistory {
         font-size: 1.2rem;
         margin: 0;
@@ -173,7 +173,7 @@
     position: relative;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
     .firma2 {
         color: white;
         font-weight: bolder;
@@ -237,7 +237,7 @@
     position: relative;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
     .sponsorsGrid {
 
         margin-top: 2rem;
@@ -320,8 +320,9 @@
     position: relative;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
     .sponsorsSecundarios {
+        margin-top: 8rem;
         img {
             width: 6rem;
         }
@@ -360,7 +361,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
     .endHome {
         flex-direction: column;
         margin-right: 0;
@@ -392,7 +393,7 @@
     width: 15rem;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
     .logoFinal {
         display: none;
     }
@@ -413,7 +414,7 @@
     background-image: linear-gradient(rgb(0, 0, 0), red, rgb(0, 0, 0));
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
     .hashtag {
         display: none;
     }

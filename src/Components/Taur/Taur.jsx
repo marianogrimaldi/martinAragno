@@ -19,7 +19,7 @@ const Taur = () => {
         <img src={imgTaur} className="imgTaur" alt="" />
            
                 <div className="flexCardTriTaur">
-                    <h1>TRIAL & RUNNING</h1>
+                    <h1>TRAIL & RUNNING</h1>
                     <h2>MARTÍN ARAGNO</h2>
                     <p >multisport racing</p> 
                 </div>
@@ -34,6 +34,13 @@ const Taur = () => {
                 <img src={imgJump} className="imgJump" alt="" />
                 <div className="ptrial">
                     <h3>2023</h3>
+                    <div className="flexMedal">
+                        <div className="flexMedalFlag">
+                             
+                            <img src={flagArg} className="flafWidth" alt="" /> 
+                        </div>  
+                        <p>5° Salomon Trail Race (Paraguay)</p>   
+                    </div>
                     <div className="flexMedal">
                         <div className="flexMedalFlag">
                             <img src={flagArg} className="flafWidth" alt="" />  
