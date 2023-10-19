@@ -30,6 +30,7 @@ const SponPage = () => {
     return (
         <div className="animation">
             <Menu />
+            <div className="bgc"> 
             <h1 className="sponsTittle">{t("Sponsors.titulo")}</h1>
             <div className="imgNat">
                 <div className="flexSponPage">
@@ -59,6 +60,7 @@ const SponPage = () => {
                 <img src={sp19} alt="" />
                 <img src={sp16} alt="" />
                 <img src={sp20} alt="" />
+            </div>
             </div>
         </div>
     )

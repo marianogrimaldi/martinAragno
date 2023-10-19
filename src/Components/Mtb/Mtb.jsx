@@ -36,7 +36,7 @@ const Mtb = () => {
                             <div className="flexMedalFlag">
                                 <img src={flagArg} className="flafWidth" alt="" />
                             </div>
-                        <p>16° Campeonato Nacional (La Falda - Córdoba, Argentina)</p>
+                        <p>16° XCM 120KM Campeonato Nacional (La Falda - Córdoba, Argentina)</p>
                     </div>
                     <h3>2022</h3>
                         <div className="flexMedalMtb">

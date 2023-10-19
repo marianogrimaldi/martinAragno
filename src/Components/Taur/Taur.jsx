@@ -2,6 +2,7 @@ import "./Taur.scss"
 import imgTaur from "../../assets/trail.jpg"
 import logo from "../../assets/logoRojo.png"
 import flagArg from "../../assets/flagArg.png"
+import flagPar from "../../assets/flagPar.webp"
 import ImgViewTrail from "../ImgView/ImgViewTrail";
 import imgJump from "../../assets/imgJump.jpg"
 import { useTranslation } from "react-i18next"
@@ -35,141 +36,159 @@ const Taur = () => {
                 <div className="ptrial">
                     <h3>2023</h3>
                     <div className="flexMedal">
+                        <p>5° Kings Trail Club Series Salomon (Paraguay)</p>
                         <div className="flexMedalFlag">
-                             
-                            <img src={flagArg} className="flafWidth" alt="" /> 
-                        </div>  
-                        <p>5° Salomon Trail Race (Paraguay)</p>   
+                            <img src={flagPar} className="flafWidth" alt="" /> 
+                        </div>     
                     </div>
                     <div className="flexMedal">
+                        <p>3° Trail Running Trip 12km (Valle Fertil - San Juan, Argentina)</p>  
                         <div className="flexMedalFlag">
                             <img src={flagArg} className="flafWidth" alt="" />  
                             <img src={medallaBronce} className="medalla" alt="" />
                         </div>  
-                        <p>3° Trail Running Trip 12km (Valle Fertil - San Juan, Argentina)</p>   
+                         
                     </div>
-                    <div className="flexMedal">
+                    <div className="flexMedal"> 
+                    <p>3° Valholl by UTMB 21km (Villa General Belgrano - Córdoba, Argentina)</p>  
                         <div className="flexMedalFlag">
                             <img src={flagArg} className="flafWidth" alt="" /> 
                             <img src={medallaBronce} className="medalla" alt="" />
                         </div>
-                        <p>3° Valholl by UTMB 21km (Villa General Belgrano - Córdoba, Argentina)</p>  
+                       
                     </div>
                     <p className="pb">P. B. T 2hs56'</p>
                     <div className="flexMedal">
+                        <p>1° Chivas Trail 26km  (Las Leñas - Mendoza, Argentina)</p>
                         <div className="flexMedalFlag">
                             <img src={flagArg} className="flafWidth" alt="" /> 
                             <img src={medallaOro} className="medalla" alt="" />
                         </div>
-                        <p>1° Chivas Trail 26km  (Las Leñas - Mendoza, Argentina)</p> 
+                         
                     </div>
                     <p  className="pb">P. B. T 4hs59'</p>
                     <h3>2022</h3>
-                    <div className="flexMedal">
+                    <div className="flexMedal"> 
+                     <p>8° Mountain do 21km NIEVE (Ushuaia - Tierra del Fuego, Argentina)</p>
                         <div className="flexMedalFlag">
                             <img src={flagArg} className="flafWidth" alt="" />
                         </div> 
-                        <p>8° Mountain do 21km NIEVE (Ushuaia - Tierra del Fuego, Argentina)</p>
+                      
                     </div>
                     <h3>2021</h3>
-                    <div className="flexMedal">
+                    <div className="flexMedal"> 
+                    <p>51° Cruce Columbia 100km (3 Etapas) (Villa la Angostura - Neuquen, Argentina) </p>
                         <div className="flexMedalFlag">
                             <img src={flagArg} className="flafWidth" alt="" />
                         </div> 
-                    <p>51° Cruce Columbia 100km (3 Etapas) (Villa la Angostura - Neuquen, Argentina) </p>
+                   
                     </div>
                     <p className="pb">P. B. T 11hs 51':19"</p>
                     <h3>2014</h3>
-                    <div className="flexMedal">
+                    <div className="flexMedal"> 
+                    <p>13° X-Trail Columbia 25km (Huerta Grande - Cordoba, Argentina)</p>
                         <div className="flexMedalFlag">
                             <img src={flagArg} className="flafWidth" alt="" />
                         </div> 
-                    <p>13° X-Trail Columbia 25km (Huerta Grande - Cordoba, Argentina)</p>
+                   
                     </div>
                     <h3>2008</h3>
                     <div className="flexMedal">
+                        <p>11° Cross Campo Desafio Sport 78 16km (Rosario - Santa Fe, Argentina) </p>
                         <div className="flexMedalFlag">
                             <img src={flagArg} className="flafWidth" alt="" />
                         </div> 
-                    <p>11° Cross Campo Desafio Sport 78 16km (Rosario - Santa Fe, Argentina) </p>
+                    
                     </div>
-                    <div className="flexMedal">
-                        <div className="flexMedalFlag">
-                            <img src={flagArg} className="flafWidth" alt="" />
-                        </div> 
+                    <div className="flexMedal"> 
                     <p>81° Carrera de calle 10km Adidas (Rosario - Santa Fe, Argentina)</p>
-                    </div>
-                    <div className="flexMedal">
                         <div className="flexMedalFlag">
                             <img src={flagArg} className="flafWidth" alt="" />
                         </div> 
-                    <p>41° Carrera de calle 10km (Bs As, Argentina)</p>
+                   
+                    </div>
+                    <div className="flexMedal">
+                        <p>41° Carrera de calle 10km (Bs As, Argentina)</p>
+                        <div className="flexMedalFlag">
+                            <img src={flagArg} className="flafWidth" alt="" />
+                        </div> 
+                    
                     </div>
                     <h3>2007</h3>
                     <div className="flexMedal">
+                        <p>155° Carrera de calle 10km Reebok (Bs As, Argentina)</p>
                         <div className="flexMedalFlag">
                             <img src={flagArg} className="flafWidth" alt="" />
                         </div> 
-                    <p>155° Carrera de calle 10km Reebok (Bs As, Argentina)</p>
+                    
                     </div>
                     <div className="flexMedal">
+                        <p>11° Carrera Montaña 15km (La Cumbre - Córdoba, Argentina)</p>
                         <div className="flexMedalFlag">
                             <img src={flagArg} className="flafWidth" alt="" />
                         </div> 
-                    <p>11° Carrera Montaña 15km (La Cumbre - Córdoba, Argentina)</p>
+                    
                     </div>
                     <div className="flexMedal">
+                        <p>5° Carrera Cross Traill 10km (Villa Carlos Paz - Córdoba, Argentina)</p>
                         <div className="flexMedalFlag">
                             <img src={flagArg} className="flafWidth" alt="" />
                         </div> 
-                    <p>5° Carrera Cross Traill 10km (Villa Carlos Paz - Córdoba, Argentina)</p>
+                    
                     </div>
                     <h3>2006</h3>
                     <div className="flexMedal">
+                        <p>31° Cross Campo 16km Club La Dolfina (Rosario - Santa Fe, Argentina)</p>
                         <div className="flexMedalFlag">
                             <img src={flagArg} className="flafWidth" alt="" />
                         </div> 
-                    <p>31° Cross Campo 16km Club La Dolfina (Rosario - Santa Fe, Argentina)</p>
+                    
                     </div>
                     <div className="flexMedal">
+                        <p>53° Half Marathon 21km (Rosario - Santa Fe, Argentina)</p>
                         <div className="flexMedalFlag">
                             <img src={flagArg} className="flafWidth" alt="" />
                         </div> 
-                    <p>53° Half Marathon 21km (Rosario - Santa Fe, Argentina)</p>
+                    
                     </div>
                     <h3>2005</h3>
-                    <div className="flexMedal">
+                    <div className="flexMedal"> 
+                    <p>Finisher Marathon 42km Internacional (Bs As, Argentina)</p>
                         <div className="flexMedalFlag">
                             <img src={flagArg} className="flafWidth" alt="" />
                         </div> 
-                    <p>Finisher Marathon 42km Internacional (Bs As, Argentina)</p>
+                   
                     </div>
                     <div className="flexMedal">
+                        <p>145° Half Marathon 21km Internacional (Bs As, Argentina)</p>
                         <div className="flexMedalFlag">
                             <img src={flagArg} className="flafWidth" alt="" />
                         </div> 
-                    <p>145° Half Marathon 21km Internacional (Bs As, Argentina)</p>
+                    
                     </div>
                     <h3>2004</h3>
                     <div className="flexMedal">
+                        <p>74° Half Marathon 21 km Internacional (Bs As, Argentina)</p>
                         <div className="flexMedalFlag">
                             <img src={flagArg} className="flafWidth" alt="" />
                         </div> 
-                    <p>74° Half Marathon 21 km Internacional (Bs As, Argentina)</p>
+                    
                     </div>
                     <p>T 1h29:27</p>
                     <div className="flexMedal">
+                        <p>51° Marathon 42km Dia de la Bandera (Rosario - Santa Fe, Argentina)</p>
                         <div className="flexMedalFlag">
                             <img src={flagArg} className="flafWidth" alt="" />
                         </div> 
-                    <p>51° Marathon 42km Dia de la Bandera (Rosario - Santa Fe, Argentina)</p>
+                    
                     </div>
                     <h3>2003</h3>
                     <div className="flexMedal">
+                        <p>Finisher Half Marathon 21km Campeonato Iberoamericano (Bs As, Argentina) T 1h24:18</p>
                         <div className="flexMedalFlag">
                             <img src={flagArg} className="flafWidth" alt="" />
                         </div> 
-                    <p>Finisher Half Marathon 21km Campeonato Iberoamericano (Bs As, Argentina) T 1h24:18</p>
+                    
                     </div>
                     <p className="pb">P. B. T 1h24':18"</p>
                 </div>

@@ -235,6 +235,7 @@
 
 .flexMedal{
     display: flex;
+    
     align-items: center;
     gap: 1rem;
     margin-bottom: .5rem;
@@ -242,7 +243,7 @@
 
 @media screen and (max-width: 479px){
     .flexMedal{
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 }
 .medalla{
