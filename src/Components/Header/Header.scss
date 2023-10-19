@@ -129,17 +129,29 @@ li:hover {
     }
 }
 
+@media screen and (max-width: 479px){
+    .nav__img{
+        width: 1.5rem;
+    }
+}
+
 .logoCont{
     display: flex;
     justify-content: end;
 }
 
 .logoHeader{
-    width: 2.5rem;
+    width: 3.5rem;
     margin-right: .5rem;
     margin-top: .5rem;
     position: fixed;
     z-index: 1;
+}
+
+@media screen and (max-width: 479px){
+    .logoHeader{
+        width: 2.5rem;
+    }
 }
 
 @media screen and (min-width: 992px){
@@ -147,3 +159,5 @@ li:hover {
         display: none;
     }
 }
+
+
