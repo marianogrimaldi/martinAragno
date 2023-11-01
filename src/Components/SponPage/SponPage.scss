@@ -43,26 +43,37 @@
         filter: drop-shadow(1px 1px 1px rgb(255, 255, 255));
     }
 }
-
+@media screen and (max-width: 479px){
+    .flexSponPage{
+        margin-top: 20rem;
+        margin-bottom: 1rem;
+        justify-items: space-evenly;
+        img{
+            width: 6rem;
+            margin-bottom: 1rem;
+        }
+    }
+}
 .sponSecGrid{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(2, 1fr);
     justify-items: center;
     margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 0rem;
     img{
         width: 8rem;
         filter: drop-shadow(1px 1px 1px rgb(255, 255, 255));
     }
 }
 
+
+
 @media screen and (max-width: 479px){
   
     .imgMartin{
         width: 10rem;
         height: 18rem;
-       
         position: absolute;
         margin-top: 1rem;
     }
@@ -70,14 +81,7 @@
     .imgNat{
         justify-content:none;
     }
-    .flexSponPage{
-        margin-top: 24rem;
-        margin-bottom: 2rem;
-        justify-items: space-evenly;
-        img{
-            width: 8rem;
-        }
-    }
+
 
     .sponSecGrid{
         img{
