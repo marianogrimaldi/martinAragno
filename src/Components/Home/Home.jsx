@@ -11,10 +11,10 @@ import sp3 from "../../assets/sponsors/7.jpg"
 import sp4 from "../../assets/sponsors/10.png"
 import sp5 from "../../assets/sponsors/4.png"
 import sp6 from "../../assets/sponsors/11.png"
-
+import sp7 from "../../assets/sponsors/2cumbres.png"
 import sp8 from "../../assets/sponsors/9.png"
 import sp9 from "../../assets/sponsors/7.png"
-import sp10 from "../../assets/sponsors/5.jpg"
+import sp10 from "../../assets/sponsors/quarq.png"
 import sp11 from "../../assets/sponsors/zipp.png"
 import sp12 from "../../assets/sponsors/rock.png"
 import sp13 from "../../assets/sponsors/quality.png"
@@ -49,7 +49,7 @@ const Home = () => {
                     <h1 className="frase">{t("Home.frase")}</h1>
                     <h2 className="firma">Martín Aragno</h2>
                     <p>{t("Home.datos1")} 12 - 06 - 1972 || San Jorge</p>
-                    <p>{t("Home.datos2")} San jorge || Villa Giardino </p>
+                    <p>{t("Home.datos2")} San Jorge || Villa Giardino </p>
                     <p>{t("Home.datos3")} Multisport</p>
                     <p>{t("Home.datos4")} Ezk Team</p>
                     <p>{t("Home.datos5")} Ezequiel Morales</p>
@@ -73,15 +73,18 @@ const Home = () => {
             <div className="sponsorsGrid">
                 <div ></div>
                 <img src={sp3} alt="" />
-                <img src={sp4} className="scott" alt="" />
-                <img src={sp9} className="casj" alt="" />
-                <img src={sp5} alt="" />
-                <div></div>
-                <img src={sp6} alt="" />
-                <img src={sp15} alt="" />
-                <img src={sp11} alt="" />
+                <img src={sp7} alt="" />
+                
                 <img src={sp12} alt="" />
-              
+                <img src={sp9} className="casj" alt="" />
+                <div></div>
+               
+                <img src={sp15} alt="" />
+               
+                <img src={sp11} alt="" />
+            
+                <img src={sp6} alt="" />
+                <img src={sp10} alt="" />
                
             </div>
             <div className="sponsorsSecundarios">

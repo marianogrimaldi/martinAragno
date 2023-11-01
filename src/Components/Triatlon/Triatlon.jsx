@@ -108,8 +108,10 @@ const Triatlon = () => {
                 <p>Finisher IM Mallorca - Circuito Mundial WTC (España)</p>
                 </div>
                 <div className="flexMedaltri">
-                    <img src={medallaPlata} className="medalla" alt="" />
-                    <img src={flagChi} className="flafWidth" alt="" />
+                    <div className="flexMedalFlag">
+                        <img src={medallaPlata} className="medalla" alt="" />
+                        <img src={flagChi} className="flafWidth" alt="" />
+                    </div>
                     <p>2° Half IM - Antofagasta 70.3 (Chile)</p>
                 </div>
                 <div className="flexMedaltri">
@@ -280,8 +282,10 @@ const Triatlon = () => {
                 <p>20° Half IM Chajari - Campeonato Argentino (Entre Ríos, Argentina)</p>
                 </div>
                 <div className="flexMedaltri">
-                    <img src={medallaPlata} className="medalla" alt="" />
-                    <img src={flagArg} className="flafWidth" alt="" />
+                    <div className="flexMedalFlag">
+                        <img src={medallaPlata} className="medalla" alt="" />
+                        <img src={flagArg} className="flafWidth" alt="" />
+                    </div>
                     <p>2° Half IM - Conquistadores del Sur (Concepicón - Tucuman, Argentina) </p>
                 </div>
                 <h3>2004</h3>
