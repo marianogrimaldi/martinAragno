@@ -1,96 +1,109 @@
-.sponsTittle{
+.sponsTittle {
     text-align: center;
     font-size: 5rem;
     margin-top: 6rem;
-    font-family: 'Gruppo', cursive; 
+    font-family: 'Gruppo', cursive;
     text-shadow: 1px 1px 1px rgb(0, 0, 0);
     transition: 0.8s;
 }
 
-@media screen and (max-width: 992px){
-    .sponsTittle{
+@media screen and (max-width: 992px) {
+    .sponsTittle {
         margin-top: 3.5rem;
         font-size: 4rem;
     }
 }
 
-@media screen and (max-width: 479px){
-    .sponsTittle{
+@media screen and (max-width: 479px) {
+    .sponsTittle {
         font-size: 2.5rem;
         margin-top: 2.5rem;
-        
-       
+
+
     }
 }
-.sponsTittle:hover{
+
+.sponsTittle:hover {
     background-color: rgb(223, 22, 22);
 }
 
-.imgNat{
+.imgNat {
     display: flex;
     justify-content: center;
     margin-top: 2rem;
     justify-content: space-evenly;
 }
 
-.flexSponPage{
+.flexSponPage {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    img{
+
+    img {
         width: 10rem;
         filter: drop-shadow(1px 1px 1px rgb(255, 255, 255));
     }
 }
-@media screen and (max-width: 479px){
-    .flexSponPage{
+
+@media screen and (max-width: 479px) {
+    .flexSponPage {
         margin-top: 20rem;
         margin-bottom: 1rem;
         justify-items: space-evenly;
-        img{
+
+        img {
             width: 6rem;
             margin-bottom: 1rem;
         }
     }
 }
-.sponSecGrid{
+
+.sponSecGrid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(2, 1fr);
     justify-items: center;
     margin-top: 2rem;
     margin-bottom: 0rem;
-    img{
+
+    img {
+        margin-top: 1rem;
         width: 8rem;
         filter: drop-shadow(1px 1px 1px rgb(255, 255, 255));
     }
+
+    .fit {
+        width: 4rem;
+    }
+
+
 }
 
 
 
-@media screen and (max-width: 479px){
-  
-    .imgMartin{
+@media screen and (max-width: 479px) {
+
+    .imgMartin {
         width: 10rem;
         height: 18rem;
         position: absolute;
         margin-top: 1rem;
     }
 
-    .imgNat{
-        justify-content:none;
+    .imgNat {
+        justify-content: none;
     }
 
 
-    .sponSecGrid{
-        img{
+    .sponSecGrid {
+        img {
             width: 3.5rem;
         }
-        
+
     }
 }
 
-.bgc{
-    background-image: linear-gradient(black,black,black, white)
+.bgc {
+    background-image: linear-gradient(black, black, black, white)
 }

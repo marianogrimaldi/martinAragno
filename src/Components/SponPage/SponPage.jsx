@@ -42,23 +42,21 @@ const SponPage = () => {
                         <img src={sp7} alt="" />
                         <img src={sp15} alt="" />
                         <img src={sp9} alt="" />
-                       <img src={sp6} alt="" /> 
-
-
+                        <img src={sp6} alt="" />
 
                     </div>
                 </div>
                 <div className="sponSecGrid">
 
                     <img src={sp1} alt="" />
-                    <img src={sp13} alt="" />
-                    <img src={sp14} alt="" />
+                    <img src={sp16} className="fit" alt="" />
                     <img src={sp8} alt="" />
-                    <img src={sp18} alt="" />
+                    <img src={sp20} alt="" />
+                    <img src={sp13} alt="" />
                     <div></div>
                     <img src={sp19} alt="" />
-                    <img src={sp16} alt="" />
-                    <img src={sp20} alt="" />
+                    <img src={sp18} alt="" />
+                    <img src={sp14} alt="" />
                 </div>
             </div>
         </div>

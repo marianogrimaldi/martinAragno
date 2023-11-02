@@ -36,7 +36,7 @@ const Taur = () => {
                 <div className="ptrial">
                     <h3>2023</h3>
                     <div className="flexMedal">
-                        <p>5° Kings Trail Club Series Salomon (Paraguay)</p>
+                        <p>5° Kings Trail Club Series Salomon 21 km (Paraguay)</p>
                         <div className="flexMedalFlag">
                             <img src={flagPar} className="flafWidth" alt="" /> 
                         </div>     

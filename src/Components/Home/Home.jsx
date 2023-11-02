@@ -6,10 +6,7 @@ import logo from "../../assets/logoRojo.png"
 import imgSponsors from "../../assets/imgSponsors.jpg"
 import corteFoor from "../../assets/corteFooter.jpg"
 import sp1 from "../../assets/sponsors/1.png"
-
 import sp3 from "../../assets/sponsors/7.jpg"
-import sp4 from "../../assets/sponsors/10.png"
-import sp5 from "../../assets/sponsors/4.png"
 import sp6 from "../../assets/sponsors/11.png"
 import sp7 from "../../assets/sponsors/2cumbres.png"
 import sp8 from "../../assets/sponsors/9.png"
@@ -44,7 +41,7 @@ const Home = () => {
             <h3 className="subTitle">multisport racing</h3>
             <div className="flexHome">
                 <img src={imgHome} className="imgPrincipal" alt="" />
-                
+
                 <div className="datos">
                     <h1 className="frase">{t("Home.frase")}</h1>
                     <h2 className="firma">Martín Aragno</h2>
@@ -74,29 +71,29 @@ const Home = () => {
                 <div ></div>
                 <img src={sp3} alt="" />
                 <img src={sp7} alt="" />
-                
+
                 <img src={sp12} alt="" />
                 <img src={sp9} className="casj" alt="" />
                 <div></div>
-               
+
                 <img src={sp15} alt="" />
-               
+
                 <img src={sp11} alt="" />
-            
+
                 <img src={sp6} alt="" />
                 <img src={sp10} alt="" />
-               
+
             </div>
             <div className="sponsorsSecundarios">
                 <img src={sp1} alt="" />
-                <img src={sp8} alt="" />
                 <img src={sp16} className="fit" alt="" />
-                <img src={sp14} alt="" />
+                <img src={sp8} alt="" />
+                <img src={sp20} alt="" />
                 <img src={sp13} alt="" />
                 <div></div>
-                <img src={sp18} alt="" />
                 <img src={sp19} alt="" />
-                <img src={sp20} alt="" />
+                <img src={sp18} alt="" />
+                <img src={sp14} alt="" />
                 <div></div>
             </div>
             <div className="endHome">

@@ -28,7 +28,6 @@ const Menu = () => {
                     <a href="#footer"><li>{t("Header.contacto")}</li></a>
                 </div>
             </ul>
-          
         </div>
     )
 }
