@@ -9,7 +9,7 @@ import { useTranslation } from "react-i18next"
 import Menu from "../Header/Menu";
 import medallaOro from "../../assets/medalla1.png"
 import medallaBronce from "../../assets/medalla3.png"
-
+import medallaPlata from "../../assets/medalla2.png"
 const Taur = () => {
 
     const { t } = useTranslation()
@@ -36,7 +36,14 @@ const Taur = () => {
                 <div className="ptrial">
                     <h3>2023</h3>
                     <div className="flexMedal">
-                        <p>5° Kings Trail Club Series Salomon 21 km (Paraguay)</p>
+                        <p>2° Kings Trail Club Series Salomon 21km - 4 fecha estacion verano - (Paraguay)</p>
+                        <div className="flexMedalFlag">
+                            <img src={flagPar} className="flafWidth" alt="" /> 
+                            <img src={medallaPlata} className="medalla" alt="" />
+                        </div>     
+                    </div>
+                    <div className="flexMedal">
+                        <p>5° Kings Trail Club Series Salomon 21 km - 3 fecha estacion primavera - (Paraguay)</p>
                         <div className="flexMedalFlag">
                             <img src={flagPar} className="flafWidth" alt="" /> 
                         </div>     

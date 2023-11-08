@@ -32,30 +32,30 @@ const SponPage = () => {
                 <div className="imgNat">
                     <div className="flexSponPage">
 
-                        <img src={sp12} alt="" />
-                        <img src={sp3} alt="" />
-                        <img src={sp11} alt="" />
+                    <a href="https://2cumbres.com.ar/search/?q=rockshox"target="_blank"><img src={sp12} alt="" /></a>
+                    <a href="https://ezkteam.com/"target="_blank"><img src={sp3} alt="" /></a>
+                    <a href="https://2cumbres.com.ar/search/?q=zipp"target="_blank"><img src={sp11} alt="" /></a>
                         <img src={sp10} alt="" />
                     </div>
                     <img src={imgNat} className="imgMartin" alt="" />
                     <div className="flexSponPage">
-                        <img src={sp7} alt="" />
-                        <img src={sp15} alt="" />
-                        <img src={sp9} alt="" />
-                        <img src={sp6} alt="" />
+                    <a href="https://2cumbres.com.ar/" target="_blank"><img src={sp7} alt="" /></a>
+                    <a href="https://premiumtri.com/"target="_blank"><img src={sp15} alt="" /></a>
+                    <a href="https://www.clubsanjorge.com.ar/"target="_blank"><img src={sp9} alt="" /></a>
+                    <a href="https://2cumbres.com.ar/search/?q=sram"target="_blank"><img src={sp6} alt="" /></a>
 
                     </div>
                 </div>
                 <div className="sponSecGrid">
 
-                    <img src={sp1} alt="" />
-                    <img src={sp16} className="fit" alt="" />
-                    <img src={sp8} alt="" />
+                <a href="https://www.nutritionred.com.ar/"target="_blank"><img src={sp1} alt="" /></a>
+                <a href="https://www.instagram.com/modofitentrenamientos/"target="_blank"><img src={sp16} className="fit" alt="" /></a>
+                <a href="https://linktr.ee/centroymoa?fbclid=PAAaZJXYoAJKsTioI6-5V4qusHp_MndSWBdwQtDmvMQf69NeOuMPj93dppTN4"target="_blank"><img src={sp8} alt="" /></a>
                     <img src={sp20} alt="" />
-                    <img src={sp13} alt="" />
+                    <a href="https://qualitynutriciondeportiva.com/?fbclid=PAAabOYNGcFBFM9PWB53R4Ptk-2lMMMq_NYIvYR11l0TXCuME3j_e9gCFDbyA"target="_blank"><img src={sp13} alt="" /></a>
                     <div></div>
                     <img src={sp19} alt="" />
-                    <img src={sp18} alt="" />
+                    <a href="https://www.atom.bio/runningtrip/?fbclid=PAAaZhuYIi0Af-MkKfbI8lrXmWLVr1_t8nLKv6Kp0gtpZeVt-1SBwKTNzyzW8"target="_blank"><img src={sp18} alt="" /></a>
                     <img src={sp14} alt="" />
                 </div>
             </div>
