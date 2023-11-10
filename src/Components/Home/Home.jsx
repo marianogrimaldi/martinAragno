@@ -18,7 +18,7 @@ import sp13 from "../../assets/sponsors/quality.png"
 import sp14 from "../../assets/sponsors/foot.png"
 import sp15 from "../../assets/sponsors/xterra.png"
 import sp16 from "../../assets/sponsors/modofit.png"
-
+import sp17 from "../../assets/sponsors/progra.png"
 import sp18 from "../../assets/sponsors/running.png"
 import sp19 from "../../assets/sponsors/indusP.png"
 import sp20 from "../../assets/sponsors/cabritos.png"
@@ -78,18 +78,18 @@ const Home = () => {
                 <a href="https://2cumbres.com.ar/search/?q=zipp"target="_blank"><img src={sp11} alt="" /></a>
                 <a href="https://2cumbres.com.ar/search/?q=sram"target="_blank"><img src={sp6} alt="" /></a>
                 <img src={sp10} alt="" />
-
+                
             </div>
             <div className="sponsorsSecundarios">
                 <a href="https://www.nutritionred.com.ar/"target="_blank"><img src={sp1} alt="" /></a>
                 <a href="https://www.instagram.com/modofitentrenamientos/"target="_blank"><img src={sp16} className="fit" alt="" /></a>
                 <a href="https://linktr.ee/centroymoa?fbclid=PAAaZJXYoAJKsTioI6-5V4qusHp_MndSWBdwQtDmvMQf69NeOuMPj93dppTN4"target="_blank"><img src={sp8} alt="" /></a>
-                <img src={sp20} alt="" />
+                <a href="https://www.instagram.com/cabritoscycling/"target="_blank"><img src={sp20} alt="" /></a>
                 <a href="https://qualitynutriciondeportiva.com/?fbclid=PAAabOYNGcFBFM9PWB53R4Ptk-2lMMMq_NYIvYR11l0TXCuME3j_e9gCFDbyA"target="_blank"><img src={sp13} alt="" /></a>
                 <div></div>
-                <img src={sp19} alt="" />
+                <a href="https://linktr.ee/Indusparquetarg?fbclid=PAAaa6pG3VjsbOjN8YKZT1e6D2HK7Kotcu_htA4o4xKjysQ7nDZ2IOarKAjuU"target="_blank"><img src={sp19} alt="" /></a>
                 <a href="https://www.atom.bio/runningtrip/?fbclid=PAAaZhuYIi0Af-MkKfbI8lrXmWLVr1_t8nLKv6Kp0gtpZeVt-1SBwKTNzyzW8"target="_blank"><img src={sp18} alt="" /></a>
-                <img src={sp14} alt="" />
+                <a href="https://footpoint.com.ar/?fbclid=PAAaYO_UK1Qx1BlCnluZkdmYTtNqb9b1A58BRs87Jp7zL-NGun3Mjqfm5kMy0"target="_blank"><img src={sp14} alt="" /></a>
                 <div></div>
             </div>
             <div className="endHome">
