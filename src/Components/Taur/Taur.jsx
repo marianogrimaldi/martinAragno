@@ -36,6 +36,13 @@ const Taur = () => {
                 <div className="ptrial">
                     <h3>2023</h3>
                     <div className="flexMedal">
+                        <p>2° Aviru trail Merrel 15km  Campeonato Nacional - (Paraguay)</p>
+                        <div className="flexMedalFlag">
+                            <img src={flagPar} className="flafWidth" alt="" /> 
+                            <img src={medallaPlata} className="medalla" alt="" />
+                        </div>     
+                    </div>
+                    <div className="flexMedal">
                         <p>2° Kings Trail Club Series Salomon 21km - 4 fecha estacion verano - (Paraguay)</p>
                         <div className="flexMedalFlag">
                             <img src={flagPar} className="flafWidth" alt="" /> 
