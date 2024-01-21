@@ -32,7 +32,20 @@ const Calendario = () => {
                     </div>
                     <img src={corriendo} className="logoFondoCal" alt="" />    
                     <div className="pCal">
-                    <h3 className="calConst">{t("Calendario.frase")}</h3>
+                    <h3>{t("Calendario.febrero")}</h3>
+                    <p>Chivas trail 12km </p>
+                    <h3>{t("Calendario.marzo")}</h3>
+                    <p>Fuegoyagua ( circuito Latinoamaricano trail - Nicaragua ) 50km ultra trail </p>
+                    <p>Las vallas Sky running 35km Belen Catamarca </p>
+                    <h3>{t("Calendario.mayo")}</h3>
+                    <p>Valhoil UTMB series mundiales 35km ( V Gral Belgrano )</p>
+                    <h3>{t("Calendario.junio")}</h3>
+                    <p>Running trip San Lorenzo Salta 30km</p>
+                    <h3>{t("Calendario.agosto")}</h3>
+                    <p>Quito UTMB series mundiales Ecuador 47km </p>
+                    <p>Andes Race Peru ( Circuito Latinoamericano trail ) 50km </p>
+                    <h3>{t("Calendario.diciembre")}</h3>
+                    <p>42km Maraton de Valencia calle España</p>
                    </div>
                 </div>
         </div>
