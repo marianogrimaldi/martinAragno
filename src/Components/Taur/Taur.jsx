@@ -34,7 +34,22 @@ const Taur = () => {
                 </div> 
                 <img src={imgJump} className="imgJump" alt="" />
                 <div className="ptrial">
+                <h3>2024</h3>
+                    <div className="flexMedal">
+                        <p>1° Night trail run 12km ( La Cumbre Cordoba ) - (Argentina)</p>
+                        <div className="flexMedalFlag">
+                            <img src={flagArg} className="flafWidth" alt="" /> 
+                            <img src={medallaOro} className="medalla" alt="" />
+                        </div>     
+                    </div>
                     <h3>2023</h3>
+                    <div className="flexMedal">
+                        <p>2° Laultimacross 10km ( La Cumbre - Cordoba ) - (Argentina)</p>
+                        <div className="flexMedalFlag">
+                            <img src={flagArg} className="flafWidth" alt="" /> 
+                            <img src={medallaPlata} className="medalla" alt="" />
+                        </div>     
+                    </div>
                     <div className="flexMedal">
                         <p>2° Aviru trail Merrel 15km  Campeonato Nacional - (Paraguay)</p>
                         <div className="flexMedalFlag">
