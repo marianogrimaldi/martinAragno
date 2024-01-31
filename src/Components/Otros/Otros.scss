@@ -6,6 +6,13 @@
    
 }
 
+@media screen and (max-width: 992px){
+    .titleOtros{
+        margin-top: 5rem;
+        font-size: 3rem;
+    }
+}
+
 .subTitles{
     font-family: 'Gruppo', cursive;
     font-size: 2rem;
@@ -16,6 +23,17 @@
     }
     p{
         font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .subTitles{
+
+        
+
+        p{
+            font-size: 1rem;
+        }
     }
 }
 
