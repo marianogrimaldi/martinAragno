@@ -5,7 +5,7 @@ import flagArg from "../../assets/flagArg.png"
 import ImgViewMtb from "../ImgView/ImgViewMtb"
 import imgFondo from "../../assets/4.jpg"
 import medallaPlata from "../../assets/medalla2.png"
-
+import { NavLink } from "react-router-dom"
 import { useTranslation } from "react-i18next"
 import Menu from "../Header/Menu"
 
@@ -38,13 +38,7 @@ const Mtb = () => {
                             </div>
                         <p>16° XCM 120KM Campeonato Nacional (La Falda - Córdoba, Argentina)</p>
                     </div>
-                    <h3>2022</h3>
-                        <div className="flexMedalMtb">
-                            <div className="flexMedalFlag">
-                                <img src={flagArg} className="flafWidth" alt="" />
-                            </div>
-                        <p>Finisher Vuelta Altas Cumbres 120km (Mina Clavero - Córdoba, Argentina)</p>
-                    </div>
+                   
                     <h3>2021</h3>
                     <div className="flexMedalMtb">
                             <div className="flexMedalFlag">
@@ -53,13 +47,7 @@ const Mtb = () => {
                     <p>Desafio Valle del Río Pinto 85km (La Cumbre - Córdoba, Argentina) </p>
                     </div>
                     <p className="pb">P. B. T 3h:47'</p>
-                    <h3>2020</h3>
-                    <div className="flexMedalMtb">
-                            <div className="flexMedalFlag">
-                                <img src={flagArg} className="flafWidth" alt="" />
-                            </div>
-                    <p>Finisher Vuelta Altas Cumbres 120km (Mina Clavero - Córdoba, Argentina)</p>
-                    </div>
+                    
                     <h3>2019</h3>
                     <div className="flexMedalMtb">
                             <div className="flexMedalFlag">
@@ -75,13 +63,7 @@ const Mtb = () => {
                             </div>
                     <p>29 °Tour de la Patagonia 200km 3 etapas (San Martín de los Andes - Neuquen, Argentina)</p>
                     </div>
-                    <h3>2010</h3>
-                    <div className="flexMedalMtb">
-                            <div className="flexMedalFlag">
-                                <img src={flagArg} className="flafWidth" alt="" />
-                            </div>
-                    <p>Finisher Desafio Valle del Río Pinto 82km (La Cumbre - Córdoba, Argentina)</p>
-                    </div>
+                    
                     <h3>2009</h3>
                     <div className="flexMedalMtb">
                             <div className="flexMedalFlag">
@@ -89,21 +71,11 @@ const Mtb = () => {
                             </div>
                     <p>15° 2500 Extremo (Tafi del Valle - Tucumán, Argentina)</p> 
                     </div>                  
-                    <h3>2008</h3>
-                    <div className="flexMedalMtb">
-                            <div className="flexMedalFlag">
-                                <img src={flagArg} className="flafWidth" alt="" />
-                            </div>
-                    <p>Finisher Desafio Valle del Río Pinto 75km (La Cumbre - Córdoba, Argentina)</p>
-                    </div>
-                    <h3>2007</h3>
-                    <div className="flexMedalMtb">
-                            <div className="flexMedalFlag">
-                                <img src={flagArg} className="flafWidth" alt="" />
-                            </div>
-                    <p>Finisher Desafio al Valle del Río Pinto 75km (La Cumbre - Córdoba, Argentina)</p>
-                    </div>
+                    
                 </div>
+                <div className="flexBtnR">
+                <NavLink to="/otros" ><button>OTROS RESULTADOS</button></NavLink>
+            </div>
                 <ImgViewMtb/>
         </div>
     )

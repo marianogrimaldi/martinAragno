@@ -1,0 +1,65 @@
+.titleOtros{
+    text-align: center;
+    font-family: 'Gruppo', cursive;
+    font-size: 4rem;
+    margin-top: 10rem;
+   
+}
+
+.subTitles{
+    font-family: 'Gruppo', cursive;
+    font-size: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 3rem;
+    h3{
+        color: rgb(223, 22, 22);
+    }
+    p{
+        font-size: 1.3rem;
+    }
+}
+
+.pb {
+    font-size: 1.8rem;
+    color: goldenrod;
+
+}
+
+.flexMedalFlag{
+    display: flex;
+    gap: 1rem
+}
+
+.flexBtnPrincipal{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    font-family: 'Gruppo', cursive;
+    margin-bottom: 2rem;
+
+    a{
+        font-size: 1.3rem;
+        transition: 1s;
+    }
+    a:hover{
+        color: goldenrod;
+    }
+}
+
+.bgcO{
+    background-image: linear-gradient(90deg,black, rgb(223, 22, 22));
+}
+
+.DatosO{
+    display: flex;
+    justify-content: center;
+    font-family: 'Gruppo', cursive;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5rem;
+
+    img{
+        width: 10rem;
+    }
+}

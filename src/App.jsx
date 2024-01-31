@@ -12,6 +12,7 @@ import Footer from './Components/Footer/Footer'
 import SponPage from './Components/SponPage/SponPage';
 import ScrollToTop from './Components/ScrollToTop/ScrollToTop';
 import Calendario from './Components/Calendario/Calendario';
+import Otros from './Components/Otros/Otros';
 
 import './App.css'
 
@@ -32,6 +33,8 @@ function App() {
           <Route path="/calendario" element={<Calendario/>}/>
           <Route path="/meraki" element={<Meraki/>}/>
           <Route path="/sponsors" element={<SponPage/>}/>
+          <Route path="/otros" element={<Otros/>}/>
+
           
           </Routes>
           <Footer/>
