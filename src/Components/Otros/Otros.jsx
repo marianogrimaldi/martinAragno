@@ -16,7 +16,7 @@ const Otros = () => {
                     <p>multisport racing</p>
                 </div>
 
-                <div id="tri" className="flexBtnPrincipal">
+                <div  className="flexBtnPrincipal"id="tri">
                     <a href="#tri">TRIATHLON</a>
                     <a href="#mount">MOUNTAIN BIKE</a>
                     <a href="#trail">TRAIL & RUNNING</a>
