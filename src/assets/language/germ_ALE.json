@@ -54,6 +54,9 @@
         "Footer": {
             "calendario": "KALENDER",
             "contacto": "KONTAKT"
+        },
+        "Otros": {
+            "resultados": "ANDERE ERGEBNISSE"
         }
     }
 }

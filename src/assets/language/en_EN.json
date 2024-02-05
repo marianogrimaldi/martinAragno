@@ -54,6 +54,9 @@
     "Footer": {
       "calendario": "CALENDAR",
         "contacto": "CONTACT"
-    }
+    },
+    "Otros": {
+      "resultados": "OTHER RESULTS"
+  }
   }
 }

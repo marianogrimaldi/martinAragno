@@ -2,14 +2,18 @@ import "./Otros.scss"
 import flagArg from "../../assets/flagArg.png"
 import logo from "../../assets/logo.png"
 import Menu from "../Header/Menu"
+import { useTranslation } from "react-i18next"
 
 const Otros = () => {
+
+    const { t } = useTranslation()
+
     return (
         <div className="animation">
             <Menu />
             <div className="bgcO">
 
-                <h1 className="titleOtros">OTROS RESULTADOS</h1>
+                <h1 className="titleOtros">{t("Otros.resultados")}</h1>
                 <div className="DatosO">
                     <img src={logo} alt="" />
                     <h2> MARTIN ARAGNO</h2>
