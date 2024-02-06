@@ -1,0 +1,626 @@
+[
+    {
+        "disciplineName": "triathlon",
+        "racesByYear": [
+            {
+                "date": "2017",
+                "races": [
+                    {
+                        "name": "IM Texas - Circuito Mundial WTC (Campeonato Norteamericano)",
+                        "position": "98°",
+                        "flag": "../../assets/flagUsa.webp"
+                    },
+                    {
+                        "name": "Half IM Thougman Series - Rosario, Argentina",
+                        "position": "7°",
+                        "flag": "../../assets/flagArg.png"
+                    }
+                ]
+            },
+            {
+                "date": "2016",
+                "races": [
+                    {
+                        "name": "Xterra Wolrd Championship Maui - Hawaii",
+                        "position": "50°",
+                        "flag": "../../assets/flagHaw.png"
+                    },
+                    {
+                        "name": "Half IM - Termas Santiago del Estero (Campeonato Argentino)",
+                        "position": "6°",
+                        "flag": "../../assets/flagArg.png"
+                    },
+                    {
+                        "name": "San Juan Xterra - Circuito Mundial Xterra (Argentina)",
+                        "position": "7°",
+                        "flag": "../../assets/flagArg.png"
+                    }
+                ]
+            },
+            {
+                "date": "2015",
+                "races": [
+                    {
+                        "name": "Xterra Ilhabela - Circuito Mundia Xterral (Brasil)",
+                        "position": "17°",
+                        "flag": "../../assets/flagBra.jpg"
+                    },
+                    {
+                        "name": "Half IM - Valparaiso 70.3 (Chile)",
+                        "position": "5°",
+                        "flag": "../../assets/flagChi.png"
+                    }
+                ]
+            },
+            {
+                "date": "2014",
+                "races": [
+                    {
+                        "name": "IM Mallorca - Circuito Mundial WTC (España)",
+                        "position": "Finisher",
+                        "flag": "../../assets/esp.png"
+                    },
+                    {
+                        "name": "Half IM - Antofagasta 70.3 (Chile)",
+                        "position": "2°",
+                        "flag": "../../assets/flagChi.png"
+                    },
+                    {
+                        "name": "IM Texas - Circuito Mundial WTC (Usa)",
+                        "position": "52°",
+                        "flag": "../../assets/flagUsa.webp"
+                    },
+                    {
+                        "name": "Half IM - Tafi del Valle (Tucumán, Argentina)",
+                        "position": "1°",
+                        "flag": "../../assets/flagArg.png"
+                    }
+                ]
+            },
+            {
+                "date": "2011",
+                "races": [
+                    {
+                        "name": "IM Cozumel - Circuito Mundial WTC (Mexico)",
+                        "position": "57",
+                        "flag": "../../assets/flagMex.png"
+                    },
+                    {
+                        "name": "Duatlon - Alturas de Punilla (Códoba, Argentina)",
+                        "position": "6°",
+                        "flag": "../../assets/flagArg.png"
+                    },
+                    {
+                        "name": "IM Florianopolis- Circuito Mundial WTC (Brasil)",
+                        "position": "Finisher",
+                        "flag": "../../assets/flagBra.jpg"
+                    }
+                ]
+            },
+            {
+                "date": "2010",
+                "races": [
+                    {
+                        "name": "IM Frankfurt - Circuito Mundial WTC - Campeonato Europeo (Alemania)",
+                        "position": "Finisher",
+                        "flag": ""
+                    },
+                    {
+                        "name": "Half IM Santiago del Estero (Santiago del Estero, Argentina)",
+                        "position": "4°",
+                        "flag": "../../assets/flagArg.png"
+                    }
+                ]
+            },
+            {
+                "date": "2009",
+                "races": [
+                    {
+                        "name": "IM Western Australia - Circuito Mundial WTC (Australia)",
+                        "position": "80°",
+                        "flag": ""
+                    },
+                    {
+                        "name": "Half IM Santa Fe - (Santa Fe, Argentina)",
+                        "position": "9°",
+                        "flag": "../../assets/flagArg.png"
+                    },
+                    {
+                        "name": "Half IM Rio de Janeiro (Brasil)",
+                        "position": "10°",
+                        "flag": "../../assets/flagBra.jpg"
+                    },
+                    {
+                        "name": "IM Florianopolis - Circuito Mundial WTC (Brasil)",
+                        "position": "104°",
+                        "flag": "../../assets/flagBra.jpg"
+                    },
+                    {
+                        "name": "Half IM Colonia (Uruguay)",
+                        "position": "17°",
+                        "flag": "../../assets/flagUru.png"
+                    }
+                ]
+            },
+            {
+                "date": "2008",
+                "races": [
+                    {
+                        "name": "Half IM Punta del Este (Uruguay)",
+                        "position": "17°",
+                        "flag": "../../assets/flagUru.png"
+                    }
+                ]
+            },
+            {
+                "date": "2006",
+                "races": [
+                    {
+                        "name": "IM South Africa - Circuito Mundial WTC (Port Elizabeth, South Africa)",
+                        "position": "59°",
+                        "flag": ""
+                    },
+                    {
+                        "name": "Duathlon Olimpico -Campeonato Argentino (Colón - Bs As, Argentina)",
+                        "position": "9°",
+                        "flag": "../../assets/flagArg.png"
+                    },
+                    {
+                        "name": "Triathlon Olimpico s/drafting (Carhue - Bs As, Argentina)",
+                        "position": "9°",
+                        "flag": "../../assets/flagArg.png"
+                    }
+                ]
+            },
+            {
+                "date": "2005",
+                "races": [
+                    {
+                        "name": "IM Florianopilos - Circuito Mundial WTC (Brasil)",
+                        "position": "Finisher",
+                        "flag": "../../assets/flagBra.jpg"
+                    },
+                    {
+                        "name": "Half IM - Conquistadores del Sur (Concepicón - Tucuman, Argentina)",
+                        "position": "2°",
+                        "flag": "../../assets/flagArg.png"
+                    }
+                ]
+            },
+            {
+                "date": "2004",
+                "races": [
+                    {
+                        "name": "Triathlon Sprint (Villa Constitucion Argentina)",
+                        "position": "1°",
+                        "flag": "../../assets/flagArg.png"
+                    },
+                    {
+                        "name": "Half IM Chajari - Campeonato Argentino (Entre Ríos, Argentina)",
+                        "position": "10°",
+                        "flag": "../../assets/flagArg.png"
+                    }
+                ]
+            },
+            {
+                "date": "2003",
+                "races": [
+                    {
+                        "name": "Triathlon Olimpico (Santa Fe, Argentina)",
+                        "position": "14°",
+                        "flag": "../../assets/flagArg.png"
+                    },
+                    {
+                        "name": "Triathlon Olimpico Baradero (Bs As, Argentina)",
+                        "position": "16°",
+                        "flag": "../../assets/flagArg.png"
+                    }
+                ]
+            },
+            {
+                "date": "2002 - 2001",
+                "races": [
+                    {
+                        "name": "Campeonato Entrerriano Sprint (Entre Ríos, Argentina)",
+                        "position": "4°",
+                        "flag": "../../assets/flagArg.png"
+                    },
+                    {
+                        "name": "Duathlon Short Felicia - Campeonato Santafesino (Santa Fe, Argentina)",
+                        "position": "1°",
+                        "flag": "../../assets/flagArg.png"
+                    },
+                    {
+                        "name": "Duathlon Short Progreso - Campeonato Santafesino (Santa Fe, Argentina)",
+                        "position": "1°",
+                        "flag": "../../assets/flagArg.png"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "disciplineName": "mountainbike",
+        "racesByYear": [
+            {
+                "date": "2023",
+                "races": [
+                    {
+                        "name": "XCM 120KM Campeonato Nacional (La Falda - Córdoba, Argentina)",
+                        "position": "16°",
+                        "flag": "../../assets/flagArg.png"
+                    }
+                ]
+            },
+            {
+                "date": "2021",
+                "races": [
+                    {
+                        "name": "Desafio Valle del Río Pinto 85km (La Cumbre - Córdoba, Argentina)",
+                        "position": "16°",
+                        "flag": "../../assets/flagArg.png",
+                        "time": "P. B. T 3h:47"
+                    }
+                ]
+            },
+            {
+                "date": "2019",
+                "races": [
+                    {
+                        "name": "Desafio Ushuaia Extremo 2 etapas (Ushuaia, Argentina)",
+                        "position": "2°",
+                        "flag": "../../assets/flagArg.png"
+                    }
+                ]
+            },
+            {
+                "date": "2011",
+                "races": [
+                    {
+                        "name": "Tour de la Patagonia 200km 3 etapas (San Martín de los Andes - Neuquen, Argentina)",
+                        "position": "29°",
+                        "flag": "../../assets/flagArg.png"
+                    }
+                ]
+            },
+            {
+                "date": "2009",
+                "races": [
+                    {
+                        "name": "2500 Extremo (Tafi del Valle - Tucumán, Argentina)",
+                        "position": "15°",
+                        "flag": "../../assets/flagArg.png"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "disciplineName": "trai",
+        "racesByYear": [
+            {
+                "date": "2024",
+                "races": [
+                    {
+                        "name": "Night trail run 12km ( La Cumbre Cordoba ) - (Argentina)",
+                        "position": "1°",
+                        "flag": "../../assets/flagArg.png"
+                    }
+                ]
+            },
+            {
+                "date": "2023",
+                "races": [
+                    {
+                        "name": "Laultimacross 10km ( La Cumbre - Cordoba ) - (Argentina)",
+                        "position": "2°",
+                        "flag": "../../assets/flagArg.png"
+                    },
+                    {
+                        "name": "Aviru trail Merrel 15km Campeonato Nacional - (Paraguay)",
+                        "position": "2°",
+                        "flag": "../../assets/flagPar.webp"
+                    },
+                    {
+                        "name": "Kings Trail Club Series Salomon 21km - 4 fecha estacion verano - (Paraguay)",
+                        "position": "2°",
+                        "flag": "../../assets/flagPar.webp"
+                    },
+                    {
+                        "name": "Kings Trail Club Series Salomon 21 km - 3 fecha estacion primavera - (Paraguay)",
+                        "position": "5°",
+                        "flag": "../../assets/flagPar.webp"
+                    },
+                    {
+                        "name": "Trail Running Trip 12km (Valle Fertil - San Juan, Argentina)",
+                        "position": "3°",
+                        "flag": "../../assets/flagArg.png"
+                    },
+                    {
+                        "name": "Valholl by UTMB 21km (Villa General Belgrano - Córdoba, Argentina)",
+                        "position": "3°",
+                        "flag": "../../assets/flagArg.png",
+                        "time": "P. B. T 2hs56'"
+                    },
+                    {
+                        "name": "Chivas Trail 26km (Las Leñas - Mendoza, Argentina)",
+                        "position": "1°",
+                        "flag": "../../assets/flagArg.png",
+                        "time": "P. B. T 4hs59'"
+                    }
+                ]
+            },
+            {
+                "date": "2022",
+                "races": [
+                    {
+                        "name": "Mountain do 21km NIEVE (Ushuaia - Tierra del Fuego, Argentina)",
+                        "position": "8°",
+                        "flag": "../../assets/flagArg.png"
+                    }
+                ]
+            },
+            {
+                "date": "2021",
+                "races": [
+                    {
+                        "name": "Cruce Columbia 100km (3 Etapas) (Villa la Angostura - Neuquen, Argentina)",
+                        "position": "51°",
+                        "flag": "../../assets/flagArg.png",
+                        "time": "P. B. T 11hs 51':19"
+                    }
+                ]
+            },
+            {
+                "date": "2014",
+                "races": [
+                    {
+                        "name": "X-Trail Columbia 25km (Huerta Grande - Cordoba, Argentina",
+                        "position": "13°",
+                        "flag": "../../assets/flagArg.png"
+                    }
+                ]
+            },
+            {
+                "date": "2008",
+                "races": [
+                    {
+                        "name": "Cross Campo Desafio Sport 78 16km (Rosario - Santa Fe, Argentina)",
+                        "position": "11°",
+                        "flag": "../../assets/flagArg.png"
+                    }
+                ]
+            },
+            {
+                "date": "2007",
+                "races": [
+                    {
+                        "name": "Carrera Montaña 15km (La Cumbre - Córdoba, Argentina)",
+                        "position": "11°",
+                        "flag": "../../assets/flagArg.png"
+                    },
+                    {
+                        "name": "Carrera Cross Traill 10km (Villa Carlos Paz - Córdoba, Argentina)",
+                        "position": "5°",
+                        "flag": "../../assets/flagArg.png"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "disciplineName": "triathlonSecundary",
+        "racesByYear":[
+            {
+                
+                "date": "2009",
+                "races": [
+                    {
+                        "name": "Campeonato Sudamericano Olimpico (La Paz - Entre Ríos, Argentina)",
+                        "position": "30°",
+                        "flag": "../../assets/flagArg.png"
+                    },
+                    {
+                        "name": "Half IM Concordia - Campeonato Argentino (Entre Ríos, Argentina)",
+                        "position": "34°",
+                        "flag": "../../assets/flagArg.png"
+                    }
+                ]
+            },
+            {
+                "date": "2008",
+                "races": [
+                    {
+                        "name": "Duathlon Endurance - Hombre de Piedra (Tandil - Bs As, Argentina)",
+                        "position": "32°",
+                        "flag": "../../assets/flagArg.png"
+                    },
+                    {
+                        "name": "Duathlon Endurance - Lakeman (Chascomus - Bs As, Argentina)",
+                        "position": "23°",
+                        "flag": "../../assets/flagArg.png"
+                    }
+                ]
+            },
+            {
+                "date": "2005",
+                "races": [
+                    {
+                        "name": "Half IM Villa Gesel (Bs As,Argentina)",
+                        "position": "32°",
+                        "flag": "../../assets/flagArg.png"
+                    },
+                    {
+                        "name": "Half IM Chajari - Campeonato Argentino (Entre Ríos, Argentina)",
+                        "position": "20°",
+                        "flag": "../../assets/flagArg.png"
+                    }
+                ]
+            },
+            {
+                "date": "2004",
+                "races": [
+                    {
+                        "name": "Half IM Villa Gesell (Bs As, Argentina)",
+                        "position": "21°",
+                        "flag": "../../assets/flagArg.png"
+                    }
+                ]
+            },
+            {
+                "date": "2003",
+                "races": [
+                    {
+                        "name": "Half IM Mar del Plata (Bs As, Argentina)",
+                        "position": "41°",
+                        "flag": "../../assets/flagArg.png"
+                    }
+                ]
+            }
+        ]
+
+    },
+    {
+        "disciplineName": "mountainbikeSecundary",
+        "racesByYear": [
+            {
+                "date": "2022",
+                "races": [
+                    {
+                        "name": "Vuelta Altas Cumbres 120km (Mina Clavero - Córdoba, Argentina)",
+                        "position": "Finisher",
+                        "flag": "../../assets/flagArg.png"
+                    }
+                ]
+            },
+            {
+                "date": "2020",
+                "races": [
+                    {
+                        "name": "Vuelta Altas Cumbres 120km (Mina Clavero - Córdoba, Argentina)",
+                        "position": "Finisher",
+                        "flag": "../../assets/flagArg.png"
+                    }
+                ]     
+            },
+            {
+                "date": "2010",
+                "races": [
+                    {
+                        "name": "Desafio Valle del Río Pinto 82km (La Cumbre - Córdoba, Argentina)",
+                        "position": "Finisher",
+                        "flag": "../../assets/flagArg.png"
+                    }
+                ]     
+            },
+            {
+                "date": "2008",
+                "races": [
+                    {
+                        "name": "Desafio Valle del Río Pinto 75km (La Cumbre - Córdoba, Argentina)",
+                        "position": "Finisher",
+                        "flag": "../../assets/flagArg.png"
+                    }
+                ]     
+            },
+            {
+                "date": "2007",
+                "races": [
+                    {
+                        "name": "Desafio al Valle del Río Pinto 75km (La Cumbre - Córdoba, Argentina)",
+                        "position": "Finisher",
+                        "flag": "../../assets/flagArg.png"
+                    }
+                ]     
+            }
+        ]
+    },
+    {
+        "disciplineName": "trailSecundary",
+        "racesByYear": [
+            {
+                "date": "2008",
+                "races": [
+                    {
+                        "name": "Carrera de calle 10km Adidas (Rosario - Santa Fe, Argentina)",
+                        "position": "81°",
+                        "flag": "../../assets/flagArg.png"
+                    },
+                    {
+                        "name": "Carrera de calle 10km (Bs As, Argentina)",
+                        "position": "41°",
+                        "flag": "../../assets/flagArg.png"
+                    }
+                ]     
+            },
+            {
+                "date": "2007",
+                "races": [
+                    {
+                        "name": "Carrera de calle 10km Reebok (Bs As, Argentina)",
+                        "position": "155°",
+                        "flag": "../../assets/flagArg.png"
+                    }
+                ]
+            },
+            {
+                
+                "date": "2006",
+                "races": [
+                    {
+                        "name": "Cross Campo 16km Club La Dolfina (Rosario - Santa Fe, Argentina)",
+                        "position": "31°",
+                        "flag": "../../assets/flagArg.png"
+                    },
+                    {
+                        "name": "Half Marathon 21km (Rosario - Santa Fe, Argentina)",
+                        "position": "53°",
+                        "flag": "../../assets/flagArg.png"
+                    }
+                ]     
+            },
+            {
+                "date": "2005",
+                "races": [
+                    {
+                        "name": "Marathon 42km Internacional (Bs As, Argentina)",
+                        "position": "Finisher°",
+                        "flag": "../../assets/flagArg.png"
+                    },
+                    {
+                        "name": "Half Marathon 21km Internacional (Bs As, Argentina)",
+                        "position": "145°",
+                        "flag": "../../assets/flagArg.png"
+                    }
+                ]     
+            },
+            {
+                "date": "2004",
+                "races": [
+                    {
+                        "name": "Half Marathon 21 km Internacional (Bs As, Argentina)",
+                        "position": "74°",
+                        "flag": "../../assets/flagArg.png",
+                        "time":"T 1h29:27"
+                    },
+                    {
+                        "name": "Half Marathon 21km Internacional (Bs As, Argentina)",
+                        "position": "145°",
+                        "flag": "../../assets/flagArg.png"
+                    }
+                ]     
+            },
+            {
+                "date": "2003",
+                "races": [
+                    {
+                        "name": "Half Marathon 21km Campeonato Iberoamericano (Bs As, Argentina)",
+                        "position": "Finisher",
+                        "flag": "../../assets/flagArg.png",
+                        "time":"P. B. T 1h24':18"
+                    }
+                ]
+            }
+        ]
+    }
+]

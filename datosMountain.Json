@@ -1,0 +1,59 @@
+[
+    {
+        "disciplineName": "mountainbike",
+        "racesByYear": [
+            {
+                "date": "2023",
+                "races": [
+                    {
+                        "name": "XCM 120KM Campeonato Nacional (La Falda - Córdoba, Argentina)",
+                        "position": "16°",
+                        "flag": "../../assets/flagArg.png"
+                    }
+                ]
+            },
+            {
+                "date": "2021",
+                "races": [
+                    {
+                        "name": "Desafio Valle del Río Pinto 85km (La Cumbre - Córdoba, Argentina)",
+                        "position": "16°",
+                        "flag": "../../assets/flagArg.png",
+                        "time": "P. B. T 3h:47"
+                    }
+                ]
+            },
+            {
+                "date": "2019",
+                "races": [
+                    {
+                        "name": "Desafio Ushuaia Extremo 2 etapas (Ushuaia, Argentina)",
+                        "position": "2°",
+                        "flag": "../../assets/flagArg.png"
+                    }
+                ]
+            },
+            {
+                "date": "2011",
+                "races": [
+                    {
+                        "name": "Tour de la Patagonia 200km 3 etapas (San Martín de los Andes - Neuquen, Argentina)",
+                        "position": "29°",
+                        "flag": "../../assets/flagArg.png"
+                    }
+                ]
+            },
+            {
+                "date": "2009",
+                "races": [
+                    {
+                        "name": "2500 Extremo (Tafi del Valle - Tucumán, Argentina)",
+                        "position": "15°",
+                        "flag": "../../assets/flagArg.png"
+                    }
+                ]
+            }
+        ]
+    }
+    
+]

@@ -37,6 +37,13 @@ const Taur = () => {
             <div className="ptrial">
                 <h3>2024</h3>
                 <div className="flexMedal">
+                    <p>2° Chivas trail run 12km  ( Malargue Mendoza )</p>
+                    <div className="flexMedalFlag">
+                        <img src={flagArg} className="flafWidth" alt="" />
+                        <img src={medallaPlata} className="medalla" alt="" />
+                    </div>
+                </div>
+                <div className="flexMedal">
                     <p>1° Night trail run 12km ( La Cumbre Cordoba ) - (Argentina)</p>
                     <div className="flexMedalFlag">
                         <img src={flagArg} className="flafWidth" alt="" />
