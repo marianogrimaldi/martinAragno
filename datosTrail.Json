@@ -1,15 +1,14 @@
-[
+
     {
        
-        "disciplineName": "trail",
         "racesByYear": [
             {
                 "date": "2024",
                 "races": [
                     {
                         "name": "Night trail run 12km ( La Cumbre Cordoba ) - (Argentina)",
-                        "position": "1°",
-                        "flag": "../../assets/flagArg.png"
+                        "position": 1,
+                        "flag": "flagArg"
                     }
                 ]
             },
@@ -18,39 +17,39 @@
                 "races": [
                     {
                         "name": "Laultimacross 10km ( La Cumbre - Cordoba ) - (Argentina)",
-                        "position": "2°",
-                        "flag": "../../assets/flagArg.png"
+                        "position": 2,
+                        "flag": "flagArg"
                     },
                     {
                         "name": "Aviru trail Merrel 15km Campeonato Nacional - (Paraguay)",
-                        "position": "2°",
-                        "flag": "../../assets/flagPar.webp"
+                        "position": 2,
+                        "flag": "flagPar"
                     },
                     {
                         "name": "Kings Trail Club Series Salomon 21km - 4 fecha estacion verano - (Paraguay)",
-                        "position": "2°",
-                        "flag": "../../assets/flagPar.webp"
+                        "position": 2,
+                        "flag": "flagPar"
                     },
                     {
                         "name": "Kings Trail Club Series Salomon 21 km - 3 fecha estacion primavera - (Paraguay)",
-                        "position": "5°",
-                        "flag": "../../assets/flagPar.webp"
+                        "position": 5,
+                        "flag": "flagPar"
                     },
                     {
                         "name": "Trail Running Trip 12km (Valle Fertil - San Juan, Argentina)",
-                        "position": "3°",
-                        "flag": "../../assets/flagArg.png"
+                        "position": 3,
+                        "flag": "flagArg"
                     },
                     {
                         "name": "Valholl by UTMB 21km (Villa General Belgrano - Córdoba, Argentina)",
-                        "position": "3°",
-                        "flag": "../../assets/flagArg.png",
+                        "position": 3,
+                        "flag": "flagArg",
                         "time": "P. B. T 2hs56'"
                     },
                     {
                         "name": "Chivas Trail 26km (Las Leñas - Mendoza, Argentina)",
-                        "position": "1°",
-                        "flag": "../../assets/flagArg.png",
+                        "position": 1,
+                        "flag": "flagArg",
                         "time": "P. B. T 4hs59'"
                     }
                 ]
@@ -60,8 +59,8 @@
                 "races": [
                     {
                         "name": "Mountain do 21km NIEVE (Ushuaia - Tierra del Fuego, Argentina)",
-                        "position": "8°",
-                        "flag": "../../assets/flagArg.png"
+                        "position": 8,
+                        "flag": "flagArg"
                     }
                 ]
             },
@@ -70,8 +69,8 @@
                 "races": [
                     {
                         "name": "Cruce Columbia 100km (3 Etapas) (Villa la Angostura - Neuquen, Argentina)",
-                        "position": "51°",
-                        "flag": "../../assets/flagArg.png",
+                        "position": 51,
+                        "flag": "flagArg",
                         "time": "P. B. T 11hs 51':19"
                     }
                 ]
@@ -81,8 +80,8 @@
                 "races": [
                     {
                         "name": "X-Trail Columbia 25km (Huerta Grande - Cordoba, Argentina",
-                        "position": "13°",
-                        "flag": "../../assets/flagArg.png"
+                        "position": 13,
+                        "flag": "flagArg"
                     }
                 ]
             },
@@ -91,8 +90,8 @@
                 "races": [
                     {
                         "name": "Cross Campo Desafio Sport 78 16km (Rosario - Santa Fe, Argentina)",
-                        "position": "11°",
-                        "flag": "../../assets/flagArg.png"
+                        "position": 11,
+                        "flag": "flagArg"
                     }
                 ]
             },
@@ -101,17 +100,16 @@
                 "races": [
                     {
                         "name": "Carrera Montaña 15km (La Cumbre - Córdoba, Argentina)",
-                        "position": "11°",
-                        "flag": "../../assets/flagArg.png"
+                        "position": 11,
+                        "flag": "flagArg"
                     },
                     {
                         "name": "Carrera Cross Traill 10km (Villa Carlos Paz - Córdoba, Argentina)",
-                        "position": "5°",
-                        "flag": "../../assets/flagArg.png"
+                        "position": 5,
+                        "flag": "flagArg"
                     }
                 ]
             }
         ]
     }
     
-]

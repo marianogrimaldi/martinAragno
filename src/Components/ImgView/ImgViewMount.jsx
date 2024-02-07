@@ -17,25 +17,24 @@ const ImgViewMount = () => {
         "/mont/10.jpg",
         "/mont/11.jpeg",
         "/mont/12.jpeg",
-       
     ]
     return (
         <div>
-            
+
             <h1 className="galeryTitle">{t("Generales.galeria")}</h1>
             <RViewer imageUrls={imagenes}>
                 <div className="imgGrid">
-                    {imagenes.map((imagen, index)=> {
+                    {imagenes.map((imagen, index) => {
                         return (
                             <RViewerTrigger index={index}>
                                 <div >
-                                     <img src={imagen} alt="" />
+                                    <img src={imagen} alt="Fotos Martin Aragno" />
                                 </div>
                             </RViewerTrigger>
-                                )
-                    }) }
+                        )
+                    })}
                 </div>
-             </RViewer>
+            </RViewer>
         </div>
     )
 }

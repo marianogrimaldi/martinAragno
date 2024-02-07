@@ -1,242 +1,239 @@
-[
-    {
-        "disciplineName": "triathlon",
-        "racesByYear": [
-            {
-                "date": "2017",
-                "races": [
-                    {
-                        "name": "IM Texas - Circuito Mundial WTC (Campeonato Norteamericano)",
-                        "position": "98°",
-                        "flag": "../../assets/flagUsa.webp"
-                    },
-                    {
-                        "name": "Half IM Thougman Series - Rosario, Argentina",
-                        "position": "7°",
-                        "flag": "../../assets/flagArg.png"
-                    }
-                ]
-            },
-            {
-                "date": "2016",
-                "races": [
-                    {
-                        "name": "Xterra Wolrd Championship Maui - Hawaii",
-                        "position": "50°",
-                        "flag": "../../assets/flagHaw.png"
-                    },
-                    {
-                        "name": "Half IM - Termas Santiago del Estero (Campeonato Argentino)",
-                        "position": "6°",
-                        "flag": "../../assets/flagArg.png"
-                    },
-                    {
-                        "name": "San Juan Xterra - Circuito Mundial Xterra (Argentina)",
-                        "position": "7°",
-                        "flag": "../../assets/flagArg.png"
-                    }
-                ]
-            },
-            {
-                "date": "2015",
-                "races": [
-                    {
-                        "name": "Xterra Ilhabela - Circuito Mundia Xterral (Brasil)",
-                        "position": "17°",
-                        "flag": "../../assets/flagBra.jpg"
-                    },
-                    {
-                        "name": "Half IM - Valparaiso 70.3 (Chile)",
-                        "position": "5°",
-                        "flag": "../../assets/flagChi.png"
-                    }
-                ]
-            },
-            {
-                "date": "2014",
-                "races": [
-                    {
-                        "name": "IM Mallorca - Circuito Mundial WTC (España)",
-                        "position": "Finisher",
-                        "flag": "../../assets/esp.png"
-                    },
-                    {
-                        "name": "Half IM - Antofagasta 70.3 (Chile)",
-                        "position": "2°",
-                        "flag": "../../assets/flagChi.png"
-                    },
-                    {
-                        "name": "IM Texas - Circuito Mundial WTC (Usa)",
-                        "position": "52°",
-                        "flag": "../../assets/flagUsa.webp"
-                    },
-                    {
-                        "name": "Half IM - Tafi del Valle (Tucumán, Argentina)",
-                        "position": "1°",
-                        "flag": "../../assets/flagArg.png"
-                    }
-                ]
-            },
-            {
-                "date": "2011",
-                "races": [
-                    {
-                        "name": "IM Cozumel - Circuito Mundial WTC (Mexico)",
-                        "position": "57",
-                        "flag": "../../assets/flagMex.png"
-                    },
-                    {
-                        "name": "Duatlon - Alturas de Punilla (Códoba, Argentina)",
-                        "position": "6°",
-                        "flag": "../../assets/flagArg.png"
-                    },
-                    {
-                        "name": "IM Florianopolis- Circuito Mundial WTC (Brasil)",
-                        "position": "Finisher",
-                        "flag": "../../assets/flagBra.jpg"
-                    }
-                ]
-            },
-            {
-                "date": "2010",
-                "races": [
-                    {
-                        "name": "IM Frankfurt - Circuito Mundial WTC - Campeonato Europeo (Alemania)",
-                        "position": "Finisher",
-                        "flag": ""
-                    },
-                    {
-                        "name": "Half IM Santiago del Estero (Santiago del Estero, Argentina)",
-                        "position": "4°",
-                        "flag": "../../assets/flagArg.png"
-                    }
-                ]
-            },
-            {
-                "date": "2009",
-                "races": [
-                    {
-                        "name": "IM Western Australia - Circuito Mundial WTC (Australia)",
-                        "position": "80°",
-                        "flag": ""
-                    },
-                    {
-                        "name": "Half IM Santa Fe - (Santa Fe, Argentina)",
-                        "position": "9°",
-                        "flag": "../../assets/flagArg.png"
-                    },
-                    {
-                        "name": "Half IM Rio de Janeiro (Brasil)",
-                        "position": "10°",
-                        "flag": "../../assets/flagBra.jpg"
-                    },
-                    {
-                        "name": "IM Florianopolis - Circuito Mundial WTC (Brasil)",
-                        "position": "104°",
-                        "flag": "../../assets/flagBra.jpg"
-                    },
-                    {
-                        "name": "Half IM Colonia (Uruguay)",
-                        "position": "17°",
-                        "flag": "../../assets/flagUru.png"
-                    }
-                ]
-            },
-            {
-                "date": "2008",
-                "races": [
-                    {
-                        "name": "Half IM Punta del Este (Uruguay)",
-                        "position": "17°",
-                        "flag": "../../assets/flagUru.png"
-                    }
-                ]
-            },
-            {
-                "date": "2006",
-                "races": [
-                    {
-                        "name": "IM South Africa - Circuito Mundial WTC (Port Elizabeth, South Africa)",
-                        "position": "59°",
-                        "flag": ""
-                    },
-                    {
-                        "name": "Duathlon Olimpico -Campeonato Argentino (Colón - Bs As, Argentina)",
-                        "position": "9°",
-                        "flag": "../../assets/flagArg.png"
-                    },
-                    {
-                        "name": "Triathlon Olimpico s/drafting (Carhue - Bs As, Argentina)",
-                        "position": "9°",
-                        "flag": "../../assets/flagArg.png"
-                    }
-                ]
-            },
-            {
-                "date": "2005",
-                "races": [
-                    {
-                        "name": "IM Florianopilos - Circuito Mundial WTC (Brasil)",
-                        "position": "Finisher",
-                        "flag": "../../assets/flagBra.jpg"
-                    },
-                    {
-                        "name": "Half IM - Conquistadores del Sur (Concepicón - Tucuman, Argentina)",
-                        "position": "2°",
-                        "flag": "../../assets/flagArg.png"
-                    }
-                ]
-            },
-            {
-                "date": "2004",
-                "races": [
-                    {
-                        "name": "Triathlon Sprint (Villa Constitucion Argentina)",
-                        "position": "1°",
-                        "flag": "../../assets/flagArg.png"
-                    },
-                    {
-                        "name": "Half IM Chajari - Campeonato Argentino (Entre Ríos, Argentina)",
-                        "position": "10°",
-                        "flag": "../../assets/flagArg.png"
-                    }
-                ]
-            },
-            {
-                "date": "2003",
-                "races": [
-                    {
-                        "name": "Triathlon Olimpico (Santa Fe, Argentina)",
-                        "position": "14°",
-                        "flag": "../../assets/flagArg.png"
-                    },
-                    {
-                        "name": "Triathlon Olimpico Baradero (Bs As, Argentina)",
-                        "position": "16°",
-                        "flag": "../../assets/flagArg.png"
-                    }
-                ]
-            },
-            {
-                "date": "2002 - 2001",
-                "races": [
-                    {
-                        "name": "Campeonato Entrerriano Sprint (Entre Ríos, Argentina)",
-                        "position": "4°",
-                        "flag": "../../assets/flagArg.png"
-                    },
-                    {
-                        "name": "Duathlon Short Felicia - Campeonato Santafesino (Santa Fe, Argentina)",
-                        "position": "1°",
-                        "flag": "../../assets/flagArg.png"
-                    },
-                    {
-                        "name": "Duathlon Short Progreso - Campeonato Santafesino (Santa Fe, Argentina)",
-                        "position": "1°",
-                        "flag": "../../assets/flagArg.png"
-                    }
-                ]
-            }
-        ]
-    }
-]
+{
+    "racesByYear": [
+        {
+            "date": "2017",
+            "races": [
+                {
+                    "name": "IM Texas - Circuito Mundial WTC (Campeonato Norteamericano)",
+                    "position": "98°",
+                    "flag": "flagUsa"
+                },
+                {
+                    "name": "Half IM Thougman Series - Rosario, Argentina",
+                    "position": "7°",
+                    "flag": "flagArg"
+                }
+            ]
+        },
+        {
+            "date": "2016",
+            "races": [
+                {
+                    "name": "Xterra Wolrd Championship Maui - Hawaii",
+                    "position": "50°",
+                    "flag": "flagHaw"
+                },
+                {
+                    "name": "Half IM - Termas Santiago del Estero (Campeonato Argentino)",
+                    "position": "6°",
+                    "flag": "flagArg"
+                },
+                {
+                    "name": "San Juan Xterra - Circuito Mundial Xterra (Argentina)",
+                    "position": "7°",
+                    "flag": "flagArg"
+                }
+            ]
+        },
+        {
+            "date": "2015",
+            "races": [
+                {
+                    "name": "Xterra Ilhabela - Circuito Mundia Xterral (Brasil)",
+                    "position": "17°",
+                    "flag": "flagBra"
+                },
+                {
+                    "name": "Half IM - Valparaiso 70.3 (Chile)",
+                    "position": "5°",
+                    "flag": "flagChi"
+                }
+            ]
+        },
+        {
+            "date": "2014",
+            "races": [
+                {
+                    "name": "IM Mallorca - Circuito Mundial WTC (España)",
+                    "position": "Finisher",
+                    "flag": "flagEsp"
+                },
+                {
+                    "name": "Half IM - Antofagasta 70.3 (Chile)",
+                    "position": "2°",
+                    "flag": "flagChi"
+                },
+                {
+                    "name": "IM Texas - Circuito Mundial WTC (Usa)",
+                    "position": "52°",
+                    "flag": "flagUsa"
+                },
+                {
+                    "name": "Half IM - Tafi del Valle (Tucumán, Argentina)",
+                    "position": "1°",
+                    "flag": "flagArg"
+                }
+            ]
+        },
+        {
+            "date": "2011",
+            "races": [
+                {
+                    "name": "IM Cozumel - Circuito Mundial WTC (Mexico)",
+                    "position": "57",
+                    "flag": "flagMex"
+                },
+                {
+                    "name": "Duatlon - Alturas de Punilla (Códoba, Argentina)",
+                    "position": "6°",
+                    "flag": "flagArg"
+                },
+                {
+                    "name": "IM Florianopolis- Circuito Mundial WTC (Brasil)",
+                    "position": "Finisher",
+                    "flag": "flagBra"
+                }
+            ]
+        },
+        {
+            "date": "2010",
+            "races": [
+                {
+                    "name": "IM Frankfurt - Circuito Mundial WTC - Campeonato Europeo (Alemania)",
+                    "position": "Finisher",
+                    "flag": "flagAle"
+                },
+                {
+                    "name": "Half IM Santiago del Estero (Santiago del Estero, Argentina)",
+                    "position": "4°",
+                    "flag": "flagArg"
+                }
+            ]
+        },
+        {
+            "date": "2009",
+            "races": [
+                {
+                    "name": "IM Western Australia - Circuito Mundial WTC (Australia)",
+                    "position": "80°",
+                    "flag": "flagAus"
+                },
+                {
+                    "name": "Half IM Santa Fe - (Santa Fe, Argentina)",
+                    "position": "9°",
+                    "flag": "flagArg"
+                },
+                {
+                    "name": "Half IM Rio de Janeiro (Brasil)",
+                    "position": "10°",
+                    "flag": "flagBra"
+                },
+                {
+                    "name": "IM Florianopolis - Circuito Mundial WTC (Brasil)",
+                    "position": "104°",
+                    "flag": "flagBra"
+                },
+                {
+                    "name": "Half IM Colonia (Uruguay)",
+                    "position": "17°",
+                    "flag": "flagUru"
+                }
+            ]
+        },
+        {
+            "date": "2008",
+            "races": [
+                {
+                    "name": "Half IM Punta del Este (Uruguay)",
+                    "position": "17°",
+                    "flag": "flagUru"
+                }
+            ]
+        },
+        {
+            "date": "2006",
+            "races": [
+                {
+                    "name": "IM South Africa - Circuito Mundial WTC (Port Elizabeth, South Africa)",
+                    "position": "59°",
+                    "flag": "flagSud"
+                },
+                {
+                    "name": "Duathlon Olimpico -Campeonato Argentino (Colón - Bs As, Argentina)",
+                    "position": "9°",
+                    "flag": "flagArg"
+                },
+                {
+                    "name": "Triathlon Olimpico s/drafting (Carhue - Bs As, Argentina)",
+                    "position": "9°",
+                    "flag": "flagArg"
+                }
+            ]
+        },
+        {
+            "date": "2005",
+            "races": [
+                {
+                    "name": "IM Florianopilos - Circuito Mundial WTC (Brasil)",
+                    "position": "Finisher",
+                    "flag": "flagBra"
+                },
+                {
+                    "name": "Half IM - Conquistadores del Sur (Concepicón - Tucuman, Argentina)",
+                    "position": "2°",
+                    "flag": "flagArg"
+                }
+            ]
+        },
+        {
+            "date": "2004",
+            "races": [
+                {
+                    "name": "Triathlon Sprint (Villa Constitucion Argentina)",
+                    "position": "1°",
+                    "flag": "flagArg"
+                },
+                {
+                    "name": "Half IM Chajari - Campeonato Argentino (Entre Ríos, Argentina)",
+                    "position": "10°",
+                    "flag": "flagArg"
+                }
+            ]
+        },
+        {
+            "date": "2003",
+            "races": [
+                {
+                    "name": "Triathlon Olimpico (Santa Fe, Argentina)",
+                    "position": "14°",
+                    "flag": "flagArg"
+                },
+                {
+                    "name": "Triathlon Olimpico Baradero (Bs As, Argentina)",
+                    "position": "16°",
+                    "flag": "flagArg"
+                }
+            ]
+        },
+        {
+            "date": "2002 - 2001",
+            "races": [
+                {
+                    "name": "Campeonato Entrerriano Sprint (Entre Ríos, Argentina)",
+                    "position": "4°",
+                    "flag": "flagArg"
+                },
+                {
+                    "name": "Duathlon Short Felicia - Campeonato Santafesino (Santa Fe, Argentina)",
+                    "position": "1°",
+                    "flag": "flagArg"
+                },
+                {
+                    "name": "Duathlon Short Progreso - Campeonato Santafesino (Santa Fe, Argentina)",
+                    "position": "1°",
+                    "flag": "flagArg"
+                }
+            ]
+        }
+    ]
+}

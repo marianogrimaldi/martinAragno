@@ -10,10 +10,13 @@ import Menu from "../Header/Menu";
 import medallaOro from "../../assets/medalla1.png"
 import medallaBronce from "../../assets/medalla3.png"
 import medallaPlata from "../../assets/medalla2.png"
+import data from "../../../datosTrail.json"
 import { NavLink } from "react-router-dom"
+import { flags, medals } from "../Constant/Constants"
 const Taur = () => {
 
     const { t } = useTranslation()
+
 
     return (
         <div className="animation">
@@ -34,136 +37,38 @@ const Taur = () => {
                 <p className="hash">{t("Generales.hash")}</p>
             </div>
             <img src={imgJump} className="imgJump" alt="" />
+            
             <div className="ptrial">
-                <h3>2024</h3>
-                <div className="flexMedal">
-                    <p>2° Chivas trail run 12km  ( Malargue Mendoza )</p>
-                    <div className="flexMedalFlag">
-                        <img src={flagArg} className="flafWidth" alt="" />
-                        <img src={medallaPlata} className="medalla" alt="" />
+            {data.racesByYear.map((raceByYear) => (
+                    <div>
+                        <h3>{raceByYear.date}</h3>
+                        {raceByYear.races.map((race) => {
+                            const actualFlag = flags().find((img) => img.key === race.flag);
+                            const actualMedal = medals() [race.position - 1];
+                            return (
+                                <div>
+                                    <div className="flexMedal">
+                                        
+                                        <p> {race.position} {race.name}</p>
+                                        <div className="flexMedalFlag">
+                                            <img src={actualFlag && actualFlag.value} className="flafWidth" alt="" />
+                                           {actualMedal && <img src={actualMedal} className="medalla"  alt="" />} 
+                                        </div>
+                                    </div>
+                                    <p className="pb">{race.time}</p>
+                                </div>
+                            )
+                        })}
                     </div>
-                </div>
-                <div className="flexMedal">
-                    <p>1° Night trail run 12km ( La Cumbre Cordoba ) - (Argentina)</p>
-                    <div className="flexMedalFlag">
-                        <img src={flagArg} className="flafWidth" alt="" />
-                        <img src={medallaOro} className="medalla" alt="" />
-                    </div>
-                </div>
-                <h3>2023</h3>
-                <div className="flexMedal">
-                    <p>2° Laultimacross 10km ( La Cumbre - Cordoba ) - (Argentina)</p>
-                    <div className="flexMedalFlag">
-                        <img src={flagArg} className="flafWidth" alt="" />
-                        <img src={medallaPlata} className="medalla" alt="" />
-                    </div>
-                </div>
-                <div className="flexMedal">
-                    <p>2° Aviru trail Merrel 15km  Campeonato Nacional - (Paraguay)</p>
-                    <div className="flexMedalFlag">
-                        <img src={flagPar} className="flafWidth" alt="" />
-                        <img src={medallaPlata} className="medalla" alt="" />
-                    </div>
-                </div>
-                <div className="flexMedal">
-                    <p>2° Kings Trail Club Series Salomon 21km - 4 fecha estacion verano - (Paraguay)</p>
-                    <div className="flexMedalFlag">
-                        <img src={flagPar} className="flafWidth" alt="" />
-                        <img src={medallaPlata} className="medalla" alt="" />
-                    </div>
-                </div>
-                <div className="flexMedal">
-                    <p>5° Kings Trail Club Series Salomon 21 km - 3 fecha estacion primavera - (Paraguay)</p>
-                    <div className="flexMedalFlag">
-                        <img src={flagPar} className="flafWidth" alt="" />
-                    </div>
-                </div>
-                <div className="flexMedal">
-                    <p>3° Trail Running Trip 12km (Valle Fertil - San Juan, Argentina)</p>
-                    <div className="flexMedalFlag">
-                        <img src={flagArg} className="flafWidth" alt="" />
-                        <img src={medallaBronce} className="medalla" alt="" />
-                    </div>
-
-                </div>
-                <div className="flexMedal">
-                    <p>3° Valholl by UTMB 21km (Villa General Belgrano - Córdoba, Argentina)</p>
-                    <div className="flexMedalFlag">
-                        <img src={flagArg} className="flafWidth" alt="" />
-                        <img src={medallaBronce} className="medalla" alt="" />
-                    </div>
-
-                </div>
-                <p className="pb">P. B. T 2hs56'</p>
-                <div className="flexMedal">
-                    <p>1° Chivas Trail 26km  (Las Leñas - Mendoza, Argentina)</p>
-                    <div className="flexMedalFlag">
-                        <img src={flagArg} className="flafWidth" alt="" />
-                        <img src={medallaOro} className="medalla" alt="" />
-                    </div>
-
-                </div>
-                <p className="pb">P. B. T 4hs59'</p>
-                <h3>2022</h3>
-                <div className="flexMedal">
-                    <p>8° Mountain do 21km NIEVE (Ushuaia - Tierra del Fuego, Argentina)</p>
-                    <div className="flexMedalFlag">
-                        <img src={flagArg} className="flafWidth" alt="" />
-                    </div>
-
-                </div>
-                <h3>2021</h3>
-                <div className="flexMedal">
-                    <p>51° Cruce Columbia 100km (3 Etapas) (Villa la Angostura - Neuquen, Argentina) </p>
-                    <div className="flexMedalFlag">
-                        <img src={flagArg} className="flafWidth" alt="" />
-                    </div>
-
-                </div>
-                <p className="pb">P. B. T 11hs 51':19"</p>
-                <h3>2014</h3>
-                <div className="flexMedal">
-                    <p>13° X-Trail Columbia 25km (Huerta Grande - Cordoba, Argentina)</p>
-                    <div className="flexMedalFlag">
-                        <img src={flagArg} className="flafWidth" alt="" />
-                    </div>
-
-                </div>
-                <h3>2008</h3>
-                <div className="flexMedal">
-                    <p>11° Cross Campo Desafio Sport 78 16km (Rosario - Santa Fe, Argentina) </p>
-                    <div className="flexMedalFlag">
-                        <img src={flagArg} className="flafWidth" alt="" />
-                    </div>
-
-                </div>
-                
-                <h3>2007</h3>
-                
-                <div className="flexMedal">
-                    <p>11° Carrera Montaña 15km (La Cumbre - Córdoba, Argentina)</p>
-                    <div className="flexMedalFlag">
-                        <img src={flagArg} className="flafWidth" alt="" />
-                    </div>
-
-                </div>
-                <div className="flexMedal">
-                    <p>5° Carrera Cross Traill 10km (Villa Carlos Paz - Córdoba, Argentina)</p>
-                    <div className="flexMedalFlag">
-                        <img src={flagArg} className="flafWidth" alt="" />
-                    </div>
-
-                </div>
+                ))}
                
-                
-               
+
             </div>
-            
+
             <div className="flexBtnR">
-            <NavLink to="/otros" ><button>OTROS RESULTADOS</button></NavLink>
-
+                <NavLink to="/otros" ><button>OTROS RESULTADOS</button></NavLink>
             </div>
-            
+
             <ImgViewTrail />
         </div>
     )

@@ -34,6 +34,7 @@ function App() {
           <Route path="/meraki" element={<Meraki/>}/>
           <Route path="/sponsors" element={<SponPage/>}/>
           <Route path="/otros" element={<Otros/>}/>
+          
 
           
           </Routes>
