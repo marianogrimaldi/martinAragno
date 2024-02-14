@@ -18,7 +18,7 @@ import sp13 from "../../assets/sponsors/quality.png"
 import sp14 from "../../assets/sponsors/foot.png"
 import sp15 from "../../assets/sponsors/xterra.png"
 import sp16 from "../../assets/sponsors/modofit.png"
-import sp17 from "../../assets/sponsors/progra.png"
+import sp17 from "../../assets/sponsors/pro.png"
 import sp18 from "../../assets/sponsors/running.png"
 import sp19 from "../../assets/sponsors/indusP.png"
 import sp20 from "../../assets/sponsors/cabritos.png"
@@ -78,6 +78,11 @@ const Home = () => {
                 <a href="https://2cumbres.com.ar/search/?q=zipp"target="_blank"><img src={sp11} alt="" /></a>
                 <a href="https://2cumbres.com.ar/search/?q=sram"target="_blank"><img src={sp6} alt="" /></a>
                 <img src={sp10} alt="" />
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <a href="https://www.progravityhealth.com/"target="_blank"><img src={sp17} alt="" /></a>
                 
             </div>
             <div className="sponsorsSecundarios">
