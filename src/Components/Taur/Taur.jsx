@@ -10,7 +10,7 @@ import Menu from "../Header/Menu";
 import medallaOro from "../../assets/medalla1.png"
 import medallaBronce from "../../assets/medalla3.png"
 import medallaPlata from "../../assets/medalla2.png"
-import data from "../../../datosTrail.json"
+import data from "../../../datostrail.json"
 import { NavLink } from "react-router-dom"
 import { flags, medals } from "../Constant/Constants"
 const Taur = () => {
