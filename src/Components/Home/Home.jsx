@@ -82,7 +82,7 @@ const Home = () => {
                 <div></div>
                 <div></div>
                 <div></div>
-                <a href="https://www.progravityhealth.com/"target="_blank"><img src={sp17} alt="" /></a>
+                <a href="https://www.progravityhealth.com/"target="_blank"><img src={sp17} alt="Logo Progravity" /></a>
                 
             </div>
             <div className="sponsorsSecundarios">
