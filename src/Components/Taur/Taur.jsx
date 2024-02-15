@@ -1,16 +1,13 @@
 import "./Taur.scss"
 import imgTaur from "../../assets/trail.jpg"
 import logo from "../../assets/logoRojo.png"
-import flagArg from "../../assets/flagArg.png"
-import flagPar from "../../assets/flagPar.webp"
+
 import ImgViewTrail from "../ImgView/ImgViewTrail";
 import imgJump from "../../assets/imgJump.jpg"
 import { useTranslation } from "react-i18next"
 import Menu from "../Header/Menu";
-import medallaOro from "../../assets/medalla1.png"
-import medallaBronce from "../../assets/medalla3.png"
-import medallaPlata from "../../assets/medalla2.png"
-import { data } from "../../../datostrail.json"
+
+import data from "../../../datostrail.json"
 import { NavLink } from "react-router-dom"
 import { flags, medals } from "../Constant/Constants"
 const Taur = () => {

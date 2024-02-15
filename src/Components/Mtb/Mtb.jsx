@@ -5,7 +5,7 @@ import ImgViewMtb from "../ImgView/ImgViewMtb"
 import imgFondo from "../../assets/4.jpg"
 import { NavLink } from "react-router-dom"
 import { useTranslation } from "react-i18next"
-import { data } from "../../../datosmountain.json"
+import data from "../../../datosmountain.json"
 import Menu from "../Header/Menu"
 import { flags } from "../Constant/Constants"
 
