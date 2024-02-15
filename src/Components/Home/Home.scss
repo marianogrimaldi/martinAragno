@@ -200,7 +200,7 @@
     display: grid;
     align-items: center;
     justify-items: center;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(3, 1fr);
     margin-top: 5rem;
     margin-bottom: 3rem;
@@ -227,15 +227,10 @@
 
     img {
         width: 10rem;
-        filter: gray;
-        -webkit-filter: grayscale(100%);
-        transition: 0.5s;
+      
     }
 
-    img:hover {
-        filter: gray;
-        -webkit-filter: none
-    }
+  
 
     position: relative;
 }
@@ -541,6 +536,7 @@
 .imgSponsors {
     max-width: 100%;
     position: absolute;
+    filter: blur(5px);
 }
 
 .flexEndFotos {
@@ -548,7 +544,3 @@
     flex-direction: column;
 }
 
-
-#progra{
-    filter: drop-shadow(3px 3px 3px rgb(0, 0, 0));
-}

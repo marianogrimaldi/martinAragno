@@ -73,16 +73,15 @@ const Home = () => {
                 <a href="https://2cumbres.com.ar/" target="_blank"><img src={sp7} alt="" /></a>
                 <a href="https://2cumbres.com.ar/search/?q=rockshox"target="_blank"><img src={sp12} alt="" /></a>
                 <a href="https://www.clubsanjorge.com.ar/"target="_blank"><img src={sp9} className="casj" alt="" /></a>
-                <div></div>
                 <a href="https://premiumtri.com/"target="_blank"><img src={sp15} alt="" /></a>
-                <a href="https://2cumbres.com.ar/search/?q=zipp"target="_blank"><img src={sp11} alt="" /></a>
+                <div></div>
+                <div></div>
+                 <a href="https://www.progravityhealth.com/"target="_blank"><img src={sp17} alt="Logo Progravity" /></a>
                 <a href="https://2cumbres.com.ar/search/?q=sram"target="_blank"><img src={sp6} alt="" /></a>
                 <img src={sp10} alt="" />
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <a href="https://www.progravityhealth.com/"target="_blank"><img src={sp17} alt="Logo Progravity" /></a>
+                <a href="https://2cumbres.com.ar/search/?q=zipp"target="_blank"><img src={sp11} alt="" /></a> 
+          
+              
                 
             </div>
             <div className="sponsorsSecundarios">
