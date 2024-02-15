@@ -6,7 +6,7 @@ import ImgViewTri from "../ImgView/ImgViewTri"
 import imgTrifondo from "../../assets/9.jpg"
 import imgTrifondo2 from "../../assets/imgTrifondo.jpg"
 import imgTrifondo3 from "../../assets/triNadando.jpg"
-import data from "../../../datostriathlon.json"
+import { data } from "../../../datostriathlon.json"
 import { NavLink } from "react-router-dom"
 import { useTranslation } from "react-i18next"
 import Menu from "../Header/Menu"
@@ -15,11 +15,9 @@ const Triatlon = () => {
 
     const { t } = useTranslation();
 
-
     return (
         <div className="animation">
             <Menu />
-
             <img src={imgTri} className="imgTri" alt="" />
             <div className="flexCardTri">
                 <h1>TRIATHLON</h1>
@@ -56,14 +54,6 @@ const Triatlon = () => {
                         })}
                     </div>
                 ))}
-
-
-
-
-
-
-
-
             </div>
             <div className="flexBtnR">
                 <NavLink to="/otros" ><button>OTROS RESULTADOS</button></NavLink>
