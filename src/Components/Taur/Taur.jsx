@@ -7,7 +7,7 @@ import imgJump from "../../assets/imgJump.jpg"
 import { useTranslation } from "react-i18next"
 import Menu from "../Header/Menu";
 
-import data from "../../../datostrail.json"
+import data from "../../assets/json/datostrail.json"
 import { NavLink } from "react-router-dom"
 import { flags, medals } from "../Constant/Constants"
 const Taur = () => {
@@ -45,7 +45,6 @@ const Taur = () => {
                             return (
                                 <div>
                                     <div className="flexMedal">
-                                        
                                         <p> {race.position} {race.name}</p>
                                         <div className="flexMedalFlag">
                                             <img src={actualFlag && actualFlag.value} className="flafWidth" alt="" />
