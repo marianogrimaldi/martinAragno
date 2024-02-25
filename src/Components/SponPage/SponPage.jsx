@@ -1,7 +1,7 @@
 import "./SponPage.scss"
 import imgNat from "../../assets/natacion.jpg"
 import sp1 from "../../assets/sponsors/1.png"
-
+import sp17 from "../../assets/sponsors/pro.png"
 import sp3 from "../../assets/sponsors/7.jpg"
 import sp6 from "../../assets/sponsors/11.png"
 import sp8 from "../../assets/sponsors/9.png"
@@ -35,7 +35,8 @@ const SponPage = () => {
                     <a href="https://2cumbres.com.ar/search/?q=rockshox"target="_blank"><img src={sp12} alt="" /></a>
                     <a href="https://ezkteam.com/"target="_blank"><img src={sp3} alt="" /></a>
                     <a href="https://2cumbres.com.ar/search/?q=zipp"target="_blank"><img src={sp11} alt="" /></a>
-                        <img src={sp10} alt="" />
+                    <img src={sp10} alt="" />
+                    <img src={sp17} alt="" />
                     </div>
                     <img src={imgNat} className="imgMartin" alt="" />
                     <div className="flexSponPage">
