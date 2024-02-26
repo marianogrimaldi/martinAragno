@@ -6,10 +6,16 @@
                 "date": "2024",
                 "races": [
                     {
+                        "name": "Chivas trail run 12km ( Las Leñas Mendoza ) - (Argentina)",
+                        "position": 2,
+                        "flag": "flagArg"
+                    },
+                    {
                         "name": "Night trail run 12km ( La Cumbre Cordoba ) - (Argentina)",
                         "position": 1,
                         "flag": "flagArg"
                     }
+
                 ]
             },
             {
