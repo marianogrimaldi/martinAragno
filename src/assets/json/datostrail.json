@@ -6,6 +6,11 @@
                 "date": "2024",
                 "races": [
                     {
+                        "name": "Ultra trail run fuegoyagua 50km Circuito latinoamericano - ( Ometepe, Nicaragua )",
+                        "position": 1,
+                        "flag": "flagNic"
+                    },
+                    {
                         "name": "Chivas trail run 12km ( Las Leñas Mendoza ) - (Argentina)",
                         "position": 2,
                         "flag": "flagArg"
