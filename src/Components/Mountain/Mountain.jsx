@@ -59,7 +59,7 @@ const Mountain = () => {
                 <a href="https://www.cordobaturismo.gov.ar/experiencia/cerro-pan-de-azucar-un-clasico-de-las-sierras-chicas/" target="blank"><p>Cerro Pan de Azucar x 2 altitud 1260 msnm </p></a>
                 <a href="https://www.cordobaturismo.gov.ar/experiencia/cerro-uritorco/" target="blank"><p>Cerro Uritorco x 2 altitud 1979 msnm </p></a>
                 <a href="https://www.cordobaturismo.gov.ar/experiencia/macizo-los-gigantes/" target="blank"><p>Cerro Los Gigantes altitud 2370 msnm</p></a>
-                <a href="https://www.cordobaturismo.gov.ar/experiencia/cerro-champaqui/" target="blank"><p>Cerro Champaqui altitud 2790 msnm</p></a>
+                <a href="https://www.cordobaturismo.gov.ar/experiencia/cerro-champaqui/" target="blank"><p>Cerro Champaqui x 2 altitud 2790 msnm</p></a>
                 <div className="flexFlagMount">
                     <img src={flagArg} className="flagMount" alt="" />
                     <h3>CATAMARCA - ARGENTINA</h3>

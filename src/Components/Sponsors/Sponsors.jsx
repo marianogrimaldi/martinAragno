@@ -8,6 +8,7 @@ import sp7 from "../../assets/sponsors/8.webp"
 import sp8 from "../../assets/sponsors/226ers.png"
 import sp9 from "../../assets/sponsors/7.png"
 import sp10 from "../../assets/sponsors/5.jfif"
+
 import "./Sponsors.scss"
 
 const Spon = () => {

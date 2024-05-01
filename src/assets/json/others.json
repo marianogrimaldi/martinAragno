@@ -1,0 +1,154 @@
+{
+    "racesByDiscipline": {
+        "triathlon": {
+            "2009": [
+                {
+                    "race": "Campeonato Sudamericano Olimpico (La Paz - Entre Ríos, Argentina)",
+                    "position": "30°",
+                    "flag": "flagArg"
+                },
+                {
+                    "race": "Campeonato Sudamericano Olimpico (La Paz - Entre Ríos, Argentina)",
+                    "position": "34°",
+                    "flag": "flagArg"
+                }
+            ],
+            "2008": [
+                {
+                    "race": "Duathlon Endurance - Hombre de Piedra (Tandil - Bs As, Argentina)",
+                    "position": "32°",
+                    "flag": "flagArg"
+                },
+                {
+                    "race": "Duathlon Endurance - Lakeman (Chascomus - Bs As, Argentina)",
+                    "position": "23°",
+                    "flag": "flagArg"
+                }
+            ],
+            "2005": [
+                {
+                    "race": "Half IM Villa Gesel (Bs As,Argentina)",
+                    "position": "26°",
+                    "flag": "flagArg"
+                },
+                {
+                    "race": "Half IM Chajari - Campeonato Argentino (Entre Ríos, Argentina)",
+                    "position": "20°",
+                    "flag": "flagArg"
+                }
+            ],
+            "2004": [
+                {
+                    "race": "Half IM Villa Gesell (Bs As, Argentina)",
+                    "position": "21°",
+                    "flag": "flagArg"
+                }
+            ],
+            "2003": [
+                {
+                    "race": "Half IM Mar del Plata (Bs As, Argentina)",
+                    "position": "41°",
+                    "flag": "flagArg"
+                }
+            ]
+        },
+        "mountain": {
+            "2022": [
+                {
+                    "race": "Vuelta Altas Cumbres 120km (Mina Clavero - Córdoba, Argentina)",
+                    "position": "Finisher",
+                    "flag": "flagArg"
+                }
+            ],
+            "2010": [
+                {
+                    "race": "Desafio Valle del Río Pinto 82km (La Cumbre - Córdoba, Argentina)",
+                    "position": "Finisher",
+                    "flag": "flagArg"
+                }
+      
+            ],
+            "2008": [
+                {
+                    "race": "Desafio Valle del Río Pinto 75km (La Cumbre - Córdoba, Argentina)",
+                    "position": "Finisher",
+                    "flag": "flagArg"
+                }
+            ],
+            "2007": [
+                {
+                    "race": "Desafio al Valle del Río Pinto 75km (La Cumbre - Córdoba, Argentina)",
+                    "position": "Finisher",
+                    "flag": "flagArg"
+                }
+            ]
+        },
+        "trail": {
+            "2008": [
+                {
+                    "race": "Carrera de calle 10km Adidas (Rosario - Santa Fe, Argentina)",
+                    "position": "81°",
+                    "flag": "flagArg"
+                },
+                {
+                    "race": "Carrera de calle 10km (Bs As, Argentina)",
+                    "position": "41°",
+                    "flag": "flagArg"
+                }
+            ],
+            "2007": [
+                {
+                    "race": "Carrera de calle 10km Reebok (Bs As, Argentina)",
+                    "position": "155°",
+                    "flag": "flagArg"
+                }
+            ],
+            "2006": [
+                {
+                    "race": "Cross Campo 16km Club La Dolfina (Rosario - Santa Fe, Argentina)",
+                    "position": "31°",
+                    "flag": "flagArg"
+                },
+                {
+                    "race": "Half Marathon 21km (Rosario - Santa Fe, Argentina)",
+                    "position": "53°",
+                    "flag": "flagArg"
+                }
+            ],
+            "2005": [
+                {
+                    "race": "Marathon 42km Internacional (Bs As, Argentina)",
+                    "position": "Finisher",
+                    "flag": "flagArg"
+                },
+                {
+                    "race": "Half Marathon 21km Internacional (Bs As, Argentina)",
+                    "position": "145°",
+                    "flag": "flagArg"
+                }
+            ],
+            "2004": [
+                {
+                    "race": "Half Marathon 21 km Internacional (Bs As, Argentina)",
+                    "position": "74°",
+                    "flag": "flagArg",
+                    "time": "T 1h29:27"
+                },
+                {
+                    "race": "Marathon 42km Dia de la Bandera (Rosario - Santa Fe, Argentina)",
+                    "position": "51°",
+                    "flag": "flagArg"
+                }
+            ],
+            "2003": [
+                {
+                    "race": "Half Marathon 21km Campeonato Iberoamericano (Bs As, Argentina)",
+                    "position": "Finisher",
+                    "flag": "flagArg",
+                    "time": "P. B. T 1h24':18"
+                }
+            
+            ]
+        }
+    }
+}

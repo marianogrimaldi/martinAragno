@@ -60,7 +60,7 @@
                 },
                 {
                     "name": "Half IM - Antofagasta 70.3 (Chile)",
-                    "position": "2°",
+                    "position": 2,
                     "flag": "flagChi"
                 },
                 {
@@ -70,7 +70,7 @@
                 },
                 {
                     "name": "Half IM - Tafi del Valle (Tucumán, Argentina)",
-                    "position": "1°",
+                    "position": 1,
                     "flag": "flagArg"
                 }
             ]
@@ -180,7 +180,7 @@
                 },
                 {
                     "name": "Half IM - Conquistadores del Sur (Concepicón - Tucuman, Argentina)",
-                    "position": "2°",
+                    "position": 2,
                     "flag": "flagArg"
                 }
             ]
@@ -190,7 +190,7 @@
             "races": [
                 {
                     "name": "Triathlon Sprint (Villa Constitucion Argentina)",
-                    "position": "1°",
+                    "position": 1,
                     "flag": "flagArg"
                 },
                 {

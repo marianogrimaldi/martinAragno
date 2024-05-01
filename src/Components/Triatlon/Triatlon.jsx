@@ -1,7 +1,7 @@
 import "./Triatlon.scss"
 import imgTri from "../../assets/tri.jpg"
 import logo from "../../assets/logoRojo.png"
-import { flags } from "../Constant/Constants"
+import { flags, medals } from "../Constant/Constants"
 import ImgViewTri from "../ImgView/ImgViewTri"
 import imgTrifondo from "../../assets/9.jpg"
 import imgTrifondo2 from "../../assets/imgTrifondo.jpg"
@@ -42,11 +42,12 @@ const Triatlon = () => {
                         <h3>{raceByYear.date}</h3>
                         {raceByYear.races.map((race) => {
                             const actualFlag = flags().find((img) => img.key === race.flag);
-
+                            const actualMedal = medals() [race.position - 1];
                             return (
                                 <div className="flexMedaltri">
                                     <div className="flexMedalFlag">
                                         <img src={actualFlag && actualFlag.value} className="flafWidth" alt="" />
+                                        {actualMedal && <img src={actualMedal} className="medalla"  alt="" />} 
                                     </div>
                                     <p> {race.position} {race.name}</p>
                                 </div>

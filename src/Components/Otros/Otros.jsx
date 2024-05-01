@@ -187,7 +187,7 @@ const Otros = () => {
                         </div>
                         <h3>2003</h3>
                         <div className="flexMedal">
-                            <p>Finisher Half Marathon 21km Campeonato Iberoamericano (Bs As, Argentina) T 1h24:18</p>
+                            <p>Finisher Half Marathon 21km Campeonato Iberoamericano (Bs As, Argentina)</p>
                             <div className="flexMedalFlag">
                                 <img src={flagArg} className="flafWidth" alt="" />
                             </div>

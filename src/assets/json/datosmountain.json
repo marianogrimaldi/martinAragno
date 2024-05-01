@@ -1,6 +1,16 @@
 {
     "racesByYear": [
         {
+            "date": "2024",
+            "races": [
+                {
+                    "name": "Finisher Desafio Valle del Río Pinto 82km (La Cumbre - Córdoba, Argentina)",
+                    "position": "Finisher",
+                    "flag": "flagArg"
+                }
+            ]
+        },
+        {
             "date": "2023",
             "races": [
                 {
@@ -26,7 +36,7 @@
             "races": [
                 {
                     "name": "Desafio Ushuaia Extremo 2 etapas (Ushuaia, Argentina)",
-                    "position": "2°",
+                    "position": 2,
                     "flag": "flagArg"
                 }
             ]

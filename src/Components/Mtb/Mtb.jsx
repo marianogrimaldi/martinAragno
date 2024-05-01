@@ -7,7 +7,7 @@ import { NavLink } from "react-router-dom"
 import { useTranslation } from "react-i18next"
 import data from "../../assets/json/datosmountain.json"
 import Menu from "../Header/Menu"
-import { flags } from "../Constant/Constants"
+import { flags, medals } from "../Constant/Constants"
 
 const Mtb = () => {
 
@@ -37,11 +37,13 @@ const Mtb = () => {
                         <h3>{raceByYear.date}</h3>
                         {raceByYear.races.map((race) => {
                             const actualFlag = flags().find((img) => img.key === race.flag);
+                            const actualMedal = medals() [race.position - 1];
                             return (
                                 <div>
                                     <div className="flexMedalMtb">
                                         <div className="flexMedalFlag">
                                             <img src={actualFlag && actualFlag.value} className="flafWidth" alt="" />
+                                            {actualMedal && <img src={actualMedal} className="medalla"  alt="" />} 
                                         </div>
                                         <p> {race.position} {race.name}</p>
                                     </div>
