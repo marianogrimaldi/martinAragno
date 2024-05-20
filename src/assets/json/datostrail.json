@@ -6,6 +6,16 @@
                 "date": "2024",
                 "races": [
                     {
+                        "name": "Valholl Serie Mundial UTMB 38KM ( Villa General Belgrano , Cordoba , Argentina )",
+                        "position": 23,
+                        "flag": "flagArg"
+                    },
+                    {
+                        "name": "Cros trail 10km Guayra Campana Club ( Quiindy  Paraguay )",
+                        "position": 1,
+                        "flag": "flagPar"
+                    },
+                    {
                         "name": "Ultra trail run fuegoyagua 50km Circuito latinoamericano - ( Ometepe, Nicaragua )",
                         "position": 1,
                         "flag": "flagNic"
