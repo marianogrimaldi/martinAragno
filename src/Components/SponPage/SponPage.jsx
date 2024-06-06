@@ -17,6 +17,7 @@ import sp10 from "../../assets/sponsors/quarq.png"
 import sp18 from "../../assets/sponsors/running.png"
 import sp19 from "../../assets/sponsors/indusP.png"
 import sp20 from "../../assets/sponsors/cabritos.png"
+import sp21 from "../../assets/sponsors/Giro.png"
 import { useTranslation } from "react-i18next"
 import Menu from "../Header/Menu"
 
@@ -44,7 +45,7 @@ const SponPage = () => {
                         <a href="https://premiumtri.com/" target="_blank"><img src={sp15} alt="" /></a>
                         <a href="https://www.clubsanjorge.com.ar/" target="_blank"><img src={sp9} alt="" /></a>
                         <a href="https://2cumbres.com.ar/search/?q=sram" target="_blank"><img src={sp6} alt="" /></a>
-
+                        <a href="https://2cumbres.com.ar/" target="_blank"><img src={sp21} alt="Logo Giro" /></a>
                     </div>
                 </div>
                 <div className="sponSecGrid">

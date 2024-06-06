@@ -22,6 +22,7 @@ import sp17 from "../../assets/sponsors/pro.png"
 import sp18 from "../../assets/sponsors/running.png"
 import sp19 from "../../assets/sponsors/indusP.png"
 import sp20 from "../../assets/sponsors/cabritos.png"
+import sp21 from "../../assets/sponsors/Giro.png"
 import { useTranslation } from "react-i18next"
 import Menu from "../Header/Menu"
 
@@ -75,7 +76,7 @@ const Home = () => {
                 <a href="https://www.clubsanjorge.com.ar/"target="_blank"><img src={sp9} className="casj" alt="" /></a>
                 <a href="https://premiumtri.com/"target="_blank"><img src={sp15} alt="" /></a>
                 <div></div>
-                <div></div>
+                <a href="https://2cumbres.com.ar/" target="_blank"><img src={sp21} alt="Logo Giro" /></a>
                  <a href="https://www.progravityhealth.com/"target="_blank"><img src={sp17} alt="Logo Progravity" /></a>
                 <a href="https://2cumbres.com.ar/search/?q=sram"target="_blank"><img src={sp6} alt="" /></a>
                 <img src={sp10} alt="" />
