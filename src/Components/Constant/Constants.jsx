@@ -11,6 +11,7 @@ import flagAus from "../../assets/flagAus.png"
 import flagSud from "../../assets/flagSud.png"
 import flagPar from "../../assets/flagPar.webp"
 import flagNic from "../../assets/flagNic.webp"
+import flagEcu from "../../assets/ecu.jfif"
 import medallaOro from "../../assets/medalla1.png"
 import medallaBronce from "../../assets/medalla3.png"
 import medallaPlata from "../../assets/medalla2.png"
@@ -32,6 +33,7 @@ const flags = () => {
         { key: "flagUru", value: flagUru },
         { key: "flagSud", value: flagSud },
         { key: "flagNic", value: flagNic },
+        { key: "ecu", value: flagEcu },
 
     ]
 }

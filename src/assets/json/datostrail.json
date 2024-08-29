@@ -6,6 +6,12 @@
                 "date": "2024",
                 "races": [
                     {
+                        "name": "Ultra Trail by UTMB 52 km ( Quito, Ecuador )",
+                        "position": 19,
+                        "flag": "ecu"
+                        
+                    },
+                    {
                         "name": "Valholl Serie Mundial UTMB 38KM ( Villa General Belgrano , Cordoba , Argentina )",
                         "position": 23,
                         "flag": "flagArg"
