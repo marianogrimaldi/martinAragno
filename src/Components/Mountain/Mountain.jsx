@@ -4,6 +4,7 @@ import logo from "../../assets/logoRojo.png"
 import flagArg from "../../assets/flagArg.png"
 import flagChi from "../../assets/flagChi.png"
 import flagEsp from "../../assets/esp.png"
+import flagPeru from "../../assets/flagPeru.png"
 import flagNic from "../../assets/flagNic.webp"
 import ImgViewMount from "../ImgView/ImgViewMount";
 import imgfondo from "../../assets/imagenFondo.jpeg"
@@ -34,6 +35,11 @@ const Mountain = () => {
             </div>
             <img src={imgfondo} className="logoFondo" alt="" />
             <div className="pMount">
+            <div className="flexFlagMount">
+                    <img src={flagPeru} className="flagMount" alt="" />
+                    <h3>PERU</h3>
+                </div>
+                <a href="" target="blank"><p>Cerro Ipsaijasa - 4500 msnm</p></a>
                 <div className="flexFlagMount">
                     <img src={flagNic} className="flagMount" alt="" />
                     <h3>NICARAGUA</h3>

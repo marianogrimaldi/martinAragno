@@ -6,6 +6,12 @@
                 "date": "2024",
                 "races": [
                     {
+                        "name": "Chasqui Challenger 32km Andes Race ( Cusco , Peru )",
+                        "position": 6,
+                        "flag": "flagPeru"
+                        
+                    },
+                    {
                         "name": "Ultra Trail by UTMB 52 km ( Quito, Ecuador )",
                         "position": 16,
                         "flag": "ecu"

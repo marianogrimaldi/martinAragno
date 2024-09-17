@@ -12,6 +12,7 @@ import flagSud from "../../assets/flagSud.png"
 import flagPar from "../../assets/flagPar.webp"
 import flagNic from "../../assets/flagNic.webp"
 import flagEcu from "../../assets/ecu.jfif"
+import flagPeru from "../../assets/flagPeru.png"
 import medallaOro from "../../assets/medalla1.png"
 import medallaBronce from "../../assets/medalla3.png"
 import medallaPlata from "../../assets/medalla2.png"
@@ -34,6 +35,7 @@ const flags = () => {
         { key: "flagSud", value: flagSud },
         { key: "flagNic", value: flagNic },
         { key: "ecu", value: flagEcu },
+        { key: "flagPeru", value: flagPeru },
 
     ]
 }
