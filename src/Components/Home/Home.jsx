@@ -16,13 +16,14 @@ import sp11 from "../../assets/sponsors/zipp.png"
 import sp12 from "../../assets/sponsors/rock.png"
 import sp13 from "../../assets/sponsors/quality.png"
 import sp14 from "../../assets/sponsors/foot.png"
-import sp15 from "../../assets/sponsors/xterra.png"
+import sp15 from "../../assets/sponsors/deboer.png"
 import sp16 from "../../assets/sponsors/modofit.png"
 import sp17 from "../../assets/sponsors/pro.png"
 import sp18 from "../../assets/sponsors/running.png"
 import sp19 from "../../assets/sponsors/indusP.png"
 import sp20 from "../../assets/sponsors/cabritos.png"
 import sp21 from "../../assets/sponsors/Giro.png"
+import sp22 from "../../assets/sponsors/mauna2.png"
 import { useTranslation } from "react-i18next"
 import Menu from "../Header/Menu"
 
@@ -74,13 +75,20 @@ const Home = () => {
                 <a href="https://2cumbres.com.ar/" target="_blank"><img src={sp7} alt="" /></a>
                 <a href="https://2cumbres.com.ar/search/?q=rockshox"target="_blank"><img src={sp12} alt="" /></a>
                 <a href="https://www.clubsanjorge.com.ar/"target="_blank"><img src={sp9} className="casj" alt="" /></a>
-                <a href="https://premiumtri.com/"target="_blank"><img src={sp15} alt="" /></a>
+                <img src={sp15} className="casj" alt="" />
+               
                 <div></div>
                 <a href="https://2cumbres.com.ar/" target="_blank"><img src={sp21} alt="Logo Giro" /></a>
                  <a href="https://www.progravityhealth.com/"target="_blank"><img src={sp17} alt="Logo Progravity" /></a>
                 <a href="https://2cumbres.com.ar/search/?q=sram"target="_blank"><img src={sp6} alt="" /></a>
                 <img src={sp10} alt="" />
                 <a href="https://2cumbres.com.ar/search/?q=zipp"target="_blank"><img src={sp11} alt="" /></a> 
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <img src={sp22} alt="" />
           
               
                 
